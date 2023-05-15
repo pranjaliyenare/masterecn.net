@@ -1,0 +1,419 @@
+.cash-prices{
+    text-align:left;
+    font-size:35px;
+    margin-top: 25px;
+    margin-left:25px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.centered
+{
+    margin:0 auto;
+}
+
+.black-bg{
+    background-color:#000;
+    padding-bottom:20px;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.black-bg h2{
+    font-size:35px;
+    text-align:left;
+    margin-left:30px;
+}
+.black-bg h3{
+    font-size:35px;
+    margin-top: 10px;
+    margin-bottom: 60px
+}
+.black-bg h4{
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    margin-left: 102px;
+}
+.bracket-icn{
+    width: 64px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 64px 150px;
+}
+
+.left{
+    background-image:url('https://static.hfm.com/assets/hfnew/inside-pages/trading-products/rofm/images/arrow_left.svg')
+}
+.right{
+    float:right;
+    background-image:url('https://static.hfm.com/assets/hfnew/inside-pages/trading-products/rofm/images/arrow_right.svg')
+}
+
+.mt-42{
+    margin-top:42px
+}
+
+.ml-25 {
+    margin-left:25px;
+}
+.ml-45 {
+    margin-left:45px;
+}
+
+.rofm_big_p{
+    color: #000;
+    font-size: 26px;
+    line-height: 35px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.py-40{
+    padding:40px 0
+}
+.rofm_h3{
+    font-size: 25px;
+    margin-bottom:40px;
+    color:#000
+}
+.rofm_p{
+    font-size: 16px;
+    color: #000;
+}
+
+.how-works-icn{
+    width: 70px;
+    height: 70px;
+    margin: 10px auto;
+}
+.free-margin-icn{
+    background-image:url('https://static.hfm.com/assets/hfnew/inside-pages/trading-products/rofm/images/daily_free_margin.svg')
+}
+.trading-volume-icn{
+    background-image:url('https://static.hfm.com/assets/hfnew/inside-pages/trading-products/rofm/images/trading_volume.svg')
+}
+.wallet-icn{
+    background-image:url('https://static.hfm.com/assets/hfnew/inside-pages/trading-products/rofm/images/wallet.svg')
+}
+.color-black{
+    color:#000
+}
+.rofm-table .table-grey-bg{
+    background-color:#efefef
+}
+.table-dark-grey-bg{
+    background-color:#efefef
+}
+.light-grey-bg{
+    background-color:#efefef;
+}
+.dark-grey-bg{
+    background-color:#efefef
+}
+.white-bg{
+    background-color:#ffffff
+}
+.grey-bg{
+    background-color:#efefef
+}
+.with-background{
+    background-image: url('../../../../../../../hfnew/inside-pages/trading-products/rofm/images/background.jpg');
+    margin-bottom: -62px;
+}
+
+.how-works-icn {
+    width: 75px;
+    height: 75px;
+    margin-top:40px
+}
+.mt-27{
+    margin-top:27px
+}
+.rofm-table{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rofm-table tbody tr td{
+    padding:12px 22px;
+    background-color:#fff;
+    vertical-align: middle;
+    border-right: 1px solid #CD0511;
+    border-bottom: 1px solid #CD0511;
+    border-top-color: transparent;
+}
+.rofm-table tbody tr td:last-child{
+    border-right-color: transparent;
+}
+
+.scenario p{
+    width:auto;
+    border: 1px solid #CD0511;
+    display: table;
+    float: none;
+    margin:0 auto;
+    padding: 15px 20px;
+    font-size:19px
+}
+.rofm .btn-u{
+    padding: 15px 50px;
+    font-size: 16px;
+}
+.link_txt{
+    margin: 10px auto 0;
+}
+
+
+.my-80{
+    margin:80px auto;
+}
+.my-40{
+    margin:40px auto;
+}
+.earnings_div{
+    width:300px;
+    margin:0 auto;
+    float:none;
+    background-color:#fff;
+    -webkit-box-shadow: 5px 5px 14px 5px #bfbfbf;
+    box-shadow: 5px 5px 14px 5px #bfbfbf;
+}
+
+.earnings_div div{
+    padding: 20px 0;
+}
+.earnings_div p{
+    margin: 0;
+}
+.thin_ln{
+    border-bottom: 1px solid #CD0511;
+}
+.thick_ln{
+    border-bottom: 2px solid #CD0511;
+}
+.earnings_div .pb-0{
+    padding-bottom:0;
+}
+.earnings_container{
+    padding-bottom:23px;
+}
+
+
+.rofm_earnings{
+    max-width:400px
+}
+
+.slick-prev:before, .slick-next:before{
+    color:transparent;
+    opacity: 1;
+}
+.slick-next:hover,
+.slick-next:focus,
+.slick-arrow{
+    width: 38.5px;
+    height: 75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 27%;
+    display: table;
+    opacity: 1;
+}
+.slick-next:hover,
+.slick-next:focus,
+.slick-next{
+    background-image: url('https://static.hfm.com/assets/hfnew/inside-pages/trading-products/rofm/images/direction_right.svg?v1');
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-prev{
+    background-image: url('https://static.hfm.com/assets/hfnew/inside-pages/trading-products/rofm/images/direction_left.svg?v1');
+}
+
+#bs{
+    height:200px;
+    margin: 30px 20px 16px 81px;
+    transform: scale(1) !important;
+    padding-bottom:20px;
+}
+#e_11 span{
+    font-family:Arial
+}
+
+.slick-prev {
+    left: -40px;
+}
+.slick-next {
+    right: -40px;
+}
+.color-white{
+    color:#fff
+}
+
+.rofm-dev-bg {
+    width: 280px;
+    height: 79px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    display:none;
+    background-image:url('../../../../../../../hfnew/inside-pages/trading-products/rofm/images/rofm-devices.png')
+}
+
+@media (max-width:1015px){
+
+    .bracket-icn{
+        display:none;
+    }
+
+    .how-it-works .container{
+        max-width: 90%;
+    }
+    #bs .bs-helper{
+        transform: scale(0.7) !important;
+        display:none;
+    }
+
+    .dark-grey-bg.arrows br,
+    .dark-grey-bg.arrows .col-md-1{
+        display:none
+    }
+
+    .dark-grey-bg.arrows .col-md-8{
+        float:none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .mt-42 {
+        margin-top: 0;
+    }
+    .ml-45,
+    .ml-25 {
+    text-align:center;
+    margin-left:0
+    }
+
+    .black-bg h4,
+    .black-bg h2 {
+        margin-left:0;
+        text-align:center;
+    }
+    .cash-prices {
+        text-align:center;
+        margin-top:0;
+        margin-left:0;
+   }
+   .rofm-dev-bg{
+        display:block;
+    }
+
+}
+@media (max-width:670px){
+    .centered {
+        padding:12px;
+    }
+    .bracket-icn{
+        display:none;
+    }
+    .scenario{
+        width:80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .black-bg h4,
+    .black-bg h2 {
+        margin-left:0;
+        text-align:center;
+    }
+    #bs {
+        display:none
+    }
+    .rofm-table {
+        max-width: 90%;
+    }
+    .black-bg h3,
+    .black-bg h2{
+        font-size:25px;
+        text-align:center;
+        margin-left:0;
+    }
+    .rofm-dev-bg{
+        display:block;
+    }
+    .ml-45,
+    .ml-25 {
+    text-align:center;
+    margin-left:0
+    }
+    .cash-prices {
+        text-align:center;
+        margin-top:0;
+        margin-left:0;
+   }
+}
+@media (max-width:600px){
+    .centered {
+        padding:12px;
+    }
+    .bracket-icn{
+        display:none;
+    }
+    .rofm_earnings{
+        max-width:330px
+    }
+    .earnings_div {
+        width: 285px;
+    }
+
+    .slick-next:hover, .slick-next:focus, .slick-arrow {
+        width: 20px;
+        height: 39px;
+    }
+    .slick-prev {
+        left:-3%;
+    }
+    .slick-next {
+        right:-3%;
+    }
+    .ml-45,
+    .ml-25 {
+    text-align:center;
+    margin-left:0
+    }
+    .black-bg h4 {
+    margin-left:0;
+    }
+    .cash-prices {
+        text-align:center;
+        margin-top:0;
+        margin-left:0;
+   }
+}
+
+@media (max-width: 320px){
+   .centered {
+        padding:12px;
+    }
+   .bracket-icn{
+        display:none;
+    }
+    .earnings_div {
+        width: 250px;
+    }
+    .slick-next {
+        right: 2%;
+    }
+    .slick-prev {
+        left: 2%;
+    }
+    .ml-45,
+    .ml-25 {
+    text-align:center;
+    margin-left:0
+    }
+    .cash-prices {
+        text-align:center;
+        margin-top:0;
+        margin-left:0;
+   }
+}

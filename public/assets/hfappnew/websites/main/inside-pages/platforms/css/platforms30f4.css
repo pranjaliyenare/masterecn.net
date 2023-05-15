@@ -1,0 +1,58 @@
+.btn-color-red-ghost-platforms {
+    color: #CD0511;
+    font-weight: bold;
+    border: 1px solid #CD0511;
+    background: none;
+    padding: 5px 12px;
+}
+
+.btn-color-red-ghost-platforms:hover {
+    color: black!important;
+    background: none;
+}
+
+.sky-form {
+    border: none !important;
+}
+
+input[type=checkbox]#termandcond {
+    margin-right: 4px;
+}
+
+.memberhf {
+    background:#EEEEEE;
+    padding:5px 5px 5px 15px;
+    font-size:15px;
+    color:#333333;
+    font-weight:600;
+    margin-top:0px;
+    text-align:center
+}
+.border-home {
+    border: 1px solid #DDDDDD;
+}
+.arrows-red li:before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f00c";
+    margin: 0 5px 0 -12px;
+    color: #CD0511;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.faq-arrow {
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+}
+.td-rowspan{
+    vertical-align: middle !important;
+    background-color: #f9f9f9;
+    padding: 0 !important;
+}
+.td-inner{
+    padding: 100% 0;
+    border: 5px solid #fff;
+    border-right: 0;
+    text-align: center;
+}

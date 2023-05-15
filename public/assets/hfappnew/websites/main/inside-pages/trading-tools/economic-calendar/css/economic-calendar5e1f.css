@@ -1,0 +1,76 @@
+.sel_timezone {
+    font-size:11px;
+}
+.floatingHeader {
+  position: fixed;
+  top: 70px;
+  visibility: hidden;
+  z-index: 100;
+}
+/* Classes that target table from external source (Rounded Corners)*/
+.fxst-calendar-filter-basic.fxst-calendar-filter {
+    border-radius: 0.42rem;
+}
+.fxst-calendarhead th {
+    border-radius: 0.42rem 0.42rem 0 0;
+    border-top: 0px !important;
+}
+#fxst-calendar-filter-dateshortcuts a:first-child {
+    border-radius: 0.42rem 0 0 0.42rem;
+}
+#fxst-calendar-filter-dateshortcuts a:nth-child(7) {
+    border-radius: 0 0.42rem 0.42rem 0;
+}
+#fxs_it_timezones {
+    border-radius: 0.42rem;
+}
+input#fxit-start-custom,
+input#fxit-end-custom,
+a#fxit-apply-custom,
+input#fxit-keyword,
+input#fxit-start-advanced,
+input#fxit-end-advanced,
+#fxit-filterbutton,
+#fxit-clear{
+    border-radius: 0.42rem;
+}
+table.persist-area {
+    border-collapse: collapse;
+}
+.nav-bar-side ul li a.topelementsmenu {
+    font-weight: normal
+}
+@media screen and (max-width: 475px) {
+    .floatingHeader {
+        top: 51px;
+        z-index:97
+    }
+    .sel_timezone_container {
+        width: 100%;
+    }
+}
+
+/* Corrections For Arabic Version of the table */
+.body-lang-ar #fxst-calendartable div {
+    float: right !important;
+}
+
+@media (min-width: 768px) {
+
+    .body-lang-ar #fxst-calendartable tr td .fxit-event .fxit-eventInfo, #fxst-calendartable tr th .fxit-event .fxit-eventInfo {
+        width: 20%;
+    }
+
+    .body-lang-ar #fxst-calendartable tr td .fxit-event .fxit-event-url, #fxst-calendartable tr th .fxit-event .fxit-event-url {
+        width: 30%;
+    }
+
+    .body-lang-ar #fxst-calendartable tr td .fxit-event .fxit-event-numbers, #fxst-calendartable tr th .fxit-event .fxit-event-numbers {
+        width: 50%;
+    }
+
+    .body-lang-ar #fxst-calendartable tr td .fxit-event .fxit-event-url .fxit-event-title, #fxst-calendartable tr th .fxit-event .fxit-event-url .fxit-event-title {
+        text-align: right;
+    }
+
+}

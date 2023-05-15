@@ -1,0 +1,71 @@
+.etfs-background .btn-u {
+    text-transform: uppercase;
+    min-width: 300px;
+    }
+.etfs-background {
+	padding: 50px 0;
+	background:url('../images/ETFs_main_2.html') center;
+	height: 560px;
+	}
+
+.etfs-background .btn-u-green {
+	margin-right: 20px;
+	}
+.part-2 {
+	text-align: center;
+	padding: 50px 30px 0 30px;
+	}
+.part-2 h2  {
+	color: #CD0511;
+	}
+.content {
+    padding-top: 0!important;
+    }
+.icons {
+   	margin: 40px auto auto;
+   	width: 120px;
+   	height: 90px;
+   	background-size: contain;
+   	background-repeat: no-repeat;
+   	background-position: center;
+    }
+.icon1 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_advantages-01.svg');
+    }
+.icon2 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_advantages-02.svg');
+    }
+.icon3 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_advantages-03.svg');
+    }
+.icon4 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_advantages-04.svg');
+    }
+.icon5 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_benefits-01.svg');
+    }
+.icon6 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_benefits-02.svg');
+    }
+.icon7 {
+  	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_benefits-03.svg');
+    }
+.icon8 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/etfs/images/ETFs_benefits-04.svg');
+    }
+
+
+@media (max-width: 767px) {
+ 	.etfs-background {
+ 	    background: #d4d3d3;
+ 	    height: auto;
+ 	    }
+    .etfs-background .btn-u-green {
+	    margin-right: 0;
+	    margin-bottom:20px;
+	    }
+	.btn-filter {
+	    margin: auto;
+	    display: block;
+	    }
+    }

@@ -1,0 +1,209 @@
+.indicators h4 { padding-bottom:15px;}
+.indicators { padding-bottom: 30px;}
+.indicators img { width:100%;}
+.indicators .tools-box { min-height: 100px}
+.indicators .shadow {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    float:left;
+    }
+
+.bdr { border: 1px solid #EEE;
+      padding:0;
+       }
+
+@media (max-width:767px) {
+    .bdr {
+        margin: 20px 0;
+        }
+    }
+
+.left-vid {
+	border-style: solid;
+	border-width: 1px;
+	border-color:#EEEEEE;
+	padding:0;
+	}
+
+.left-vid .balance {
+	background: url(../images/lg-head-shoulders-pl-2.html) no-repeat left;
+	background-size:cover;
+	height:145px;
+	margin-left:-15px;
+	}
+
+.left-vid .crypto {
+	background: url(../images/cryptos748.html) no-repeat left;
+	background-size:cover;
+	height:145px;
+	margin-left:-15px;
+	}
+
+.left-vid  .balance i {
+	font-size: 75px;
+	opacity:0.8;
+	padding-top:25px;
+	}
+
+.left-vid h4{
+	padding-top:7px;
+	margin: 0 0 0em;
+	}
+
+.m-t { margin-top:20px}
+
+.left-vid .video-overlay i {
+	font-size: 75px;
+	opacity:0.8;
+	padding-top:25px;
+	}
+
+.link {
+	font-size:14px;
+	text-decoration:underline;}
+
+.reg-message .mes {
+	padding:33px 20px 0px 20px;
+	background:none;
+	}
+
+@media (max-width:992px) {
+    .content {
+        padding: 40px 30px!important;
+        }
+    .indicators .tools-box {
+        min-height: 150px;
+        }
+    }
+.spinner{
+    margin-top:100px!important;
+    }
+.vid_container .btns li {
+    box-shadow:none!important;
+    }
+#learning_center #main_menu .box{
+    border: 1px solid #ddd!important;
+    box-shadow:none!important;
+    }
+#learning_center #main_menu .ply{
+	height:129px;
+	}
+#vid1 .box1{
+  width: 100%;
+  height: 130px;
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  border: 1px solid #ddd!important;
+  box-shadow:none!important;
+  }
+#vid1 .box1:hover{opacity:.6;background: rgb(255, 255, 255) !important;}
+#vid1 .box1 div.icn1{
+  position: absolute;
+  left:0;
+  width: 15%;
+  height: 100%;
+  background-image: url("../images/balance.png")!important;
+  background-repeat: no-repeat;
+  background-size:40%;
+  background-position: center center;
+  background-color: rgb(47, 47, 47) !important;
+  }
+#vid1 .box1 div.tit1{
+	margin-left:15%;
+	text-align:center;
+	color:#C00;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:400;
+	width:85%;
+	line-height: 30pt;
+	height: auto;
+    }
+
+#vid1 .box1 .info {
+    display: block;
+    text-align: left;
+    width: 76 %;
+    position: absolute;
+    left: 16%;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 2px 55px 1px 10px;
+    border: none !important;
+    color:#222;
+    }
+#vid1 .ply1{
+	width:35px;
+	height:129px;
+	background-color:#ccc;
+	position:absolute; bottom:0; right:0;
+	background: url(../../../../../../../../../www.mte-media.com/images/play22.png) 50% 50% / 60% no-repeat rgb(202, 1, 1) !important;
+	 -webkit-border-bottom-right-radius: 0;
+	-moz-border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+#learning_center #main_menu .box div.icn {
+    border-radius: 0.42rem 0 0 0.42rem;
+}
+#learning_center #main_menu .box div.ply {
+    border-radius: 0 0.42rem 0.42rem 0;
+}
+#learning_center #main_menu .box {
+    border-radius: 0.42rem;
+}
+.vid_container .btns li {
+    border-radius: 0.42rem;
+}
+.vid_container .tmb img {
+    border-radius: 0.42rem 0 0 0.42rem;
+}
+.vid_container .ply_icn {
+    border-radius: 0 0.42rem 0.42rem 0;
+}
+#mfp_player {
+    border-radius: 0.42rem;
+}
+#left_inf_bar {
+    border-radius: 0.42rem;
+}
+
+.reg_btn{
+    height: 40px!important;
+    color: #fff!important;
+}
+@media only screen and (max-width:1024px){
+
+    #learning_center #main_menu .box { height: 130px!important}
+	#vid1 .box1 div.tit1{font-size: 16pt; line-height: 30pt}
+	#learning_center #main_menu .box div.tit{font-size: 16pt!important; line-height: 30pt!important}
+	#main_menu .box .info, #vid1 .box1 .info{ font-size: 14pt!important; line-height: 15pt!important;}
+	#learning_center #main_menu .ply{ display:none!important;}
+	#vid1 .ply1{display: none;}
+	#learning_center #main_menu .box div.icn {background-size: 40%!important;}
+}
+
+@media only screen and (max-width:768px){
+   #learning_center #main_menu .box{ height: 230px!important;}
+   #vid1 .box1{ height: 230px;}
+   #vid1 .box1 div.tit1{font-size: 16pt; line-height: 30pt}
+   #main_menu .box .info, #vid1 .box1 .info{ font-size: 11pt!important;}
+   #vid1 .box1 div.icn1{
+		position: absolute;
+		left:0;
+	  	width: 15%;
+	  	height: 100%;
+	  	background-image: url("../../../../../../../../../mte-media.com/style/img/media_icon.png");
+	  	background-repeat: no-repeat;
+	  	background-size:60% !important;
+	  	background-position: center center;
+	  	background-color: #848a95;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+   #learning_center #main_menu .box, #vid1 .box1{ height: 230px!important;}
+   #learning_center #main_menu .box div.tit, #vid1 .box1{font-size: 15pt!important; line-height: 18pt}
+   #learning_center #main_menu .box .info, .box1 .info{ font-size: 10pt; line-height: 13pt; max-width:86%;}
+}
+
+

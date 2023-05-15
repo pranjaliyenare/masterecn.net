@@ -1,0 +1,320 @@
+body {
+    font-family: Arial, sans-serif !important;
+}
+
+.section-1 {
+    height:1250px;
+    color: #fff;
+    background: url('../images/psg_contest_main.html') bottom #101112 no-repeat;
+    /*padding-top: 15px;*/
+    padding-bottom: 30px;
+}
+.common-text {
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.section-1 h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.section-1 h2{
+    font-weight: bold;
+}
+.red-text{
+    color:#d20301
+}
+.white-text{
+    color:#fff
+}
+.my-15{
+    margin:15px auto
+}
+.contest_container{
+    width:100%;
+    height: 100%;
+    position:relative;
+}
+.bottom-row{
+    width: 100%;
+    position:absolute;
+    bottom:15px;
+}
+.mx-auto{
+    margin:0 auto
+}
+.btn-red-ghost{
+    padding: 15px 0;
+    background: transparent;
+    border: 2px solid #cd0a10;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-width: 190px;
+}
+.ml-20{
+    margin-left:20px;
+}
+.btn-red-ghost:hover,
+.btn-red-ghost:focus {
+    background-color: #AC0606;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+.float-none{
+    float:none;
+}
+.section-2{
+    background-color: #101112;
+    padding-bottom: 40px;
+}
+.grey-bg{
+    background-color:#2d323a
+}
+.section-2 .img-responsive{
+    width:100%
+}
+.red-bg {
+    background: #cd0015;
+}
+.blue-bg {
+    background: #314061;
+}
+.dark-red-bg {
+    background: #68181e;
+}
+.dark-grey-bg {
+    background: #3f3941;
+}
+
+.p-0{
+    padding:0
+}
+.mt-0{
+    margin-top:0
+}
+.mb-0{
+    margin-bottom:0
+}
+.mb-20{
+    margin-bottom:20px
+}
+.mb-50{
+    margin-bottom:50px
+}
+.mt-10{
+    margin-top:10px
+}
+.mt-20{
+    margin-top:20px
+}
+.mt-30{
+    margin-top:30px
+}
+.mt-40{
+    margin-top:40px
+}
+.mt-50{
+    margin-top:50px
+}
+.mt-100{
+    margin-top: 100px;
+}
+.section-2 h2{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-2 .row-height h4{
+    font-size: 35px;
+}
+.section-2 .row-height p{
+    font-size: 20px;
+}
+.prizes-row h3{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.prizes-row span{
+    font-size: 17px;
+}
+.max-width-80{
+    max-width:80%
+}
+.section-3{
+    min-height:1326px;
+    background: url('../images/bkg.jpg') top #000 no-repeat;
+}
+
+/* Table */
+.road-to-paris-lp table {
+    width: 480px;
+    margin: 0 auto;
+}
+.road-to-paris-lp table thead tr th{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 30px 0 20px;
+}
+.road-to-paris-lp table td{
+    padding: 20px 10px;
+}
+.road-to-paris-lp table tbody tr{
+    border-bottom: 1px solid #ccc;
+}
+.road-to-paris-lp table tr td{
+    color:#ccc;
+    padding: 15px 20px 3px;
+}
+.road-to-paris-lp table tr td:nth-child(2){
+       width: 80%
+}
+.mbl_bg{
+    display:none;
+}
+.cc-cookies{
+    width: 100%;
+    z-index: 1002;
+}
+
+/*langs*/
+.body_my .btn-red-ghost{
+    min-width: 210px;
+}
+
+
+.txt_table{
+    padding: 30px 0;
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #636363;
+    margin:80px auto 100px
+}
+.txt_table p{
+    font-size:17px;
+    margin-bottom:0
+}
+.road-to-paris-lp table tr td {
+    width: 40%;
+    text-align: center;
+}
+.section-3 {
+   min-height: auto!important;
+   padding: 50px 0 80px 0;
+}
+@media (max-width:992px) {
+    .section-2 h4,
+    .section-2 p{
+        text-align:center
+    }
+    .section-2 h4 br,
+    .section-2 p br{
+        display: none
+    }
+    .grey-bg{
+        padding:20px 0
+    }
+    .section-2 .row-height:nth-child(2),
+    .section-2 .row-height:nth-child(4),
+    .section-2 .row-height:nth-child(6){
+        position: relative;
+    }
+    .section-2 .row-height:nth-child(2) .grey-bg,
+    .section-2 .row-height:nth-child(4) .grey-bg,
+    .section-2 .row-height:nth-child(6) .grey-bg{
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media (max-width:840px) {
+    .section-1 {
+        background-image: initial;
+        background-color: #050505;
+        height: auto
+    }
+    .section-1 .container{
+        position: relative;
+    }
+    .mbl_bg{
+        display:block;
+        margin-top: -35vh;
+    }
+    .bottom-row{
+        margin:-32vh auto 0;
+        position: initial;
+        bottom: auto;
+        background-color: #000
+    }
+}
+@media (max-width:992px) {
+    .mbl_bg{
+        margin-top: -30vh;
+    }
+}
+@media (max-width:600px) {
+    .road-to-paris-lp table {
+        width: 100%;
+    }
+    .section-1 p br{
+        display: none
+    }
+    .section-1 h1 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    .mbl_bg{
+        margin-top: -20vh;
+    }
+    .ml-20{
+        margin-left:auto;
+    }
+    .max-width-80{
+        max-width:95%
+    }
+    .section-2 .row-height h4 {
+        font-size: 30px;
+    }
+    .section-2 .row-height p {
+        font-size: 18px;
+    }
+    .mt-100 {
+        margin-top: 50px;
+    }
+    .bottom-row{
+        margin:-150px auto 0;
+    }
+    .prizes-row h3{
+        margin-top:0
+    }
+    .mt-0{
+        margin-top:10px;
+        margin-bottom:0;
+    }
+}
+@media (max-width:600px) {
+    .mt-40,
+    .mt-50 {
+        margin-top: 20px;
+    }
+    .mb-50 {
+        margin-bottom: 20px;
+    }
+    .mob-mt-50{
+        margin-top:50px
+    }
+    .mob-mt-10{
+        margin-top:10px
+    }
+    .mob-mb-30{
+        margin-bottom:30px
+    }
+    .mob-mb-20{
+        margin-bottom:30px
+    }
+}
+@media (max-width:320px) {
+    .section-3 .prizes-row p br{
+        display:none
+    }
+}
+

@@ -1,0 +1,117 @@
+.btn-u.btn-u-green{
+    background: #394e93;
+    border: 1px solid #394e93;
+    color: #FFF;
+}
+.btn-u.btn-u-green:hover, .btn-u.btn-u-green:focus, .btn-u.btn-u-green:active, .btn-u.btn-u-green.active, .open .dropdown-toggle.btn-u.btn-u-green {
+    background: #CD0511;
+    border-color: #CD0511;
+}
+.btn-u-lg, a.btn-u-lg {
+    font-size: 18px;
+    padding: 10px 25px;
+    }
+.btn-u{
+    padding:6px 13px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 0.42rem;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    background: #CD0511;
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn-u:hover {
+    color: #fff!important;
+    }
+.btn-color-red-ghost-on-white{
+    font-weight:normal;
+    color:#CD0511 !important;
+}
+
+.btn-color-red-ghost-on-white:hover{
+     font-weight:normal;
+    color:#FFF !important;
+}
+
+.btn-u.btn-u-default {
+    background: #95a5a6;
+}
+
+.btn-color-red-ghost{
+    background:none;
+    border: 1px solid #CD0511;
+}
+
+/*ghost buttons*/
+.ghost-btn{
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 6px 13px;
+    position: relative;
+    font-weight:bold;
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px 20px;
+    min-width:130px;
+    text-align:center;
+}
+.btn-gray {
+     background: #fff;
+     border: 1px solid #555;
+     color: #555;
+     }
+.btn-gray:hover {
+	 color:#fff;
+	 background: #555;
+	 }
+
+.btn-red {
+     background: #fff;
+     border: 1px solid #CD0511;
+     color: #CD0511;
+	}
+.btn-red:hover {
+	color:#fff;
+	background: #CD0511;
+	}
+.risk-war {
+    font-size:12px;
+    color:#6A6A6A;
+    text-align:center;
+    }
+
+.btn-u.btn-u-gold {
+    background: #c5b053;
+}
+@media (max-width:500px) {
+	.ghost-btn {
+	     width:125px;
+	     margin-bottom:10px;
+	    }
+	}
+
+.btn-disabled {
+    background: #eeeeee;
+    border: 0;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 10px;
+}
+.btn-disabled:hover {
+	color: #fff !important;
+	background: #eeeeee;
+    margin-top: 10px;
+    cursor: not-allowed;
+}
+/*end buttons*/

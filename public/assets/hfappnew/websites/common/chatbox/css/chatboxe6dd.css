@@ -1,0 +1,309 @@
+button.chatbox-open {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  width: 52px;
+  height: 52px;
+  color: #fff;
+  background-color: #CD0511;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.09);
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 20px;
+   z-index: 10001;
+}
+
+.chatbox-popup {
+  position: fixed;
+  z-index: 100001;
+  border-radius: 3px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.09);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  display: none;
+  bottom: 0px;
+  right: 20px;
+  width: 340px;
+  height: auto;
+  min-height: 420px;
+  background-color: #fff;
+  text-align:left !important;
+  margin-bottom: 20px;
+}
+
+.chatbox-popup .chatbox-popup__header {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #CD0511;
+  -webkit-box-align: center;
+          align-items: center;
+  justify-content: space-around;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.chatbox-popup__header .image_container {
+    background:#000;
+    float:left;
+    width:45px;
+    height:45px;
+    border:1px solid #000;
+    border-radius:50%;
+}
+.chatbox-popup__header .image_container_hfm {
+    /* background:#000;
+    float:left;
+    width:45px;
+    height:45px;
+    border:1px solid #000;
+    border-radius:50%;*/
+}
+.image_container img{
+    float:left;
+    width:30px;
+    margin:6px;
+}
+.image_container_hfm img{
+    /*float:left;*/
+    width:37px;
+    margin:3px;
+}
+
+.chatbox-popup__header h4{
+    margin-top:5px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    line-height:1;
+}
+
+.chatbox-popup__header .chatbox-close{
+    float:right;
+    padding-top:14px;
+    color:#FFF;
+}
+
+.chatbox-popup .alert{
+    font-size: 13px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.chat_error{
+    font-size:11px !important;
+    color:#CD0511 !important;
+    display:none;
+    line-height:1.5;
+}
+
+.chatbox-popup input, .chatbox-popup form-control{
+    font-size:13px !important;
+}
+
+.chatbox-popup p{
+  font-size:13px;
+  line-height: 1.4;
+}
+
+.chatbox-popup label{
+    font-size:13px;
+}
+.chatbox-popup .chatbox-popup__main {
+  box-sizing: border-box;
+  width: 100%;
+  padding: calc(2 * 10px) 16px;
+  line-height: calc(16px + 16px / 2);
+}
+
+.chatbox-popup .chatbox-popup__footer {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  border-top: 1px solid #ddd;
+
+}
+#topcontrol{
+    display:none;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.chatbox-popup .chatbox-popup__main  .chat_accordion {
+  background-color: #eee;
+  color:#333;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size:13px;
+  margin-bottom:10px;
+}
+
+.chatbox-popup .chatbox-popup__main  .chat_acc_active, .chat_accordion:hover {
+  background-color: #ccc;
+}
+.chatbox-popup .chatbox-popup__main  .chat_panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  margin-bottom:20px;
+}
+.chatbox-popup .chatbox-popup__main p{
+    color:#333 !important;
+}
+
+.chatbox-popup .chatbox-popup__main  .chat_acc_active_box{
+    display: block;
+}
+
+#chat-popup__answer{
+    background:#F9F9F9;
+    padding:20px;
+    float:left;
+    width:100%;
+    min-height:250px;
+    overflow-y:auto;
+    margin-bottom:20px;
+    font-size:13px;
+}
+
+.chat-popup__answer__empty{
+    float:none;
+    margin:0 auto;
+    width:150px;
+    text-align:center;
+    padding:50px 0px;
+}
+
+.chatbox-popup input:required:invalid, .chatbox-popup input:focus:invalid {
+    /*background-image: url(/images/invalid.png);*/
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.chatbox-popup input:required:valid {
+    background-image: url(../../../../../../images/valid.html);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.chatbox-popup  input::-webkit-outer-spin-button,
+.chatbox-popup  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.chatbox-popup input[type=number] {
+  -moz-appearance: textfield;
+}
+#chat-popup__answer ul li a,
+#chat-popup__answer a,
+#chat-popup__answer a:hover {
+    color: #CD0511!important;
+}
+@media (max-width: 480px){
+    .chatbox-popup{
+        width: 100% !important;
+        bottom: 0px;
+        margin: 0px;
+        box-shadow: none;
+        right: 0;
+        height: 100%;
+        padding: 0px;
+        text-align:left !important;
+        overflow-y:auto;
+    }
+}
+#chatbox-popup__second .select2-selection--single{
+    border-radius:0px !important;
+    padding: 4px 5px !important;
+    border: 1px solid #aaa  !important;
+    height:38px !important;
+}
+
+#chatbox-popup__second .select2-selection__arrow{
+    top:6px;
+}
+.select2-results__option--highlighted{
+     background:#CD0511 !important;
+}
+
+.select2-container--open {
+    z-index: 9999999
+}
+
+.fade-in {
+    animation: fadeIn ease 0.2s;
+    -webkit-animation: fadeIn ease 0.2s;
+    -moz-animation: fadeIn ease 0.2s;
+    -o-animation: fadeIn ease  0.2s;
+    -ms-animation: fadeIn ease  0.2s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+.lp_desktop .fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+
+}
+.chat_panel a:hover{ color:#D02420!important;}
+/*.chatbox-popup textarea {
+      resize: none;
+ }*/

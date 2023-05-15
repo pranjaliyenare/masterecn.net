@@ -1,0 +1,40 @@
+.country-stocks {
+    font-size:15px;
+    color:#666666;
+    position:relative;
+    top:-8px;
+    }
+.clear-none {
+    clear: none;
+    }
+.details-stocks {
+    padding-left:8px;
+    margin-top:-5px;
+    }
+.stocks-gray-background {
+    background:#e8e8e8;
+    border-right:1px solid white;
+    padding:10px 10px;
+    }
+.table.instruments-single-product>thead>tr>th {
+    border-top: none;
+    }
+.instruments-single-product thead tr:nth-child(1) th:nth-child(2) {
+    border-left: 0.05em solid #666;
+    }
+.instruments-single-product.text-align-left{
+    text-align:left;!important
+    }
+.details-text {
+    font-size:14px !important;
+    }
+.bg-color-light-grey {
+    height:2px;
+    margin-top:2px;
+    }
+.article-title {
+    padding-bottom:10px;
+    display:block;
+    float:left;
+    width:100%;
+    }

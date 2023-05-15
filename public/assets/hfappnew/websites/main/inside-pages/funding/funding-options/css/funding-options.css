@@ -1,0 +1,25 @@
+.fund-methods li a.selected {
+    background: #CD0511;
+    color: #FFF;
+}
+.tab-v1 .nav-tabs a {
+    font-size: 14px;
+    padding: 5px 15px;
+}
+.fund-methods li a {
+    line-height: 45px;
+}
+.tab-v1 .nav-tabs > li > a:hover {
+    color: #fff;
+    background: #CD0511 !important;
+}
+.vertical-align-middle {
+    vertical-align: middle !important;
+}
+.table thead > tr > th {
+    font-size: 13px;
+}
+.arrows span {
+    font-weight: bold;
+    color: #CD0511;
+}

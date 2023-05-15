@@ -1,0 +1,271 @@
+/* redesign */
+.font-16{
+    font-size:16px
+}
+.font-22{
+    font-size:22px
+}
+.font-32{
+    font-size:32px
+}
+.panel-bodya a,
+.panel-body a:hover{
+    color:#CD0511
+}
+#app-part-1 p span{
+    color:#CD0511;
+    font-weight:bold
+}
+.width-100{
+    width:100%;
+    display: table
+}
+.faq-arrow {
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+}
+.mobile-app-page #app-part-4,
+.mobile-app-page #app-part-2 {
+	background: #f4f4f4;
+}
+.float-left{
+    float:left;
+}
+.float-none{
+    float:none;
+}
+.store_icon{
+    width: 129.36px;
+    height: 43px;
+    margin: 5px 0;
+}
+.store_icon:last-child{
+    margin-top: 0;
+}
+.qr_icon{
+    width: 91px;
+    height: 91px;
+    margin-top: 0px;
+}
+video{
+    width:100%;
+    vertical-align: bottom;
+}
+.icon-text{
+    line-height:18px;
+}
+.icons{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+#app-part-2 .icons{
+    margin-bottom:5px
+}
+.icon1{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/01.svg')
+}
+.icon2{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/02.svg')
+}
+.icon3{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/03.svg')
+}
+.icon4{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/04.svg')
+}
+.icon5{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/05.svg')
+}
+.icon6{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/06.svg')
+}
+.icon7{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/07.svg')
+}
+.icon8{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/08.svg')
+}
+
+.icon9{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/09.svg')
+}
+.icon10{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/10.svg')
+}
+.icon11{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/11.svg')
+}
+.icon12{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/12.svg')
+}
+.icon13{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/13.svg')
+}
+.icon14{
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/mobile-app/images-new/14.svg')
+}
+.panel-title{
+    width: calc(100% - 20px);
+}
+.panel-heading {
+    padding: 8px 15px;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body,
+.panel {
+    box-shadow: none;
+    border: none;
+}
+.mob-icns{
+    display:none
+}
+.container-fluid{
+    overflow-x:hidden
+}
+.slick-prev{
+    left: 25px;
+}
+.slick-next{
+    right: 25px;
+}
+#app-part-3 .slick-prev:before,
+#app-part-3 .slick-next:before{
+    color:#f4f4f4
+}
+
+.body-lang-rtl .rtl-class{
+    float: right;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* app */
+.mobile-app-page #app-part-5{background:#fff;}
+.panel-group .panel-heading {position:relative;}
+.m-t-60{margin-top:60px}
+.mx-auto{margin-left:auto;margin-right:auto}
+
+
+
+.position-relative{
+    position: relative;
+}
+.hide_qr{
+    display:none;
+    position: absolute;
+    right: -180px;
+    top: -17px;
+    background-color: #191919;
+    padding: 15px 15px 30px;
+    z-index: 10;
+    box-shadow:0px 4px 25px rgb(0 0 0 / 9%) !important;
+}
+.ios_app_icn:hover + #qrcode_ios_div{
+    display: block
+}
+.android_app_icn:hover + #qrcode_android_div{
+    display: block
+}
+.m-t-8{
+    margin-top: 8px;
+}
+#qrcode_ios,
+#qrcode_android{
+    padding-top: 5px;
+    min-height: 100px
+}
+#qrcode_ios img,
+#qrcode_android img{
+    margin: 0 auto;
+     border: 5px #fff solid;
+}
+
+.hide_qr:before {
+    content: " ";
+    position: absolute;
+    background: #191919 !important;
+    width: 20px;
+    height: 20px;
+    top: 82px;
+    left: -6px;
+    transform: rotate(45deg);
+}
+#qrcode_ios_div:before{
+    top: 32px;
+}
+.hide_qr p{
+    max-width:180px
+}
+@media (max-width: 1200px){
+    .home-mob-app-section .qr_icon {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 992px){
+    .qr_icon_div{
+        display:none!important;
+    }
+    .ios_app_icn:hover ~ #qrcode_ios_div,
+    .android_app_icn:hover ~ #qrcode_android_div{
+        pointer-events: none;
+        display:none!important;
+    }
+
+    .desktop-icns{
+        display:none
+    }
+    .mob-icns{
+        display:block
+    }
+    #app-part-1 video{
+        margin-top:30px
+    }
+    #app-part-3 video{
+        display: none
+    }
+    #app-part-1 h3,
+    #app-part-1 h2,
+    #app-part-1 p{
+        text-align:center
+    }
+    .qr_icon{
+        display:none;
+    }
+    .width-100 p{
+        float:none;
+        margin-left:auto !important
+    }
+    #app-part-1 p{
+        width: 100% !important
+    }
+    #app-part-1 p br{
+        display:none
+    }
+    #app-part-1 p br:before{
+        content:' '
+    }
+    #app-part-1 p span{
+        margin-right:5px
+    }
+    .store_icons{
+        text-align: center;
+        padding-right: 15px !important;
+    }
+}
+@media (max-width: 768px){
+    h3 br,
+    .icon-text br{
+        display:none
+    }
+    .icon-text br:before{
+        content:' '
+    }
+
+    #app-part-2 .col-md-3:nth-child(2) .icon-text{
+        min-height: 110px;
+    }
+}

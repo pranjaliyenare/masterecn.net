@@ -1,0 +1,205 @@
+.ar-reverse {
+    -moz-transform:initial;
+    -o-transform:initial;
+    -webkit-transform:initial;
+    transform:initial;
+    filter:initial
+    -ms-filter: initial;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.hoverSelector #myDropdown.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 140px;
+    width: 140px;
+    z-index: 1000;
+    right: 0;
+    top: 41px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+}
+.hoverSelector.small-logo #myDropdown.dropdown-content{
+    top: 27px;
+}
+.dropdown-content.width-260, .header-dropdown-content.dropdown-content.width-260 {
+    width: 260px !important;
+}
+.hoverSelector #myDropdown.dropdown-content a {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    font-size:14px;
+}
+#seminars-page .hoverSelector #myDropdown.dropdown-content a{
+    text-transform: initial;
+}
+.header {
+    background:#000;
+}
+.float-right{
+    float: right;
+}
+.slogan-container h5 {
+   letter-spacing: 4px;
+   color: #888;
+   text-transform: uppercase;
+   margin-top: 42px;
+   font-family: 'Roboto', Arial, sans-serif;
+   text-align: inherit;
+}
+.header img {
+   /* padding:10px 0; */
+   float:left;
+}
+.header .main-site-logo img{
+   margin-left: -15px;
+   width: 232px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.header .main-site-logo img.hf-logo{
+    width: 53px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header .main-site-logo img.hfm-logo{
+    width: 122px;
+}
+.lp .header .main-site-logo img,
+.header .landing-header.lp .main-site-logo img.hf-logo{
+   margin-left: -15px;
+}
+.p-0 {
+    padding:0 0;
+}
+.sticky-uk {
+   position: fixed;
+   width: 100%;
+   z-index:100;
+   top:0;
+}
+.rw {
+    color:#fff;
+}
+.extra-height {
+   height:130px;
+   background: #000;
+}
+.hoverSelector{
+    display: inline-block;
+    margin-top:30px;
+    float:right;
+}
+
+@media (min-width: 1200px) {
+    .lp .hoverSelector{
+        margin-top:27px;
+    }
+}
+
+.landing-header .hoverSelector.small-logo .dropbtn{
+    margin-top:-10px;
+}
+.landing-header .dropbtn{
+    margin-left:0!important;
+    padding:5px;
+    margin-top:5px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.landing-header .dropbtn:hover,
+.landing-header .dropbtn:focus{
+    padding:5px
+}
+.body-lang-ar .landing-header .dropbtn,
+.body-lang-ur .landing-header .dropbtn{
+    margin-right:0 !important
+}
+.dropbtn i {
+    margin-bottom:0;
+    padding-left:4px
+}
+.color-gray {
+    color: #A2A2A2;
+}
+.margin-x-auto{
+    margin-left:auto;
+    margin-right:auto;
+}
+@media (max-width:991px) {
+    .landing-header .shrink-logo {
+        max-width: 200px;
+    }
+    .lp .hoverSelector{
+        margin-top: 7px;
+    }
+    .lp .slogan-container h5 {
+        margin-top: 20px;
+    }
+    .container-fluid.header{overflow: initial;padding:0}
+}
+@media (max-width: 750px) {
+  .extra-height {
+    height:170px;
+  }
+  .dropdown{
+    float:right
+  }
+  .hoverSelector.small-logo{
+    margin-top:15px !important;
+  }
+  .hoverSelector{
+    margin-top:20px;
+  }
+}
+@media (max-width: 500px) {
+  .extra-height {
+    height:210px;
+  }
+
+}
+@media (max-width: 370px) {
+  .extra-height {
+     height:240px;
+  }
+}
+
+.small-logo {
+    margin-top: 18px !important;
+}
+
+/* top rw - uk & ae */
+.lp .topmenuBackground{
+    background: transparent
+}
+.lp .risk_warning_top .rwsmall,
+.lp .risk_warning_top .rwnormal{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.1;
+    text-transform: none;
+}
+.hfae .header{
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    top:0
+}
+.hfuk .header{
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+}
+.hfuk .landing-header .dropbtn{
+    padding: 5px 0;
+}
+.body-lang-rtl #footer-v6 .sm-margon-bottom-10 h3{
+    text-align: left !important
+}

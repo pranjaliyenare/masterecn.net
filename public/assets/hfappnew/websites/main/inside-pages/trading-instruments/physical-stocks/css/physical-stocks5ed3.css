@@ -1,0 +1,161 @@
+.gray-background {
+    background: #f6f5f5;
+    }
+
+.panel-heading {
+    padding: 8px 15px;
+}
+.panel {
+    box-shadow: none;
+    border: none;
+    }
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border:none;
+    }
+.table-specifications {
+    margin:auto;
+    font-size:16px;
+    }
+.table-specifications .text-left {
+    padding-left: 70px;
+    }
+.img-mob {
+    display: none;
+}
+
+.part-2 ul {
+    margin-top: 100px;
+    text-align: left;
+    margin-left: -150px;
+    }
+.part-2 ul img{
+    width: 25px;
+    }
+.part-2 li {
+    list-style: none!important;
+    padding-top: 16px;
+    font-size: 17px;
+    }
+.table-striped td {
+    text-align: center;
+    }
+.table-striped tr:nth-child(even) {
+    background-color: #fff;
+    }
+.table-striped>tbody>tr>td {
+    border-top: 0;
+    }
+.float-right {
+    float:right;
+    }
+.numeric-list {padding-left: 15px;}
+
+.stocks-background h1 {
+	text-transform: uppercase;
+	font-size: 38px;
+	}
+
+.stocks-background .play-button {
+    width: 60px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 152px;
+}
+
+.stocks-background {
+	padding: 50px 0;
+	background:url('../images/physical_stocks_main.jpg') center no-repeat;
+	height: 550px;
+	}
+
+.part-2 {
+	text-align: center;
+	padding: 50px 40px;
+	}
+.part-2 h2  {
+	color: #CD0511;
+	}
+.icons {
+   	margin: 40px auto auto;
+   	width: 101px;
+   	height: 90px;
+   	background-size: contain;
+   	background-repeat: no-repeat;
+   	background-position: center;
+    }
+.icon1 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/physical-stocks/images/01.svg');
+    }
+.icon2 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/physical-stocks/images/02.svg');
+    }
+.icon3 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/physical-stocks/images/03.svg');
+    }
+.icon4 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/physical-stocks/images/04.svg');
+    }
+.icon5 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/physical-stocks/images/05.svg?v1');
+   	width: 183px!important;
+    }
+
+
+@media screen and (max-width: 992px) {
+   	.flex-boxes {
+   	    display: block;
+   	    }
+    .filterButtons {
+        margin:auto;
+        text-align: center;
+        }
+    .part-2 ul{
+        margin-top: 10px;
+        margin-left:-80px;
+        }
+    .stocks-background {
+        background: #d1d0ce;
+        height: auto ;
+        }
+    .img-mob {
+        display: block;
+        margin: 0 auto;
+        }
+    .stocks-background h1 {
+        font-size: 28px;
+        }
+    .m-t-80 {
+        margin-top: 40px!important;
+        }
+
+    .stocks-background .play-button {
+        position: static;
+        width: 60px;
+        left: 0px;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .part-2 ul{
+        margin-left:0;
+        text-align: center;
+    }
+    .platform ul{
+        padding: initial
+    }
+    .table-specifications .text-left {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .stocks-background .play-button {
+        margin-top: 23px;
+        margin-bottom: 10px;
+    }
+}

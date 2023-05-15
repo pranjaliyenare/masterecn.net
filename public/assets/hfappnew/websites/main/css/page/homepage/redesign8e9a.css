@@ -1,0 +1,1410 @@
+body {
+    font-size:14px;
+}
+@media (min-width: 977px){
+    body.hfuk.header-fixed-space{padding-top:80px;}
+    body.hfae.header-fixed-space{padding-top:110px;}
+}
+@media (min-width: 751px){
+    .New_sliderContainer {
+        margin-top: -7px !important;
+    }
+    .hfuk .New_sliderContainer {
+        margin-top: 60px !important;
+    }
+
+    .hfae .New_sliderContainer {
+        margin-top: 30px !important;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 991px) {
+
+    .hfuk .New_sliderContainer {
+        margin-top: 0px !important;
+    }
+
+    body.hfuk.header-fixed-space {
+        padding-top: 0px;
+    }
+}
+
+.New_sliderContainer .btn-u-lg {
+    border:2px solid #CD0511 !important;
+}
+
+
+.no-clear{
+    clear:none;
+}
+
+.top-v1-contacts{
+    font-size:13px;
+}
+
+.shadow {
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.2);
+}
+
+.radius {
+    border-radius: 4px;
+}
+
+.flag-icon.flag-icon-squared {
+    width: 1.04em;
+}
+
+.hideThisTop{
+    z-index:1000;
+}
+
+.dropdown-menu{
+    -webkit-animation: fadein 0.3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.3s; /* Firefox < 16 */
+        -ms-animation: fadein 0.3s; /* Internet Explorer */
+         -o-animation: fadein 0.3s; /* Opera < 12.1 */
+            animation: fadein 0.3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.footer a{
+    font-size:13px !important;
+}
+
+.headerBlock {
+    color: #666 !important;
+    }
+
+
+/***************************** Benefits *************************************/
+
+.benefits_container{
+    margin-top: -150px;
+    position: relative;
+    z-index: 50;
+}
+
+.benefitsTop table {
+    width: -webkit-fill-available ;
+}
+
+.benefits_home{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.09);
+    border-radius: 3px;
+    padding:45px 60px 15px 60px;
+}
+
+
+.nofees-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/zero_fees.svg?v=1);
+    width: 44px;
+    height: 60px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hfae-vip-spreads{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/zero.svg?v=1);
+    width: 66px;
+    height: 60px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.eurusd-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/new_euro_usd.svg);
+    width: 66px;
+    height: 60px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multipleaccounts-icon-6{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/6.svg);
+    width: 33px;
+    height: 46px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    margin-right:0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multipleaccounts-icon-5{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/5.svg);
+    width: 33px;
+    height: 46px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    margin-right:0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multipleaccounts-icon-3{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/3.svg);
+    width: 33px;
+    height: 46px;
+     margin-top: 6px;
+    margin-bottom: 8px;
+    margin-right:0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multipleaccounts-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/multiple_accounts.svg);
+    width: 64px;
+    height: 47px;
+    margin-top: 6px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.platforms-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/platforms_top.svg);
+    width: 74px;
+    height: 60px;
+    margin-top: -3px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multiassets-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/multi_asset.svg);
+    width: 58px;
+    height: 60px;
+    margin-top:0px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.security-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/security.svg);
+    width: 58px;
+    height: 60px;
+    margin-top:0px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.leverage-icon{
+    background-image: url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/leverage.svg);
+    width: 96px;
+    height: 60px;
+    margin-top: 0px;
+    margin-right: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.leverage-icon-400{
+    background-image: url('https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/leverage-400-icon.svg');
+    width: 96px;
+    height: 60px;
+    margin-top: 0px;
+    margin-right: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trading-instruments-1000-icon{
+    width: 100px;
+    height: 49px;
+    margin-right: 10px;
+    background-image: url('https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/trading-instruments-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trading-instruments-150-icon{
+    width: 100px;
+    height: 49px;
+    background-image: url('https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/trading-instruments-150-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trading-instruments-1200-icon{
+    width: 97px;
+    height: 49px;
+    background-image: url('https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/trading-instruments-1200-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trading-instruments-1100-icon{
+    width: 97px;
+    height: 49px;
+    background-image: url('https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/trading-instruments-1100-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trading-instruments-3500-icon{
+    width: 104px;
+    height: 52px;
+    background-image: url('https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/trading-instruments-3500-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.instruments{
+    background-image: url('https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/trading-instruments-1200-icon.svg');
+    margin-top: 1px;
+    margin-right: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 97px;
+    height: 49px;
+}
+.bonus-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/bonus_top.svg);
+    width: 58px;
+    height: 60px;
+    margin-top:-6px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bonus-icon-100{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/100.svg);
+    width: 86px;
+    height: 60px;
+    margin-top:0px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.low-spreads-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/00.svg);
+    width: 49px;
+    height: 60px;
+    margin-top:0px;
+    margin-right:6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.headerBlock{
+    font-size: 14px !important;
+    line-height: 19px !important;
+    letter-spacing: 0.03em !important;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.fistElement{
+    width:100%;
+}
+
+.fistElementImage{
+    width:60px;
+}
+
+.secElement{
+    width:100%;
+}
+
+.thirdElement{
+    width:100%;
+}
+
+.fourthElement{
+    width:100%;
+}
+
+.extraElement{
+    width:100%;
+}
+
+.benefitsTop table td{
+    width:auto !important;
+}
+
+
+
+/************************** Regulation ***************************************/
+
+.regulation_flags{
+    font-size: 50px;
+    border-radius: 100%;
+    border: 1px solid #EEE;
+}
+
+.first_security{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/bank.svg);
+    width: 53px;
+    height: 53px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second_security{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/safety.svg);
+    width: 53px;
+    height: 53px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.third_security{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/Insurance.svg);
+    width: 53px;
+    height: 53px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fourth_security{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/negative_protection.svg);
+    width: 53px;
+    height: 53px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sv-icon{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/sv.svg);
+    width: 53px;
+    height: 53px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/************************** Live Analysis & Rates ***************************************/
+
+.title_home{
+    font-size:17px;
+    text-transform:uppercase;
+    padding-bottom:10px;
+}
+
+.analysis-box-inner{
+    float:left;
+    width:100%;
+    background: #383A3E;
+}
+
+.arrows-tick-green li:before {
+    font-family: 'Font Awesome 5 Free';;
+    content: "\f00c";
+    margin: 0 5px 0 -12px;
+    color:#179149;
+    font-weight:900;
+}
+.body-lang-rtl .arrows-tick-green li:before{
+    margin: 0 10px;
+    float: right;
+}
+.analysis-box-inner ul li{
+    padding:1px 0px;
+}
+
+.analysis-box-inner-img{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#analysis-box a{
+   color:#FFFFFF;
+}
+
+.LatestAnalysisAdditionHome span{
+    color:#EEEEEE !important;
+}
+
+.LatestAnalysisAdditionHome p{
+    color:#FFFFFF !important;
+}
+
+.LatestAnalysisAdditionHome p a{
+    color:#CD0511 !important;
+}
+
+
+#home-rates{
+    overflow-x: hidden !important;
+}
+
+.home-rates-box-inner{
+    float:left;
+    width:100%;
+    background: #383A3E;
+}
+
+.home-rates-box-inner-contain{
+    float:left;
+    padding:26px 30px;
+    width: 100%;
+}
+
+/****** Rates Inner ******/
+#page-wrap{
+    width:100% !important;
+}
+
+#liveQuotes .nav{
+    border:none !important;
+}
+
+#liveQuotes .nav li{
+    border:none !important;
+    background:none !important;
+    width: 20% !important;
+}
+
+#liveQuotes a{
+     color:white !important;
+     background:none !important;
+     text-transform:uppercase;
+}
+
+#quotesHeader{
+    height: auto !important;
+    background: #2B2B2D;
+    float:left;
+    width:100%;
+    border: 1px solid #4E4E4E;
+    border-bottom:none;
+    margin:0px !important;
+}
+
+#quotesHeader li{
+    font-size:14px !important;
+    color:#6A6A6A !important;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.instrumentRow{
+    padding:5px 0px;
+    border-bottom: 1px solid #4E4E4E;
+
+}
+
+#list-wrap{
+    width:100%;
+    float:left;
+    padding-top:7px;
+    border: 1px solid #4E4E4E;
+    border-top:none;
+    height:auto !important;
+}
+
+.home-rates-box-inner-contain div:first-child{
+    margin-left:0px !important;
+}
+
+
+.instrumentRow span span{
+    display:none;
+}
+
+.instrumentRow .instrument{
+     width:40% !important;
+     text-align:center !important;
+     margin:0px !important;
+     color:#FFFFFF !important;
+}
+
+.instrumentRow .pricelivequotes{
+    width:30% !important;
+    text-align:center !important;
+    margin:0px !important;
+}
+
+.instrumentRow .spread{
+   width:30% !important;
+   text-align:center !important;
+   margin:0px !important;
+   float:auto !important;
+}
+
+#quotesHeader .instrument{
+    width:40% !important;
+    margin:0px !important;
+}
+
+#quotesHeader .pricelivequotes{
+    width:30% !important;
+    margin:0px !important;
+}
+
+#quotesHeader .spread{
+    width:30% !important;
+    margin:0px !important;
+}
+
+/************************** Numbers ***************************************/
+
+
+.numbers-promo b{
+    font-size: 20px;
+}
+
+.trading-tools-icon {
+    background: url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/tools.svg) no-repeat;
+    height:68px;
+    width:68px;
+}
+
+.account-types-icon{
+    background: url(../../../images/homepage/chart.html) no-repeat;
+    height:68px;
+    width:68px;
+}
+
+.trading-products-icon{
+    background: url(../../../images/homepage/pie-chart.html) no-repeat;
+    height:71px;
+    width:71px;
+}
+
+.platforms-icon-2{
+    background: url(../../../images/homepage/computer.html) no-repeat;
+    height:72px;
+    width:72px;
+}
+
+.education-icon{
+    background: url(../../../images/homepage/mortarboard.html) no-repeat;
+    height:76px;
+    width:84px;
+}
+
+.funding-icon{
+    background-image: url(../../../images/homepage/Funding-methods.html);
+    height:76px;
+    width:84px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title_home_black{
+    color:black;
+    font-size:19px;
+    text-transform:uppercase;
+    padding-bottom:10px;
+}
+
+/************************** Advantages  ***************************************/
+
+
+.thumbnail-style{
+    padding:30px 8px 60px 8px;
+}
+
+.thumbnails .thumbnail-img img{
+    max-height:80px;
+}
+
+
+.thumbnails .thumbnail-img a{
+    display:block;
+}
+
+.home-line{
+    background:#DDDDDD;
+    height:2px;
+    width:100%;
+    float:left;
+    margin-top:25px;
+    clear:both;
+}
+
+.adv-title{
+    color:black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.home-line-red{
+    background: #EB352D;
+    width: 100%;
+    height: 2px;
+    float:left;
+    margin-top:5px;
+}
+
+.auto-width{
+    width:auto;
+    float:left;
+}
+
+.box-left-promo-inner{
+    background-image: url(../../../images/homepage/mobile_app.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.hfsv .box-left-promo-inner{
+    background-image: url('../../../images/homepage/sv_mobile_app.png');
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.hfsv .box-left-promo-inner .col-md-6{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.hfsv .benefitsTop li:nth-child(2),
+.hfza .benefitsTop li:nth-child(2),
+.hfke .benefitsTop li:nth-child(2),
+.hfsc .benefitsTop li:nth-child(2) {
+        min-height: 60px;
+}
+
+.mainlinks-new{
+    padding: 5px 5px 5px 15px;
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+}
+
+.body-lang-rtl .homepage-box{
+    border-right: 0
+}
+
+.homepage-box b, .homepage-box strong{
+   font-weight: 600;
+    color: #CD0511;
+}
+
+.margin-top-60{
+    margin-top:60px
+}
+
+.title_home_line{
+    border-bottom:2px solid #DDDDDD;
+    margin-bottom: 20px;
+    padding-bottom:0px;
+}
+
+/****************************** Advertise **************************/
+
+.webinars-box-inner{
+    float:left;
+    width:100%;
+    background: #383A3E;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border-radius: 6px;
+}
+
+.webinars-box-inner-img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.psg-dsk,
+.home-last-adv{
+    background:#F1F1F1
+}
+
+.bloomberg {
+    line-height: 13px;
+    font-size:12px;
+    float:right;
+    text-align:center;
+    color:#FFFFFF
+}
+
+.bloomberg-img {
+    align:center;
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+
+
+/******************************* Banner Box ************************/
+
+.banner-box{
+    float:left;
+    width:100%;
+    background:#383A3E;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.banner-box-inner{
+    float:left;
+    width:100%;
+    background:#FFFFFF;
+}
+.banner-box-inner h4{
+    color:#FFFFFF;
+}
+
+.banner-box-inner a{
+    color:#FFFFFF;
+}
+
+
+#home-rates{
+    overflow-x: hidden !important;
+}
+
+.home-rates-box-inner{
+    float:left;
+    width:100%;
+    background: #383A3E;
+}
+.home-spinner {
+    font-size: 50px;
+    color: #555;
+    text-align: center;
+    margin: 25% auto 0;
+    float: none;
+    display: table;
+}
+.inner-box {
+    display: none;
+}
+.home-rates-box-inner-contain{
+    float:left;
+    padding:26px 30px;
+    width: 100%;
+    min-height:395px;
+    max-height:395px;
+}
+.home-last-adv li a{
+    line-height:22.4px
+}
+
+/******************************* Payment Bar **********************/
+
+
+.owl-carousel .owl-item {
+    float: left;
+    width: 118px !important;
+}
+
+
+.hfmarkets-ae .owl-item, .payment-bar-more-spacing .owl-item {
+    width: 150px!important;
+}
+
+    #analysis-box img{
+        float: none;
+        margin: 0 auto;
+    }
+@media (min-width: 1200px){
+    .hfae #analysis-box img{
+        height: 395px;
+        max-width: 100%;
+    }
+    .hfsc .benefitsTop .col-md-2,
+    .hfza .benefitsTop .col-md-2,
+    .hfsv .benefitsTop .col-md-2{
+        width:20%;
+    }
+    .hfsc .benefitsTop .col-md-2:nth-of-type(2),
+    .hfza .benefitsTop .col-md-2:nth-of-type(2),
+    .hfsv .benefitsTop .col-md-2:nth-of-type(2){
+        margin-top: 5px;
+        width:22%
+    }
+    .hfsc .benefitsTop .col-md-2:nth-of-type(4),
+    .hfza .benefitsTop .col-md-2:nth-of-type(4),
+    .hfsv .benefitsTop .col-md-2:nth-of-type(4){
+        width:19%
+    }
+    .hfsc .benefitsTop .col-md-2:nth-of-type(5),
+    .hfza .benefitsTop .col-md-2:nth-of-type(5),
+    .hfsv .benefitsTop .col-md-2:nth-of-type(5){
+        width:17%
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .hfsc .benefitsTop .col-md-2,
+    .hfza .benefitsTop .col-md-2,
+    .hfsv .benefitsTop .col-md-2{
+        width:33.3333%;
+    }
+}
+.hfsc .headerBlock,
+.hfza .headerBlock,
+.hfsz .headerBlock{
+    font-size: 14px !important;
+}
+
+.body-lang-rtl .box-left-promo-inner .col-md-6{
+    float:left
+}
+
+
+/* new mobile app section */
+
+.home-mob-app-section .showicon {
+    width: 20px;
+    height: 20px;
+    background: url("https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/home/images/arrow-red.svg") no-repeat;
+    display: block;
+    margin-top: 3px;
+}
+.home-mob-app-section.showicon:hover {
+    background: url("https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/home/images/arrow-white.svg") no-repeat;
+}
+
+
+
+.first_security{
+    background-image:url(https://static.hfm.com/assets/hfappnew/websites/main/images/homepage/svg/bank.svg);
+    width: 53px;
+    height: 53px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-mob-app-section h2{
+    font-size:30px;
+    line-height: 35px;
+}
+.home-mob-app-section h2 span{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #CD0511;
+}
+.home-mob-app-section p{
+    font-size:14px;
+    text-align:left
+}
+.body-lang-rtl .home-mob-app-section p{
+    text-align:right
+}
+.max-width-750{
+    max-width:750px;
+}
+.home-mob-app-section .store_icon{
+    width: 110.36px;
+    height: 43px;
+    margin: 5px 0;
+}
+.home-mob-app-section .store_icon:last-child{
+    margin-top: 0;
+}
+.home-mob-app-section .qr_icon{
+    width: 84px;
+    height: 84px;
+    margin-top: 7px;
+    margin-left: -10px
+}
+video{
+    width:100%;
+}
+.mob_show{
+    display:none;
+}
+.home-mob-app-section p.text-center{
+    text-align: center;
+}
+.icon-text img{
+    width: 60px;
+    height: 60px;
+}
+.customised img{
+    width: 75px;
+    height: 75px;
+    margin-left: -10px;
+}
+.home-mob-app-section .btn-u{
+    padding-right: 27px !important;
+    font-weight: 700;
+    background: none;
+    color: #CD0511;
+    border: 1px solid #CD0511;
+    min-width: 231px;
+}
+.home-mob-app-section .btn-u:hover{
+    color: #fff !important;
+    background: #CD0511;
+}
+.home-mob-app-section .btn-u .btn-img{
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    margin-top:5px;
+    background: url("https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/home/images/arrow-red.svg") no-repeat;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.home-mob-app-section .btn-u:hover .btn-img{
+    background: url("https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/home/images/arrow-white.svg") no-repeat;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.position-relative{
+    position: relative;
+}
+.hide_qr{
+    display:none;
+    position: absolute;
+    right: -180px;
+    top: -17px;
+    background-color: #191919;
+    padding: 15px 15px 30px;
+    z-index: 10;
+    box-shadow:0px 4px 25px rgb(0 0 0 / 9%) !important;
+}
+.ios_app_icn:hover + #qrcode_ios_div{
+    display: block
+}
+.android_app_icn:hover + #qrcode_android_div{
+    display: block
+}
+.m-t-8{
+    margin-top: 8px;
+}
+#qrcode_ios,
+#qrcode_android{
+    padding-top: 5px;
+    min-height: 100px
+}
+#qrcode_ios img,
+#qrcode_android img{
+    margin: 0 auto;
+    border: 5px #fff solid;
+}
+
+.ios_app_icn{
+    margin-top:0;
+}
+.hide_qr:before {
+    content: " ";
+    position: absolute;
+    background: #191919 !important;
+    width: 20px;
+    height: 20px;
+    top: 82px;
+    left: -6px;
+    transform: rotate(45deg);
+}
+#qrcode_ios_div:before{
+    top: 32px;
+}
+.hide_qr p{
+    max-width:180px
+}
+
+/*************************** Bonuses Section ******************************/
+.color-red{
+    color: #CD0511;
+}
+.home-bonus-section {
+    font-size: 30px;
+    line-height: 35px;
+}
+.bonus-flag{
+    width: 100px;
+    height: 42px;
+}
+.bonus-number {
+    font-size: 7rem;
+    font-weight: 700;
+    padding-top: 4rem;
+}
+.bonus-title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.arrows-red-outline{
+    margin-top:3rem
+}
+.arrows-red-outline li {
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+.arrows-red-outline li:before {
+    content: url(https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/funding/bonus-offerings/images/tick.svg);
+    display: block;
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-right: 1rem;
+}
+.max-width-96{
+    max-width:96%;
+}
+.float-left{
+    float:left
+}
+.display-table{
+    display: table
+}
+.home-bonus-section .btn-color-red-ghost {
+    font-size:18px;
+    color: #CD0511!important;
+}
+.home-bonus-section .btn-u .btn-img {
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    margin-top: 5px;
+    background: url(https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/home/images/arrow-red.svg) no-repeat;
+}
+.home-bonus-section .btn-u:hover .btn-img {
+    background: url(https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/home/images/arrow-white.svg) no-repeat;
+}
+.home-bonus-section .btn-color-red-ghost:hover {
+    color: #ffffff!important;
+}
+#bonus-spinner{
+    margin:0 auto;
+}
+.grey-bg,
+.home-bonus-section{
+    background-color:#f1f1f1
+}
+.white-bg{
+    background-color:#fff
+}
+.home-spinner {
+    font-size:30px;
+    color: #868686;
+}
+.hide-btn{
+    display:none
+}
+.body-lang-rtl .arrows-red-outline li:before {
+    margin-right: 0;
+    float: right;
+    margin-left: 1rem;
+}
+.body-lang-rtl .home-bonus-section .btn-u td:last-child{
+    padding-left: 0!important;
+    padding-right: 30px;
+}
+@media (min-width:992px) {
+    .bonus-col{
+        padding-right: 2%;
+        margin-right: 5%;
+        border-right: 1px solid #ADADAD;
+        max-width: 32%;
+        padding-left: 0;
+    }
+    .bonus-col:last-child{
+        border-right:none;
+        padding-right: 0;
+        margin-right: 0;
+        max-width: 26%
+    }
+    .bonuses_2 .bonus-col:first-child{
+        margin-left: 18.666667%
+    }
+    .bonuses_1 .bonus-col{
+        margin: 0 auto;
+        float: none;
+        padding: 0;
+        width: 50%;
+        max-width: initial;
+    }
+    .bonuses_1 .bonus-number,
+    .bonuses_1 .bonus-title{
+        text-align:left;
+        padding:0;
+        line-height:3rem;
+    }
+    .bonuses_1 .arrows-red-outline li {
+        color: #000000;
+        margin-bottom: 0.5rem;
+    }
+    .bonuses_1 .one-col{
+        float: left;
+        text-align: left;
+        margin-right: 70px;
+        margin-left: 30px;
+        margin-top:10px
+    }
+}
+
+/*************************** Mobile Version ******************************/
+@media (max-width: 1200px){
+    .home-mob-app-section .qr_icon {
+        margin-left: 20px;
+    }
+    .bonuses_1 .bonus-col{
+        width: 65%;
+    }
+}
+@media (min-width: 769px) and (max-width: 990px){
+    .grey-bg + .benefits_container{
+        background-color:#f1f1f1
+    }
+    .hfsv .box-left-promo-inner,
+    .box-left-promo-inner{
+        background:none;
+    }
+    .icon-text .col-md-2,
+    .left-float {
+        float:left;
+    }
+    .home-mob-app-section {
+        text-align:left;
+    }
+    .col-sm-height {
+        display:block;
+    }
+
+}
+@media (max-width: 992px){
+
+    .bonuses_1 .bonus-col{
+        margin:0 auto;
+        float:none
+    }
+
+    .qr_icon_div{
+        display:none!important;
+    }
+    .ios_app_icn:hover ~ #qrcode_ios_div,
+    .android_app_icn:hover ~ #qrcode_android_div{
+        pointer-events: none;
+        display:none!important;
+    }
+    .hfsv .box-left-promo-inner{
+        background-image:initial
+    }
+    .hfsv .box-left-promo-inner .col-md-6 {
+        margin-top: 20px;
+    }
+
+    .home-mob-app-section {
+        text-align:center
+    }
+    .col-sm-height {
+        display:block;
+    }
+    .bonuses_1 .bonus-col {
+        width: inherit;
+    }
+
+.title_home {
+    text-align: center!important;
+    }
+     .left-float {
+        float:left;
+    }
+
+    .home-rates-box-inner-contain{
+        max-height:initial;
+    }
+    .hfsv .box-left-promo-inner,
+    .box-left-promo-inner{
+        background:none;
+    }
+    .home-mob-app-section .store_icon:last-child{
+        margin-top: 10px;
+    }
+     .home-mob-app-section {
+        text-align:center;
+    }
+}
+@media (max-width: 768px){
+   .col-xs-12.bonus-col{
+        margin:0 auto;
+        float:none
+   }
+    .store_icons{
+        padding:0
+    }
+   .benefits_container{
+    margin-top: 0;
+     }
+     .qr_icon_div,
+     .store_icons{
+        text-align: center;
+     }
+     .qr_icon{margin-top:0; margin-bottom:40px; display:none}
+     .icon-text .col-sm-2{
+        float: left;
+    }
+    .icon-text p{
+        display: inline;
+        float: left;
+        margin-top: 15px;
+    }
+    .mob_show{
+        display: block;
+    }
+    .mob_hide{
+        display: none
+    }
+
+    .home-mob-app-section {
+        text-align:center;
+    }
+    .home-mob-app-section .qr_icon{
+        display:none;
+    }
+
+
+}
+
+@media (max-width: 750px){
+    .inner-box div:nth-child(7){
+        margin-left:auto !important
+    }
+     .ad-boxes-center{
+        text-align:center;
+     }
+
+    .insideBoxHm{
+        text-align:center;
+        min-height: 460px
+    }
+
+    .home-line{
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .thumbnail-style .thumbnail-img{
+        margin-bottom:0px;
+    }
+
+    .auto-width{
+        float:none;
+    }
+
+    .home-line-red {
+        width: 25%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .benefits_home{
+        padding:45px 0px 15px 0px;
+    }
+
+
+    .benefits_home{
+        float:left;
+        position:static;
+        background:none;
+        width:100%;
+        box-shadow:none;
+    }
+
+    .benefits_container{
+        margin-top:0px;
+    }
+
+    .home-rates-box-inner-contain {
+        padding-left:8px;
+        padding-right:8px;
+    }
+
+    .home-last-adv{
+        text-align: center;
+    }
+
+    .box-left-promo{
+        margin-bottom:30px;
+    }
+
+    .box-left-promo-inner {
+        background-position: center top;
+        background-size: 40%;
+    }
+
+    .box-left-promo-inner .col-md-6{
+        margin-top:20px;
+    }
+
+    .numbers-promo div{
+        text-align:center !important;
+        height: auto !important;
+    }
+
+    .benefits_container{
+        z-index: 0 !important;
+    }
+
+    .home-mob-app-section {
+        text-align:center;
+    }
+    .home-mob-app-section .qr_icon{
+        display:none;
+    }
+}
+@media (max-width: 415px){
+    .icon-text .col-sm-height {
+        margin-right: 4%;
+    }
+    .icon-text img {
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,21 @@
+#bonuses .bonus-container.alert-warning {padding-top:15px; padding-bottom:15px;}
+#bonuses p.alert-warning {margin-bottom:0; padding-left:15px; font-weight: bolder;}
+#bonuses .bonus-box > div:nth-child(2) ul {margin-left: 15px;}
+.arrows-red li{color:#FFFFFF;}
+.arrows-red li:before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f00c";
+    margin: 0 5px 0 -19px;
+    color: #CD0511;
+    font-weight: 900;
+}
+.bonus-title h2{font-size:40px;line-height:40px;}
+.bonus-container img:nth-child(1){float:left;width:60.671%;}
+.bonus-container img:nth-child(2){float:right;width:39.329%;}
+.bonus-box{padding:30px 60px 20px 60px;}
+.red-background{
+    background-color: #CD0511;
+    padding: 5px;
+    display: table;
+    margin: 7px auto 0;
+}

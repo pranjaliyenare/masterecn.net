@@ -1,0 +1,106 @@
+.ac-header {
+	background: #E9EAEC url("../images/hfm-autochartist-slide.jpg");
+	background-size: cover;
+	height: 435px;
+}
+.ac-header.hfmarkets {
+	background: #E9EAEC url("../images/autochartist-hfmarkets.html");
+}
+.ac-header.reversed {
+    background: #E9EAEC url("../images/hfm-autochartist-slide-reversed.html") -15px;
+}
+.ac-header.reversed.hfmarkets {
+	background: #E9EAEC url("../images/autochartist-hfmarkets.html");
+}
+.ac-header.reversed.hfmarkets .content {
+	position: absolute;
+    left: 0;
+    width: 42%;
+}
+
+  .ac-header .content {
+    position: relative; }
+  .ac-header h1 {
+    /*position: absolute;
+    top: 25px;
+    left: 20px;*/
+    font-size: 5.4rem;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 0.8; }
+    .ac-header h1 span {
+      font-size: 4rem; }
+  .ac-header .call {
+    /*position: absolute;
+    bottom: -230px;
+    left: 25px;*/
+    margin-top: 30px; }
+    .ac-header .call .btn-u {
+      font-size: 2rem;
+      padding: 10px 40px; }
+
+.ac-cfa {
+  padding: 80px 0; }
+  .ac-cfa h1, .ac-cfa h2, .ac-cfa p {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto; }
+  .ac-cfa h1 {
+    color: #CD0511;
+    font-size: 2.2rem; }
+  .ac-cfa h2 {
+    font-size: 2rem; }
+
+.ac-products {
+  background: #eee;
+  color: #000;
+  padding: 10px 0 40px 0; }
+  .ac-products .product {
+    margin-bottom: 40px; }
+    .ac-products .product .product-image {
+      text-align: center; }
+    .ac-products .product p {
+      font-size: 1.6rem;
+      line-height: 1.5; }
+
+.ac-footer ul li, .ac-footer p {
+  font-size: 1.5rem; }
+.ac-footer p {
+  margin-top: 15px; }
+.ac-footer a, .ac-footer a:focus, .ac-footer a:active {
+  /*color: $red !important;*/ }
+.ac-footer a:hover {
+  /*text-decoration: underline !important;*/ }
+.ac-footer .call .btn-u {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #fff !important;
+  margin-top: 10px; }
+.ac-footer .call a:hover {
+  text-decoration: none !important; }
+
+@media screen and (max-width: 1550px) {
+	.ac-header.reversed.hfmarkets {
+		margin-left: -194px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.ac-header.reversed.hfmarkets {
+		margin-left: 0;
+	}
+	.ac-header.reversed.hfmarkets .content {
+		width: 63%;
+	}
+}
+@media screen and (max-width: 990px) {
+	.ac-header {
+		background: #E9EAEC url("../images/hotforex-autochartist-slide.html") -265px 0px;
+    }
+}
+@media screen and (max-width: 580px) {
+	.ac-header {
+		background: #E9EAEC url("../images/hotforex-autochartist-slide.html") -540px 0px;
+	}
+}
+
+/*# sourceMappingURL=autochartist-dr.css.map */

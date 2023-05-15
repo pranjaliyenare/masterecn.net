@@ -1,0 +1,43 @@
+.padding-all-5 {
+    padding: 5px;
+    width: 33%;
+}
+.border-bottom-grey2 {
+    border-bottom: solid 1px #CCCCCC;
+    line-height: 28px;
+}
+.p-l-25{
+    padding-left: 25px;
+}
+.border-bottom-grey2{
+    font-size:13px
+}
+#zero-spread-account blockquote {
+    border-left: solid 5px #666;
+}
+/** Cent Account **/
+.icons-cent img {
+    margin: 0 auto;
+    display: block;
+    }
+.icons-cent p {
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+    }
+.cent-account .btn-u-red {
+    max-width: 260px;
+    display: block;
+    text-align: center;
+    }
+.centering-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+/** End Cent Account **/
+
+@media (max-width: 767px) {
+    .table-responsive {
+        border: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.content-block div,
+#trading-instruments .content-block div,
+#fx-education .content-block div {
+    width: 100%;
+}
+.section-video a{
+    color:#111
+}
+.section-video a:hover{
+    color:#CD0511
+}
+@media (min-width: 991px){
+    #educational-videos .content-block {
+        min-height: 275px;
+    }
+}
+@media (max-width: 767px){
+    .video-overlay{
+        margin:0 auto;
+    }
+}

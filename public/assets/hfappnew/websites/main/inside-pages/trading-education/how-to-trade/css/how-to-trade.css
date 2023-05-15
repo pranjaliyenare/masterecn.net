@@ -1,0 +1,8 @@
+.content-block div {
+    width: 100%;
+}
+@media (max-width: 767px){
+    .video-overlay{
+        margin:0 auto;
+    }
+}

@@ -1,0 +1,70 @@
+ERROR - 2023-03-13 07:14:28 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1730, Array)
+#1 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1730): mail('support@mastere...', '=?UTF-8?Q?c?=', '<table style="c...', 'Date: Mon, 13 M...', '-f pranjali@gma...')
+#2 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\MasterECN_limited\app\Controllers\Home.php(148): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#6 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MasterECN_limited\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-13 07:14:28 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-13 07:14:28 --> 
+ERROR - 2023-03-13 07:24:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1730, Array)
+#1 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1730): mail('support@mastere...', '=?UTF-8?Q?dsdsd...', '<table style="c...', 'Date: Mon, 13 M...', '-f pranjali@myt...')
+#2 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\MasterECN_limited\app\Controllers\Home.php(148): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#6 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MasterECN_limited\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-13 07:24:09 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-13 07:24:09 --> 
+ERROR - 2023-03-13 07:25:58 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1730, Array)
+#1 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1730): mail('support@mastere...', '=?UTF-8?Q?xcb?=', '<table style="c...', 'Date: Mon, 13 M...', '-f pranjali@myt...')
+#2 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\MasterECN_limited\app\Controllers\Home.php(148): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#6 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MasterECN_limited\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-13 07:25:58 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-13 07:25:58 --> 
+ERROR - 2023-03-13 08:07:38 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1730, Array)
+#1 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1730): mail('support@mastere...', '=?UTF-8?Q?fghf?...', '<table style="c...', 'Date: Mon, 13 M...', '-f pranjali@myt...')
+#2 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\MasterECN_limited\app\Controllers\Home.php(152): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#6 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MasterECN_limited\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-13 08:07:38 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-13 08:07:38 --> 
+ERROR - 2023-03-13 23:49:35 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php:1730
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1730, Array)
+#1 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1730): mail('support@mastere...', '=?UTF-8?Q?fdgdg...', '<table style="c...', 'Date: Mon, 13 M...', '-f pranjali@myt...')
+#2 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\MasterECN_limited\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\MasterECN_limited\app\Controllers\Home.php(153): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#6 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\MasterECN_limited\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MasterECN_limited\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-13 23:49:35 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-03-13 23:49:35 --> 

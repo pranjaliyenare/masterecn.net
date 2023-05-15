@@ -1,0 +1,89 @@
+.regulatory-background {
+	background:url('../../../images/about-us/regulatory-environment/regulatory-enviroment.jpg') center no-repeat;
+	height: 414px;
+	text-align: center;
+}
+#regulations .flag-icon {
+    background-position: center;
+    height: 35px;
+    width: 46px;
+    background-size: contain;
+    border: solid 1px #EEE;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+#regulations .reg-titles {
+    border-left: solid 1px #DDD;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+h3{
+    color: #1b1c23;
+    letter-spacing: -.02rem;
+    margin: 0 0 .33em;
+}
+#regulations .reg-titles h6 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    color: #444444;
+    margin-top: 5px;
+    text-shadow: none;
+    font-weight: normal;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+#regulations .accordion {
+    margin-top: 20px;
+}
+#regulations .reg-description {
+    margin-top: 20px;
+}
+#regulations .reg-description img {
+    width: 60px;
+    float: left;
+    margin-top: -10px!important;
+    position: absolute;
+}
+#regulations .reg-description img ~ p {
+    margin-left: 70px;
+}
+#regulations .reg-description-hidden-sentence, #regulations .button-sentences .show-less,
+#regulations .active .icons-shown-once, #regulations .active .button-sentences .read-more {
+    display: none;
+}
+#regulations .active .reg-description-hidden-sentence, #regulations .reg-description-hidden-sentence.active,
+#regulations .active .button-sentences .show-less, #regulations .button-sentences .read-more {
+    display: block;
+}
+#regulations .row.cysec .flag-col img{
+    max-width: 55px;
+    margin-left: -7px!important;
+}
+.row-regulations{margin-top:20px}
+
+/* Other jurisdictions table */
+#regulations .row.registrations-juris table td {
+    padding: 4px;
+}
+#regulations .registrations-table tr td:nth-child(2) {
+    width: 125px;
+    padding-left: 15px;
+}
+#regulations .registrations-table tr td:first-child {
+    width: 68px;
+    padding-left: 6px;
+    border-right: solid 1px #DDD;
+}
+#regulations .registrations-table .flag-icon {
+    height: 25px!important;
+    width: 33px!important;
+    border: solid 0.1px #EEE!important;
+}
+
+@media (max-width: 700px){
+    .regulatory-background{
+        display:none
+    }
+}

@@ -1,0 +1,12 @@
+.hfsv .owl-carousel .owl-item {
+    width: 168px !important;
+}
+.item img.wire_transfer {
+    height: 90px;
+    margin-top: -3px;
+}
+@media (max-width: 1199px) {
+    .hfsv .owl-carousel .owl-item {
+        width: 142px !important;
+    }
+}

@@ -1,0 +1,19 @@
+.line-dotted-grey {
+    border-top: 1px dashed #DDDDDD;
+}
+.font-11{
+    font-size:11px;
+}
+.grey-color{
+    color:#999;
+}
+.bg-dark{
+    background: #EEEEEE;
+}
+div.redLine {
+    float: left;
+    width: 100%;
+    background: #C80101;
+    height: 1px;
+    margin-bottom: 5px;
+}

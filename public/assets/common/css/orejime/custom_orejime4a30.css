@@ -1,0 +1,513 @@
+/* General */
+#orejime {
+    display:none;
+}
+html.orejimeHtml-WithModalOpen body{
+    position: inherit!important;
+    height: auto!important;
+}
+html.orejimeHtml-popup-appear #orejime,
+html.orejimeHtml-popup-answered #orejime {
+    display:inherit;
+}
+html.orejimeHtml-popup-answered {
+    height: inherit;
+}
+html.orejimeHtml-popup-answered .myhf_before_login {
+    height: 100%;
+}
+html.orejimeHtml-popup-answered body {
+    position: inherit;
+    overflow: inherit!important;
+    height: inherit;
+}
+.orejime-Modal-privacyPolicyLink {
+    cursor: pointer;
+    text-decoration: underline!important;
+    color: inherit!important;
+}
+.orejime-Modal-privacyPolicyLink:hover {
+    color: inherit!important;
+}
+#orejime button {
+    cursor: pointer;
+    border-radius: 4px;
+}
+#orejime button[disabled],
+.orejime-AppItem-title {
+    cursor: inherit;
+    color: rgb(238, 238, 238);
+}
+.orejime-ModalWrapper {
+    top: 0;
+    transform: initial;
+    left: 0;
+    height: 100%;
+    width: 440px;
+}
+.orejime-Notice,
+.orejime-Modal {
+    border-radius: 4px;
+    background: #111111;
+}
+.orejime-Button--info,
+.orejime-Notice-button,
+.orejime-Notice-learnMoreButton,
+.orejime-Notice-actions .orejime-Button--info {
+    background: transparent;
+    border: 1px solid #eeeeee;
+}
+.orejime-Modal-form button {
+    width: 140px;
+    text-align: center;
+}
+
+/* Small popup */
+.orejime-Notice {
+    bottom: 20px;
+    right: 20px;
+    max-width: 350px;
+    z-index: 110000;
+}
+.hf-analysis .orejime-Notice {  /* only for analysis website */
+    bottom: 50px;
+    right: 5px;
+}
+.orejime-Notice .orejime-Button {
+    font-size: 14px;
+    padding: 4px 8px;
+    margin-right: 10px;
+}
+.orejime-Notice-body {
+    margin: 10px 0;
+}
+.orejimeSpecialReg .orejime-Notice-actionItem.orejime-Notice-actionItem--decline {
+    display: none;
+}
+/*.orejimeHtml-strict .orejime-Notice-actionItem.orejime-Notice-actionItem--decline {
+    display: inline;
+}*/
+
+/* Small popup text */
+.orejime-Notice-title {
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 5px;
+}
+.orejime-Notice-description,
+.orejime-Notice-changes {
+    font-size: 14px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.orejime-Notice-title,
+.orejime-Notice-title *,
+.orejime-Notice-description,
+.orejime-Notice-description *,
+.orejime-Notice-purposes,
+.orejime-Notice-purposes * {
+    color: white!important; /* white */
+}
+.orejime-notice-title-icon i {
+    margin-right: 5px;
+}
+
+/* Big popup */
+.orejime-ModalOverlay {
+    z-index: 100010;
+}
+.orejime-Modal {
+    color: #EEEEEE;
+    height: 100%;
+    padding: 10px;
+}
+.orejime-Modal p {
+    color: #EEEEEE!important;
+}
+.orejime-Modal-title {
+    font-weight: 500;
+    font-size: 23px;
+}
+.orejime-Modal-body {
+    padding: 0 1em;
+}
+.orejime-Modal-description {
+    padding: 17px 0px;
+    font-size: 14px;
+}
+.orejime-Modal-header {
+    border-bottom: none;
+    padding-bottom: 8px;
+}
+.orejime-Modal-footer {
+    border-top: none;
+    padding-top: 20px;
+}
+ul.orejime-CategorizedAppList {
+    border-top: 1px solid #A7A7A7;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.orejime-CategorizedAppList-apps {
+    margin-left: 0px;
+    margin-top: 7px;
+}
+.orejime-AppItem-title {
+    font-size: 14px;
+}
+li.orejime-AppList-item {
+    padding-top: 15px;
+}
+.orejime-CategorizedAppList-item {
+    margin-bottom: 0px;
+}
+.orejime-AppItem-optOut,
+.orejime-AppItem-required,
+.orejime-AppItem-description {
+    color: #A7A7A7;
+}
+.orejime-AppItem-description {
+    font-size: 11px;
+    padding: 6px 0;
+    line-height: 16px;
+}
+.orejime-Modal-other-description {
+    margin-top:10px;
+}
+.orejime-CloseIcon {
+    cursor: pointer;
+}
+
+/* big popup - purpose text */
+.orejime-AppItem-purposes {
+    color: black; /* black */
+}
+
+/* big popup - category text */
+.orejime-CategorizedAppList-title {
+    display: none;
+}
+
+/* Big popup - accept/decline buttons */
+.orejime-Button[disabled] {
+    opacity: 0.5;
+}
+button.orejime-Button.orejime-Button--info.orejime-AppToggles-button.orejime-AppToggles-enableAll {
+    margin-right: 40px;
+}
+.body-registration label .orejime-AppItem-switchLabel {  /* Fix label color for registration-hf-frontend */
+    color:#EEEEEE!important
+}
+
+/* False checkboxes */
+.orejime-AppItem-slider {
+    background-color: #95a5a6; /* hf-grey */
+    opacity: 0.5;
+    height: 20px;
+    width: 41px;
+}
+.orejime-AppItem-slider:before {
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    bottom: -1px;
+}
+
+/* True checkboxes */
+.orejime-AppItem-input:checked + .orejime-AppItem-label .orejime-AppItem-slider {
+    background-color: #079246;
+    opacity: 1;
+}
+.orejime-AppItem-switch--disabled .orejime-AppItem-slider {
+    opacity: 0.5!important;
+}
+.orejime-AppItem-switchLabel {
+    margin-left: -3px;
+    top: 22px;
+    font-size: .7em;
+}
+
+/* ************************************************* */
+/* THE BELOW STYLE IS ONLY FOR THE STRICT-REGULATORS */
+
+html.orejimeHtml-popup-appear.orejimeHtml-strict body {
+    width: 100%;
+    position: inherit!important;
+    height: 100%!important;
+    overflow: inherit!important;
+}
+
+html.orejimeHtml-popup-appear.orejimeHtml-strict .orejime-AppContainer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100005;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+html.orejimeHtml-strict .orejime-Notice {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: inherit;
+    max-width: 400px;
+}
+html.orejimeHtml-strict .orejime-Notice-body {
+    text-align: center;
+    font-size: 14px;
+}
+html.orejimeHtml-strict .orejime-Notice-text p {
+    text-align: left;
+    margin-bottom: 5px;
+}
+html.orejimeHtml-strict .orejime-Notice-actions {
+   text-align: left;
+   margin-bottom: 0;
+}
+html.orejimeHtml-strict .orejime-Notice-actions button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+html.orejimeHtml-strict .orejime-Notice-actions ul li:last-child button {
+    margin-right: 0;
+}
+/* END OF STYLE FOR STRICT-REGULATORS */
+/* ************************************************* */
+
+
+/* ******************************************************** */
+/* THE BELOW STYLE IS ONLY FOR THE SPECIAL-STYLE-REGULATORS */
+.orejimeSpecialReg .orejime-Notice-actions .orejime-Notice-actionItem--save .orejime-Notice-saveButton {
+    background: #008a28;
+    color: #fff;
+    border: 1px solid transparent;
+    width: 100%;
+    text-align: center;
+}
+.orejimeSpecialReg .orejime-Notice-actions .orejime-Notice-actionItem--info {
+    text-align: right;
+}
+.orejimeSpecialReg .orejime-Notice-actions .orejime-Notice-actionItem--info .orejime-Notice-learnMoreButton {
+    background: none;
+    text-decoration: underline;
+    border: none;
+    padding: 0!important;
+    margin: 0!important;
+    font-size: 11px;
+}
+
+.orejimeSpecialReg .orejime-Notice-actionItem.orejime-Notice-actionItem--decline {
+    display: none;
+}
+
+.orejimeSpecialReg .orejime-Notice-actionItem {
+    display: block;
+}
+/* END STYLE OF SPECIAL-STYLE-REGULATORS */
+/* ************************************* */
+
+
+/* **************************** */
+/* Style for other screen sizes */
+@media (max-height: 600px) {
+    .orejime-ModalWrapper {
+        width: 584px;
+    }
+}
+
+@media (max-width: 500px) {
+    button.orejime-Button.orejime-Button--info.orejime-AppToggles-button.orejime-AppToggles-enableAll {
+        margin-right: 10px;
+    }
+    .orejime-Modal {
+        width: 85%;
+    }
+    .orejime-Modal .orejime-AppToggles button {
+        margin-bottom: 20px;
+    }
+    .orejime-Modal-closeButton {
+        left: 70%;
+        right: initial;
+    }
+    ul.orejime-CategorizedAppList {
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+    .orejime-AppToggles {
+        margin-bottom: 0px;
+        display: inherit;
+    }
+    .orejime-Modal-title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    p.orejime-Modal-description {
+        font-size: 12px;
+    }
+    .orejime-Modal-form .orejime-AppToggles .orejime-Button {
+        font-size: 11px;
+        /*margin-right: 0px;*/
+        padding: 6px 6px;
+        width: 103px;
+        /*display: block;*/
+        /*margin-bottom: 10px;*/
+    }
+    .orejime-Modal-form .orejime-AppToggles .orejime-Button:first-child {
+        margin-bottom: 15px;
+    }
+
+    .orejime-AppItem-switch {
+        top: 15px;
+    }
+
+    .orejime-AppItem-required {
+        display: block;
+    }
+    html.orejimeHtml-strict .orejime-Notice {
+        max-width: 93vw!important;
+    }
+}
+
+@media (max-width: 450px) {
+    .orejime-Notice .orejime-Button {
+        padding: 4px 6px;
+    }
+}
+
+@media (max-width: 400px) {
+    html.orejimeHtml-strict .orejime-Notice {
+        max-width: 90vw!important;
+    }
+    .orejime-Notice {
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .orejime-Notice .orejime-Button {
+        font-size: 11px;
+        padding: 4px 3px;
+        margin-right: 5px;
+    }
+    .orejime-Notice .orejime-Notice-actionItem:last-child .orejime-Button {
+        margin-right:0;
+    }
+}
+
+@media (max-width: 350px) {
+    html.orejimeHtml-strict .orejime-Notice {
+        max-width: 97vw!important;
+    }
+    html.orejimeHtml-strict .orejime-Notice-actions button {
+        margin-right: 5px;
+    }
+    .orejime-Notice .orejime-Button {
+        padding: 4px 2px;
+    }
+}
+@media (min-width: 350px) and (min-height: 600px) {
+    .orejime-Modal {
+        height: max-content;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 700px) and (max-height: 690px) {
+    .orejime-Modal {
+        height: max-content;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 900px) and (max-height: 500px) {
+    .orejime-Modal {
+        height: max-content;
+        min-height: 100%;
+    }
+}
+
+/* **************************** */
+/* Style for other languages */
+html.orejimeHtml-strict .body-lang-ar .orejime-Notice,
+html.orejimeHtml-strict .body-lang-ur .orejime-Notice,
+html.orejimeHtml-strict .body-lang-fa .orejime-Notice {
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    bottom: inherit;
+    margin: 0 auto;
+}
+html.orejimeHtml-strict .body-lang-ar .orejime-Notice {max-width: 360px;}
+html.orejimeHtml-strict .body-lang-it .orejime-Notice {max-width: 385px;}
+html.orejimeHtml-strict .body-lang-es .orejime-Notice {max-width: 400px;}
+html.orejimeHtml-strict .body-lang-pt .orejime-Notice {max-width: 390px;}
+html.orejimeHtml-strict .body-lang-pl .orejime-Notice {max-width: 450px;}
+html.orejimeHtml-strict .body-lang-de .orejime-Notice {max-width: 415px;}
+
+html.orejimeHtml-strict .body-lang-ro .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-cz .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-hu .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-el .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-de .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-it .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-es .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-pt .orejime-Notice .orejime-Button,
+html.orejimeHtml-strict .body-lang-pl .orejime-Notice .orejime-Button {
+    font-size: 11px;
+}
+
+html.orejimeHtml-strict .body-lang-el .orejime-Notice .orejime-Button {
+    padding: 4px 6px;
+}
+
+.body-lang-es .orejime-Modal-form button {width: 150px;}
+.body-lang-de .orejime-Modal-form button {width: 165px;}
+.body-lang-el .orejime-Modal-form button {width: 160px; font-size: 11px}
+
+.body-lang-el .orejime-CategorizedAppList ul.orejime-AppList .orejime-AppItem {margin-left: 30px;}
+
+@media (max-width: 500px) {
+    /*html.orejimeHtml-strict .body-lang-de .orejime-Notice-actions,
+    html.orejimeHtml-strict .body-lang-es .orejime-Notice-actions {
+        text-align: center;
+    }*/
+    /*html.orejimeHtml-strict .body-lang-de .orejime-Notice .orejime-Button,
+    html.orejimeHtml-strict .body-lang-es .orejime-Notice .orejime-Button {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }*/
+    /*html.orejimeHtml-strict .body-lang-de .orejime-Notice .orejime-Notice-actions .orejime-Notice-actionItem:last-child,
+    html.orejimeHtml-strict .body-lang-es .orejime-Notice .orejime-Notice-actions .orejime-Notice-actionItem:last-child {
+        display: block;
+        text-align: center;
+    }*/
+    html :not(.body-lang-en) .orejime-Modal-form .orejime-AppToggles .orejime-Button {
+        width: 134px;
+        display: block;
+    }
+}
+
+
+/* **************************** */
+/* Style for RTL languages */
+
+.body-lang-ar .orejime-Notice-title,
+.body-lang-ar .orejime-Notice-text p,
+.body-lang-ar .orejime-Notice-actions,
+.body-lang-ar .orejime-Modal-title,
+.body-lang-ar .orejime-Modal-description,
+
+.body-lang-ur .orejime-Notice-title,
+.body-lang-ur .orejime-Notice-text p,
+.body-lang-ur .orejime-Notice-actions,
+.body-lang-ur .orejime-Modal-description
+{
+    text-align:right!important;
+}
+
+.body-lang-ar .fas.fa-cookie-bite {
+    margin-right: 0;
+    margin-left: 5px;
+}

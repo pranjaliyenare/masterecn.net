@@ -1,0 +1,59 @@
+#ft_footer_risk_warning .border-line-footer {
+    border-top: 1px solid #555555;
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+}
+
+#ft_footer_risk_warning b {
+    color: #AAAAAA;
+}
+
+#ft_footer_risk_warning p,
+#ft_footer_risk_warning ul.footer-list,
+#ft_footer_risk_warning ul.footer-list li {
+    color: #999999!important;
+    font-size: 12px;
+    line-height: 1.6;
+    font-family: Arial,sans-serif;
+}
+
+#ft_footer_risk_warning ul.footer-list {
+    padding-left: 40px;
+}
+
+#ft_footer_risk_warning a {
+    color: #EEEEEE;
+    font-size: 12px;
+}
+
+#ft_footer_risk_warning.ft-country-es .spanish_red {
+    text-decoration: none;
+    color: #cd0511;
+}
+
+#ft_footer_risk_warning .copyright-terms {
+    padding-left:0;
+}
+
+#ft_footer_risk_warning .list-inline.terms-menu {
+    padding-top :20px;
+}
+
+#ft_footer_risk_warning .color-gray.small-letters {
+    color: #A2A2A2;
+    font-size: 11px;
+}
+
+#ft_footer_risk_warning .copyright-terms-icon {
+    padding-left:0px;
+    padding-top:5px;
+}
+
+/* FOOTER PROMOTION: PSG Sponsorship */
+.psg-dsk {display: block;margin: 0 auto;}
+.psg-mob {display: none;}
+
+@media (max-width: 600px) {
+    .psg-dsk {display: none;}
+    .psg-mob {display: block;}
+}

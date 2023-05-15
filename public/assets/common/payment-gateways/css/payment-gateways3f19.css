@@ -1,0 +1,1424 @@
+.images-inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    }
+.width-70 { width: 70px;}
+
+.gw-header {
+    margin-top: 25px;
+    color: #666;
+    margin-right: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.gateways li:not(:last-child) {
+    border-right: 1px solid #eee;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.gateways .gateway {
+    width: 70px;
+    height: 49px;
+    display: block;
+    /*defined in other styles*/
+}
+
+.gateways .gateway.no_border {
+    width: 68px;
+    height: 47px;
+}
+
+/*div[data-status=preview]::before,
+tr[data-status=preview] td:nth-of-type(1)::before {
+    content: "Preview Only";
+    background: lightyellow;
+    font-size: 11px;
+}
+div[data-status=preview]::before,
+tr[data-status=preview] td:nth-of-type(1)::before {
+    color: #8a6d3b;
+    font-weight: bold;
+    display: inherit;
+}*/
+
+.gateways .gateway.santander {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -165px -255px;
+}
+
+.gateways .gateway.santander.no_border {
+    background-position: -166px -256px;
+}
+
+.gateways .gateway.vbyvisa {
+    background: #fff url(../banners/vbyvisa_blue.html);
+}
+
+.gateways .gateway.vbyvisa.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.vbyvisasecurecode {
+    background: #fff url(../banners/mc_securecode_75px_width.html);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gateways .gateway.vbyvisasecurecode.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.pagofacil {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -245px -255px;
+}
+
+.gateways .gateway.pagofacil.no_border {
+    background-position: -246px -256px;
+}
+
+.gateways .gateway.rapipago {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -322px -255px;
+}
+
+.gateways .gateway.rapipago.no_border {
+    background-position: -323px -256px;
+}
+
+.gateways .gateway.itau {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -8px -316px;
+}
+
+.gateways .gateway.itau.no_border {
+    background-position: -9px -317px;
+}
+
+.gateways .gateway.banco-brazil {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -87px -316px;
+}
+
+.gateways .gateway.banco-brazil.no_border {
+    background-position: -88px -317px;
+}
+
+.gateways .gateway.bradesco {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -165px -316px;
+}
+
+.gateways .gateway.bradesco.no_border {
+    background-position: -166px -317px;
+}
+
+.gateways .gateway.hsbc {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -245px -316px;
+}
+
+.gateways .gateway.hsbc.no_border {
+    background-position: -246px -317px;
+}
+
+.gateways .gateway.caixa {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -322px -316px;
+}
+
+.gateways .gateway.caixa.no_border {
+    background-position: -323px -317px;
+}
+
+.gateways .gateway.boleto {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -8px -376px;
+}
+
+.gateways .gateway.boleto.no_border {
+    background-position: -9px -377px;
+}
+
+.gateways .gateway.webpay {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -322px -551px;
+}
+
+.gateways .gateway.webpay.no_border {
+    background-position: -323px -552px;
+}
+
+.gateways .gateway.servipag {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -165px -551px;
+}
+
+.gateways .gateway.servipag.no_border {
+    background-position: -166px -552px;
+}
+
+.gateways .gateway.bankcolombia {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -322px -376px;
+}
+
+.gateways .gateway.bankcolombia.no_border {
+    background-position: -323px -377px;
+}
+
+.gateways .gateway.pse {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -8px -551px;
+}
+
+.gateways .gateway.pse.no_border {
+    background-position: -9px -552px;
+}
+
+.gateways .gateway.efecty {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -8px -491px;
+}
+
+.gateways .gateway.efecty.no_border {
+    background-position: -9px -492px;
+}
+
+.gateways .gateway.davivienda {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -245px -491px;
+}
+
+.gateways .gateway.davivienda.no_border {
+    background-position: -246px -492px;
+}
+
+.gateways .gateway.exito {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -87px -491px;
+}
+
+.gateways .gateway.exito.no_border {
+    background-position: -88px -492px;
+}
+
+.gateways .gateway.banco-occidente {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -165px -376px;
+}
+
+.gateways .gateway.banco-occidente.no_border {
+    background-position: -166px -377px;
+}
+
+.gateways .gateway.carulla {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -245px -434px;
+}
+
+.gateways .gateway.carulla.no_border {
+    background-position: -246px -435px;
+}
+
+.gateways .gateway.edeq {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -322px -434px;
+}
+
+.gateways .gateway.edeq.no_border {
+    background-position: -323px -435px;
+}
+
+.gateways .gateway.surtimax {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -245px -551px;
+}
+
+.gateways .gateway.surtimax.no_border {
+    background-position: -246px -552px;
+}
+
+.gateways .gateway.bancomer {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -8px -434px;
+}
+
+.gateways .gateway.bancomer.no_border {
+    background-position: -9px -435px;
+}
+
+.gateways .gateway.banamex {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -87px -376px;
+}
+
+.gateways .gateway.banamex.no_border {
+    background-position: -88px -377px;
+}
+
+.gateways .gateway.oxxo {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -322px -491px;
+}
+
+.gateways .gateway.oxxo.no_border {
+    background-position: -323px -492px;
+}
+
+.gateways .gateway.banorte {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -87px -434px;
+}
+
+.gateways .gateway.banorte.no_border {
+    background-position: -88px -435px;
+}
+
+.gateways .gateway.redpagos {
+    background-color: #fff;
+    background-image: url("../../../hfnew/images/sprite-payments30f4.html?v=3");
+    background-repeat: no-repeat;
+    background-position: -165px -491px;
+}
+
+.gateways .gateway.redpagos.no_border {
+    background-position: -166px -492px;
+}
+
+.gateways .gateway.bitpay {
+    background: #fff url(../banners/bitpay_btc.html);
+    /*background-size: contain; */
+}
+
+.gateways .gateway.bitpay.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.bitpay_bch {
+    background: #fff url(../banners/bitpay_bch.html);
+    /*background-size: contain; */
+}
+
+.gateways .gateway.bitpay_bch.with_border {
+    border: 1px solid #c1c1c1;
+}
+.gateways .gateway.local-bank-transfer{
+    background: #fff url(../banners/local-bank-transfer.html) no-repeat;
+    background-size: contain;
+}
+.gateways .gateway.local-bank {
+    background: #fff url(../banners/local-bank-transfer.html) no-repeat;
+}
+
+.gateways .gateway.local-bank.small {
+    background-size: contain;
+}
+
+.gateways .gateway.local-bank.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.wechatpaychina {
+    background: #fff url(../banners/zotapay-cup-wechat.html);
+    background-repeat: no-repeat;
+    background-position: 1px 8px;
+    background-size: 65px 30px;
+}
+
+.gateways .gateway.wechatpaychina.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.alipay {
+    background: #fff url(../banners/zotapay-cup-alipay.html);
+    background-repeat: no-repeat;
+    background-size: 60px 30px;
+    background-position: 6px 8px;
+}
+
+.gateways .gateway.alipay.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.thai-krungsri {
+    background: #fff url(../banners/thai-krungsri.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.jcb {
+    background: #fff url(../banners/cpj_jcb.html);
+    background-repeat: no-repeat;
+    background-size: 60px 30px;
+    background-position: 6px 8px;
+    border: 1px solid #c1c1c1;
+}
+
+
+.gateways .gateway.thai-krungthai {
+    background: #fff url(../banners/thai-krungthai.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.thai-scb {
+    background: #fff url(../banners/thai-scb.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.thai-uob {
+    background: #fff url(../banners/thai-uob.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-bca {
+    width: 100px;
+    background: #fff url(../banners/bank-BCA-indonesia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-bni {
+    width: 100px;
+    background: #fff url(../banners/bank-BNI-indonesia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-bri {
+    width: 100px;
+    background: #fff url(../banners/bank-BRI-indonesia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-cimb {
+    width: 100px;
+    background: #fff url(../banners/bank-cimb-indonesia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-mandiri {
+    width: 100px;
+    background: #fff url(../banners/bank-mandiri-indonesia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-ambank {
+    width: 100px;
+    background: #fff url(../banners/bank-ambank-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-cimb {
+    width: 100px;
+    background: #fff url(../banners/bank-cimb-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-hong {
+    width: 100px;
+    background: #fff url(../banners/bank-hong-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-maybank {
+    width: 100px;
+    background: #fff url(../banners/bank-maybank-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-pbbank {
+    width: 100px;
+    background: #fff url(../banners/bank-pbbank-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-rhb {
+    width: 100px;
+    background: #fff url(../banners/bank-RHB-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-bangkok {
+    width: 100px;
+    background: #fff url(../banners/bank-bangkok-thailand.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-gsb {
+    width: 100px;
+    background: #fff url(../banners/bank-GSB-thailand.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-karsikorn {
+    width: 100px;
+    background: #fff url(../banners/bank-karsikorn-thailand.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-krungsri {
+    width: 100px;
+    background: #fff url(../banners/bank-krungsri-thailand.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-krung {
+    width: 100px;
+    background: #fff url(../banners/bank-krung-thailand.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-scb {
+    width: 100px;
+    background: #fff url(../banners/bank-SCB-thailand.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-acb {
+    width: 100px;
+    background: #fff url(../banners/bank-acb-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-bidv {
+    width: 100px;
+    background: #fff url(../banners/bank-BIDV-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-donga {
+    width: 100px;
+    background: #fff url(../banners/bank-donga-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-exim {
+    width: 100px;
+    background: #fff url(../banners/bank-exim-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-sacom {
+    width: 100px;
+    background: #fff url(../banners/bank-sacombank-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-techcom {
+    width: 100px;
+    background: #fff url(../banners/bank-techcom-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-vietcom {
+    width: 100px;
+    background: #fff url(../banners/bank-vietcom-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.bank-viettin {
+    width: 100px;
+    background: #fff url(../banners/bank-viettin-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.gateways .gateway.pay-retailers {
+    background: #fff url('../banners/payretailers.html');
+    background-repeat: no-repeat;
+    background-position: 1px -1px;
+    background-size: 60px 40px;
+}
+.gateways .gateway.pay-retailers.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.zotapay-indonesia {
+    background: #fff url(../banners/zotapay-cup-indonesia.html);
+    background-repeat: no-repeat;
+    background-position: 1px -1px;
+    background-size: 60px 40px;
+}
+
+.gateways .gateway.zotapay-indonesia.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.zotapay-thailand {
+    background: #fff url(../banners/zotapay-cup-thailand.html);
+    background-repeat: no-repeat;
+    background-position: 1px -1px;
+    background-size: 60px 40px;
+}
+
+.gateways .gateway.zotapay-thailand.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.zotapay-generic {
+    background: url(../banners/local_bank_generic.html);
+    background-repeat: no-repeat;
+    background-size: 60px 40px;
+}
+
+.gateways .gateway.zotapay-generic.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.zotapay-nigeria {
+    background: #fff url(../banners/zotapay-cup-nigeria.html);
+    background-repeat: no-repeat;
+    background-position: 1px -1px;
+    background-size: 60px 40px;
+}
+
+.gateways .gateway.zotapay-nigeria.with_border {
+    border: 1px solid #c1c1c1;
+}
+.gateways .gateway.zotapay-malaysia {
+    background: #fff url(../banners/zotapay-cup-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: 1px -1px;
+    background-size: 60px 40px;
+}
+
+.gateways .gateway.zotapay-malaysia.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.zotapay-vietnam {
+    background: #fff url(../banners/zotapay-cup-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: 1px -1px;
+    background-size: 60px 40px;
+}
+
+.gateways .gateway.zotapay-vietnam.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.tmb-thai {
+    background: #fff url(../banners/tmb.html);
+    background-repeat: no-repeat;
+    background-size: 70px 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.kbank-thai {
+    background: #fff url(../banners/k-bank.html);
+    background-repeat: no-repeat;
+    background-size: 70px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.cimb-thai {
+    background: #fff url(../banners/cimb.html);
+    background-repeat: no-repeat;
+    background-size: 70px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.mybitwallet {
+    background: #fff url(../banners/bitwallet.html);
+    background-repeat: no-repeat;
+    background-size: 60px 45px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mybitwallet {
+    background: #fff url(../banners/bitwallet.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+/* PaySec */
+.paysec {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 60px;
+}
+
+.pg_psc {
+    background-image: url(../banners/cup_bank_transfer.html);
+}
+
+.pg_psm {
+    background-image: url(../banners/rm_logo.html);
+}
+
+.pg_psi {
+    background-image: url(../banners/rp_logo.html);
+}
+
+.pg_psv {
+    background-image: url(../banners/vn_logo.html);
+}
+
+
+.PSI_fontstyle {
+    display: none;
+}
+
+.PSI_fontstyle {
+    display: none;
+}
+
+.PSM_fontstyle {
+    display: none;
+}
+
+.PSC_fontstyle {
+    display: none;
+}
+
+.PSV_fontstyle {
+    display: none;
+}
+
+.gateways .gateway.mobile-pay {
+    background: #fff url(../banners/mobilepay.html);
+    background-repeat: no-repeat;
+    background-size: 70px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.mobile-pay.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.qqpay {
+    background: #fff url(../banners/qqpay.html);
+    background-repeat: no-repeat;
+    background-size: 70px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.qqpay.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.bitcoin.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.astropay.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.mybitwallet.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.master-card {
+    background: #fff url(../banners/mastercard.html);
+    background-size: 70px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.maestro {
+    background: #fff url(../banners/maestro.html);
+    background-repeat: no-repeat;
+    background-size: 70px 55px;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.mobile-money {
+    background: #fff url(../banners/mobile-money.html);
+    background-size: 70px 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.mpesa {
+    background: #fff url(../banners/mpesa.html);
+    background-repeat: no-repeat;
+    background-size: 55px 40px !important;
+    background-position: center;
+    background-size: contain;
+}
+
+.gateways .gateway.mpesa.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.bitcoin_bch_skrill {
+    background: #fff url(../banners/bitcoin_cash_skrill.html);
+    background-size: 68px 47px;
+    background-position: center;
+}
+
+.gateways .gateway.bitcoin_bch_skrill.with_border {
+    border: 1px solid #c1c1c1;
+}
+
+.gateways .gateway.visa_electron_debit {
+    background: #fff url(../banners/visa_electron_debit.html);
+    background-size: 68px 47px;
+    background-position: center;
+}
+
+.gateways .gateway.visa_debit {
+    background: #fff url(../banners/visa_debit.html);
+    background-size: 68px 47px;
+    background-position: center;
+}
+
+.zotapay {
+    width: 90px;
+    height: 40px;
+}
+
+.zotapay.zotapay-thailand {
+    background: #fff url(../banners/zotapay-cup-thailand.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-indonesia {
+    background: #fff url(../banners/zotapay-cup-indonesia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-malaysia {
+    background: #fff url(../banners/zotapay-cup-malaysia.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-vietnam {
+    background: #fff url(../banners/zotapay-cup-vietnam.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-php-payment {
+    background: #fff url('../banners/bank-philippine-peso30f4.html?v=3');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-china {
+    height: 60px;
+    background: #fff url(../banners/zotapay-cup-china.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-wechat {
+    height: 55px;
+    background: #fff url(../banners/zotapay-cup-wechat.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-alipay {
+    height: 50px;
+    background: #fff url(../banners/zotapay-cup-alipay.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.zotapay.zotapay-cup-whiretransfer {
+    height: 62px;
+    background: url(../banners/zotapay-cup-wiretransfer.html);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hfm-payment-icons span {
+    clear: none;
+    display: table-cell!important;
+    padding-right: 68px;
+}
+
+.gateway.pg_zptwt {
+    border: 1px solid #C4C4C4;
+    background: url('../banners/trustly-2.html') white no-repeat;
+    display: block;
+    background-size: 98%;
+    /*width: 90px;
+    height: 56px;*/
+}
+
+.deposits_tab_methods .pg_zptwt,
+.withdrawals_tab_methods .pg_zptwt {
+    background: url('../banners/trustly-2.html') no-repeat;
+    width: 95px;
+    height: 60px;
+    display: block;
+    background-size: 98%;
+}
+
+.payspark {
+    background: url('../banners/payspark.html') no-repeat;
+    width: 96px;
+    height: 70px;
+    margin-top: -7px;
+    background-position: center;
+    background-size: contain;
+}
+
+.payspark+.centerSpam {
+    padding-top: 0;
+    margin-top: -11px;
+    font-size: 8px;
+}
+.b2binpay {
+    background: url('../banners/crypto-payment30f4.html?v=3') no-repeat;
+    width: 90px;
+    height: 60px;
+    margin-left: 17px;
+    margin-top: -8px;
+    margin-bottom: 14px;
+    background-size: contain;
+}
+.centerSpam.B2BP_fontstyle {
+    padding-top: 0;
+    margin-top: -16px;
+}
+.gateways .gateway.b2binpay {
+    margin: inherit;
+    border: 1px solid #c1c1c1;
+    background-size: 37px;
+    background-color: white;
+    padding-top: 35px;
+    text-align: right;
+    color: black;
+    line-height: 8px;
+    background-position-x: 17px;
+}
+.gateways .gateway.b2binpay:before {
+    content: "Crypto Payments";
+    font-size: 8px;
+    word-break: break-all;
+}
+.vload {
+    background: url('../banners/vload.html') no-repeat;
+    width: 90px;
+    height: 100px;
+    background-size: contain;
+}
+/*
+.gateway.vload {
+    border: 1px solid #c1c1c1;
+    background-color: white;
+}
+*/
+.cp_mpesa {
+    background: url('../banners/m_pesa_kenya.html') no-repeat;
+    width: 90px;
+    height: 100px;
+    background-size: contain;
+}
+.cp_mobmoney {
+    background: url('../banners/ghana.html') no-repeat;
+    width: 90px;
+    height: 100px;
+    background-size: contain;
+}
+.cp_mobmoney.pg_cpamm {
+    background: url('../banners/ghana.html') no-repeat 13px 0px;
+    height: 43px;
+    width: auto;
+    background-size: contain;
+}
+.visa-jcb {
+    background: url('../banners/visa_jcb.html') no-repeat;
+    background-size: contain;
+    height: 31px;
+    width: 96px;
+    margin-top: 15px;
+}
+.pg_pm {
+    background: url('../banners/perfect_money.html') no-repeat;
+    height: 24px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-size: contain;
+    background-position-x: center;
+}
+.pg_pm_website {
+    margin-top: 0px;
+    display: block;
+    border: 1px solid #c1c1c1;
+    background-color: white;
+    width: 70px;
+    height: 49px;
+    background-position-y: 15px;
+    background-position-x: 1px;
+}
+.rupee {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: -7px;
+    background-image: url('../banners/rupee.html');
+}
+
+/* AccentPay myHF */
+.accentpay_idr {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: -7px;
+    background-image: url('../banners/rp_logo.html');
+}
+.accentpay_myr {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: -7px;
+    background-image: url('../banners/rm_logo.html');
+}
+.accentpay_vnd {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: -7px;
+    background-image: url('../banners/vn_logo.html');
+}
+.accentpay_thb {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: -7px;
+    background-image: url('../banners/b_thai_logo.html');
+}
+.payretailers {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: 0px;
+    background-image: url('https://static.hfm.com/assets/myhotforexnew/payments/logos/payretailers.svg?v1');
+}
+.payretailers_es {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: -7px;
+    background-image: url('../banners/payretailers-es.html');
+}
+.payretailers_pt {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 96px;
+    height: 64px;
+    margin-top: -7px;
+    background-image: url('../banners/payretailers-pt.html');
+}
+
+.zotapay-ngr {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 48px;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-image: url(../banners/zotapay-cup-nigeria.html);
+}
+
+/* AccentPay website */
+.gateway.accentpay-country-my { /* Malaysia */
+    background: url('../banners/rm_logo.html') no-repeat;
+    width: 70px;
+    background-size: contain;
+}
+
+.gateway.accentpay-country-id { /* Indonesia */
+    background: url('../banners/rp_logo.html') no-repeat;
+    width: 70px;
+    background-size: contain;
+}
+
+.gateway.accentpay-country-th { /* Thailand */
+    background: url('../banners/b_thai_logo.html') no-repeat;
+    width: 70px;
+    background-size: contain;
+}
+
+.gateway.accentpay-country-vn { /* Vietnam */
+    background: url('../banners/vn_logo.html') no-repeat;
+    width: 70px;
+    background-size: contain;
+}
+
+.bitpay_card {
+    background: url('../banners/bitpay_card.html') no-repeat;
+    width: 90px;
+    height: 100px;
+    background-size: contain;
+}
+
+.zotapay.generic_bank {
+    background: #fff url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+/*# sourceMappingURL=payment-gateways.css.map */
+
+
+
+
+
+
+
+/*Deposits update*/
+.gateways .gateway.cardpay-visa {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/visa.svg') no-repeat center white;
+    background-size: 86%;
+}
+
+.gateways .gateway.transfer-wire{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/wire_transfer.svg') no-repeat center white;
+    background-size: 86%;
+}
+.gateways .gateway.ecommpay{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/mastercard_visa.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.master-card,
+.gateways .gateway.cardpay-mastercard{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/mastercard.svg') no-repeat center white;
+    background-size: 76%;
+}
+.gateways .gateway.ideal{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/ideal.svg') no-repeat center white;
+    background-size: 63%;
+}
+.gateways .gateway.sofort{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/sofort.svg') no-repeat center white;
+    background-size: 76%;
+}
+.gateways .gateway.trustly{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/trustly.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.trustpay{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/trustpay.svg') no-repeat center white;
+    background-size: 80%;
+}
+.gateways .gateway.skrill{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/skrill.svg') no-repeat center white;
+    background-size: 76%;
+}
+.gateways .gateway.neteller{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/neteller.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.local_bank_za{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_ZAR.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.local_bank{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.cryptopayment{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/cryptopayment.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.bitpay_card{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/bitpay_card.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.vload{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/vload.svg') no-repeat center white;
+    background-size: 96%;
+}
+.gateways .gateway.rupee{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_RUPEE.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.mybitwallet {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/bitwallet.svg') no-repeat center white;
+    background-size: 73%;
+}
+.gateways .gateway.pay-retailers {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/payretailers.svg') no-repeat center white;
+    background-size: 98%;
+}
+.gateways .gateway.zotapay-nigeria,
+.gateways .gateway.local_bank_NGN {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_NGN.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.zotapay-malaysia,
+.gateways .gateway.local_bank_MYR {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_MYR.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.zotapay-indonesia,
+.gateways .gateway.local_bank_IDR {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_IDR.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.zotapay-thailand,
+.gateways .gateway.local_bank_THB {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_THB.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.zotapay-vietnam,
+.gateways .gateway.local_bank_VND {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_VND.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.local_bank_PHP {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_PHP.svg') no-repeat center white;
+    background-size: 87%;
+}
+.gateways .gateway.mobile-money,
+.gateways .gateway.mobile_money {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/mobile_money.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.mpesa {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/mpesa.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.china_unionpay {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/china_unionpay.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.pg_pm {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/perfectmoney.svg') no-repeat center white;
+    background-size: 96%;
+    margin-top:0
+}
+.gateways .gateway.jcb {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/jcb.svg') no-repeat center white;
+    background-size: 79%;
+}
+.gateways .gateway.fasapay {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/fasapay.svg') no-repeat center white;
+    background-size: 96%;
+}
+.gateways .gateway.webmoney {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/webmoney.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.zotapay-generic {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_generic.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.mobile-payment{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/mobile_payment_ewallet.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.pg_lctsh{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_USH.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.p-dusupay{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/dusupay.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.local_bank_qr{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_QR.svg') no-repeat center white;
+    background-size: 90%;
+}
+.gateways .gateway.bxone{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/bxone.svg') no-repeat center white;
+    background-size: 95%;
+}
+.gateways .gateway.local_bank_SGD{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/local_bank_SGD.svg') no-repeat center white;
+    background-size: 95%;
+}
+.gateways .gateway.ipay{
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/ipay.svg') no-repeat center white;
+    background-size: 85%;
+}
+.gateways .gateway.payredeem {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/payredeem.svg') no-repeat center;
+    background-size: 87%;
+}
+.gateways .gateway.mpesa-airtel {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/mpesa-airtel.svg') no-repeat center;
+    background-size: 90%;
+}
+
+.gateways .gateway.momo {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/momo.svg') no-repeat center white;
+    background-size: 63%;
+}
+
+.gateways .gateway.qris {
+    background: url('https://static.hfm.com/assets/common/payment-gateways/banners/qris.svg') no-repeat center white;
+    background-size: 85%;
+}
+
+/* GENERAL */
+.gateways .with_border {
+    border: 1px solid #c1c1c1;
+}

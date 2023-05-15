@@ -1,0 +1,72 @@
+.traders-board .nav .open>a,
+.traders-board .nav .open>a:hover,
+.traders-board .nav .open>a:focus {
+    margin-top:-2px !important;
+    border-color: #EEEEEE;
+}
+.traders-board .nav-tabs{
+  height:38px;
+}
+.traders-board .nav .caret {
+  border-top-color: black;
+  border-bottom-color: black;
+}
+.traders-board .nav .open{
+    background:none !important;
+}
+.traders-board .dropdown-menu > li > a:hover,
+.traders-board .dropdown-menu > li > a:focus {
+    background:#EEEEEE;
+    color:#222222;
+}
+.traders-board span{text-shadow:none;}
+.traders-board .tab-v2 .nav-tabs .active {background: #fff;border-bottom: solid 2px #CD0511;border-top: none !important;border-left: none !important;border-right: none !important;padding-bottom: 2px;}
+.traders-board .dropdown-menu>.active>a{color:#CD0511;}
+.traders-board .tab-v2 .nav-tabs li.active a{border-bottom: none !important;}
+.traders-board .dropdown-menu .active{border-bottom: none !important;}
+.traders-board .nav .caret {margin-left: 5px;}
+.loginDetails {position: absolute;z-index: 2;width: 100%;left: 0;top: 0;height: 100%;background-color: #fff;opacity: 0.8;padding-top: 40px;}
+.traders-board .nav-tabs>li{padding: 0 15px;}
+.traders-board .nav-tabs>li:hover{background-color:#efefef;}
+
+/*forecast style */
+.fxs_btn {
+    display: none !important;
+}
+/*endforecast style */
+.nav-bar-side ul li a.topelementsmenu,
+.unl_tip{
+    font-weight:normal
+}
+
+/* Removing shadow from chart data label(traders-board client positions) */
+#block_client_positions .highcharts-data-labels text {
+    text-shadow: none !important;
+}
+a{
+    font-weight: inherit;
+}
+.body-lang-rtl #chart_CP{
+    direction:ltr
+}
+@media (max-width: 992px){
+    .tab-v2 .nav-tabs > li {
+        background-color: #EDEDED;
+    }
+    .tab-v2 .nav-tabs li.active > a{
+        background:none !important;
+        color:#fff !important;
+    }
+    .active .caret{
+        border-top-color: white !important;
+        border-bottom-color: white!important;
+    }
+    .tab-v2 .nav-tabs .active{background:#CD0511 !important;}
+    .traders-board .nav-tabs>li{
+        padding: 0;
+        width: 100%;
+    }
+    .tab-v2 .nav-t .full-width-410{
+        width:100% !important;
+    }
+}

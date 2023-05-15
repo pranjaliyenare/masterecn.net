@@ -1,0 +1,144 @@
+.part1 h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+}
+h2 { font-size: 27px;}
+h3.red-color {
+    font-size: 24px;
+}
+.part1 {
+    padding: 40px 0 0;
+    text-align: center;
+    background:url(../images/ADVANCED_INS_main.jpg) center;
+    height: 830px;
+    color: #111;
+    }
+a {font-weight: 500!important; }
+.img-mob { display: none;}
+.part2 {
+    padding: 50px 0;
+    text-align: center;
+    }
+/* part-my class is used in /traders/advanced-insights.html in appmy */
+.part-my h1 {
+    font-weight: 300;
+    text-transform: none;
+    text-align: left;
+    }
+.part-my {
+    text-align: center;
+    }
+.part-my h2{
+    font-size: 20px;
+    color: #111;
+    }
+.part-my .risk-w {
+    color: #CD0511;
+    }
+.part-my .txt {
+    font-size: 14px;
+    }
+.part-my h3 {
+    font-size: 17px;
+    }
+.part-my .icons {
+    width: 60px;
+    height: 60px;
+    }
+.p-t-20 { padding-top: 20px;}
+.red-color { color: #CD0511;}
+.txt {
+    font-size: 16px;
+    color: #111;
+    }
+.m-t-50 { margin-top: 50px;}
+.m-t-30 { margin-top: 30px;}
+.risk-w {
+    font-size: 11px;
+    color: #111;
+    }
+.icons {
+    margin: 10px auto;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.icon1 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon1.svg');
+    }
+.icon2 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon2.svg');
+    }
+.icon3 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon3.svg');
+    }
+.icon4 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon4.svg');
+    }
+.hfsc .icon4{
+    background-image:url('../../../about/advantages/images/hotforex-trading-platforms.html');
+}
+.icon5 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon5.svg');
+    }
+.icon6 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon6.svg');
+    }
+.icon7 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon7.svg');
+    }
+.icon8 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/icon8.svg');
+    }
+.part3 {
+    background: #f7f7f9;
+    text-align: center;
+    padding: 60px 0;
+    }
+.part3 img {
+    margin: auto;
+    }
+.part3 ol li {
+    list-style-position: inside;
+    }
+.arrow {
+    margin: 10px auto;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/advanced-insights/images/arrow.svg');
+    }
+.flex {
+    display: inline-flex;
+    padding: 30px 0;
+    }
+.part4 {
+    padding: 40px 0;
+    text-align: center;
+    }
+.part4 img { margin: auto;}
+.part5 {
+    background: #f7f7f9;
+    text-align: center;
+    padding: 60px 0;
+    }
+.part5 img {
+    margin: auto;
+    }
+
+.body-hfm .col-md-2 { float:right!important;}
+@media (max-width: 1050px) {
+    .part1 {
+        background: #ebebeb;
+        height: auto!important;
+        }
+    .img-mob { display: block;}
+    }
+@media (max-width: 767px) {
+    h1 { font-size: 30px;}
+    h2 { font-size: 19px; }
+    }

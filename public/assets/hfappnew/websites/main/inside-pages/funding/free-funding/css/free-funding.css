@@ -1,0 +1,12 @@
+.ot-callout-info {
+    border-left-color: #95A5A6;
+}
+.ot-callout {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ebebeb;
+    border-left-width: 5px;
+}
+.hoverable:hover {
+    background-color: #efefef !important;
+}

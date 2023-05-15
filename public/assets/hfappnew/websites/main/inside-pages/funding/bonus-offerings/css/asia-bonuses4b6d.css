@@ -1,0 +1,140 @@
+ .asia-bonus-box{
+        margin-bottom:5.7rem;
+        background-color: #f0efee;
+        padding-top:3rem;
+        padding-left:3rem;
+        padding-right:3rem;
+        margin-right:0rem;
+        margin-left:0rem;
+    }
+    .arrows-red-outline li {
+        color:#000000;
+        margin-bottom:2rem;
+
+    }.arrows-red-outline li:before {
+        content: url("https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/funding/bonus-offerings/images/tick.svg");
+        display:block;
+        height:20px;
+        width:20px;
+        float:left;
+        margin-right:1rem;
+    }
+    .asia-bonus-box .bonus-title{
+        font-size:7rem;
+        font-weight:600;
+        line-height: 6rem;
+    }
+    .bonus-number{
+        font-size:13rem;
+        font-weight:700;
+        padding-left:4rem;
+        padding-top:4rem;
+    }
+    .bonus-button{
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color:#CD0511;
+        padding: 5px 12px;
+        color: #ffffff !important;
+
+    }
+    .bonus-button:hover{
+        background-color:#A30008;
+        color: #ffffff !important;
+    }
+    .upper-content{
+       padding:3rem;
+    }
+    .bottom-content{
+        padding-top:2rem;
+    }
+    .bonus-hr{
+        border-top: 1px solid #000;
+        margin-top:0rem;
+        margin-bottom:0rem;
+        margin-right:-3rem;
+        margin-left:2rem;
+    }
+    .asia-bonus-box .body-lang-rtl .bonus-title {
+        font-size: 5rem;
+        line-height: 6.7rem;
+    }
+    .body-lang-rtl .arrows-red-outline li{
+        list-style: none;
+    }
+    .body-lang-rtl .arrows-red-outline li:before{
+        float: right;
+        margin-left: 1rem;
+        margin-right: auto;
+    }
+    .country-jp .no-deposit-bonus .bonus-number{
+        padding-left: 0;
+        margin-left: -1.9rem;
+    }
+     .deposit-bonus .bonus-number{
+        padding-left: 0rem;
+    }
+    @media (max-width:1200px) and (min-width:992px){
+        .bonus-number{
+            padding-left:0rem;
+        }
+        .country-jp .no-deposit-bonus .bonus-number{
+            padding-left: 0;
+            margin-left: -5.9rem;
+        }
+        .deposit-bonus .bonus-number{
+            margin-left: -3rem;
+        }
+
+    }
+    @media (max-width:992px) and (min-width:768px){
+        .bonus-number{
+            padding-left:0rem;
+        }
+        .buttons_mobile{
+            padding-bottom:2rem;
+        }
+        .country-jp .no-deposit-bonus .bonus-number{
+            font-size: 9rem;
+        }
+        .deposit-bonus .bonus-number{
+            margin-left: -3rem;
+            font-size:11rem;
+        }
+    }
+    @media (max-width:768px){
+        .upper-content{
+            text-align:center;
+            padding:0rem;
+        }
+         .bonus-number{
+            padding-left:0rem;
+            padding-top:3rem;
+            font-size:9rem;
+        }
+         .asia-bonus-box .bonus-title{
+            font-size:6rem;
+         }
+        .buttons_mobile{
+            padding-bottom:2rem;
+        }
+        .country-jp .no-deposit-bonus .bonus-number{
+            margin-left: auto;
+        }
+        .asia-bonus-box {
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    @media (max-width:500px){
+         .bonus-number{
+            font-size:6rem;
+         }
+         .asia-bonus-box .bonus-title {
+            font-size: 5rem;
+            line-height: 5rem;
+            margin-bottom: 0;
+        }
+    }

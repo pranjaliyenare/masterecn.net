@@ -1,0 +1,59 @@
+.lang-ph{background:url('flags_sprite.png') no-repeat -163px -25px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-ro{background:url('flags_sprite.png') no-repeat -136px -25px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-hu{background:url('flags_sprite.png') no-repeat -112px -25px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-ar{background:url('flags_sprite.png') no-repeat -59px -4px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-id{background:url('flags_sprite.png') no-repeat -293px -4px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-th{background:url('flags_sprite.png') no-repeat -267px -3px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-vn{background:url('flags_sprite.png') no-repeat -6px -20px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-tr{background:url('flags_sprite.png') no-repeat -84px -24px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-my{background:url('flags_sprite.png') no-repeat -30px -22px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-fa{background:url('flags_sprite.png') no-repeat -344px -3px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-bn{background:url('flags_sprite.png') no-repeat -110px -4px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-ru{background:url('flags_sprite.png') no-repeat -217px 0;width:16px;height:14px;display:inline-block;float:left;margin-top:4px}
+.lang-sk{background:url('flags_sprite.png') no-repeat -242px 0;width:16px;height:14px;display:inline-block;float:left;margin-top:4px}
+.lang-zh{background:url('flags_sprite.png') no-repeat no-repeat -190px -26px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-ko{background:url('flags_sprite.png') no-repeat -136px -4px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-en{background:url('flags_sprite.png') no-repeat -394px -2px;width:16px;height:14px;display:inline-block;float:left;margin-top:4px}
+.lang-fr{background:url('flags_sprite.png') no-repeat -320px -2px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-cz{background:url('flags_sprite.png') no-repeat -30px -4px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-el{background:url('flags_sprite.png')-417px -1px;width:16px;height:15px;display:inline-block;float:left;margin-top:4px}
+.lang-it{background:url('flags_sprite.png') no-repeat -161px -1px;width:16px;height:14px;display:inline-block;float:left;margin-top:4px}
+.lang-pt{background:url('flags_sprite.png') no-repeat -59px -22px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-cn{background:url('flags_sprite.png') no-repeat -6px -3px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-pl{background:url('flags_sprite.png') no-repeat -189px -2px;width:16px;height:14px;display:inline-block;float:left;margin-top:4px}
+.lang-es{background:url('flags_sprite.png') no-repeat -370px -2px;width:16px;height:15px;display:inline-block;float:left;margin-top:4px}
+.lang-de{background:url('flags_sprite.png') no-repeat -439px 0;width:16px;height:14px;display:inline-block;float:left;margin-top:4px}
+.lang-bg{background:url('flags_sprite.png') no-repeat -86px 0;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-ur{background:url('pk.svg') no-repeat; background-size: 16px 11px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+.lang-hi{background:url('in.svg') no-repeat; background-size: 16px 11px;width:16px;height:11px;display:inline-block;float:left;margin-top:4px}
+
+
+.lang-jp {
+    background: url('flags_sprite.png') no-repeat -216px -25px;
+	width: 16px;
+	height: 11px;
+    display: inline-block;
+    float: left;
+    margin-top: 4px
+}
+
+
+.lang-no {
+    background: url('flags_sprite.png') no-repeat;
+	width: 16px;
+	height: 11px;
+    display: inline-block;
+    float: left;
+    margin-top: 4px
+}
+.hfza .lang-pt,
+.hfsv .lang-pt,
+.lang-pt-br {
+    background: url('flags_sprite.png') no-repeat -245px -25px;
+	width: 16px;
+	height: 11px;
+    display: inline-block;
+    float: left;
+    margin-right: 2px;
+    margin-top: 4px;
+}

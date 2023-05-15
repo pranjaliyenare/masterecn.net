@@ -1,0 +1,178 @@
+.no_translation {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+.translations_found,
+.translations_found * {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+/* DEBUG MODAL */
+#pages-debug.modal {/*text-align: center!important;*/}
+#pages-debug .modal-content {background: #fff!important;}
+#pages-debug .modal-content .modal-header {border-bottom: 1px solid #e5e5e5!important;}
+#pages-debug .modal-content .modal-header h4 {color: #000!important;}
+#pages-debug .modal-content .modal-body {padding: 15px;}
+
+/* Page Debug - settings icon */
+.fa-cogs:before {
+    cursor: pointer;
+    padding: 15px 15px 15px 0;
+}
+
+/* Page Debug - Country */
+.country_debug .country_text {
+    position:fixed;
+    bottom:43px;
+    text-align:left;
+    padding:15px;
+    z-index:100000;
+    text-shadow:0px 0px 5px rgba(150, 150, 150, 1);
+    cursor:pointer;
+}
+.country_debug .country_text.new_country_deb {
+    color:#CD0511;
+}
+.country_debug .country_text.current_country_deb {
+    color:#999999;
+}
+.item img.wire_transfer {
+    height: 90px;
+    margin-top: -3px;
+}
+.btn-u.btn-block {
+    text-align: center;
+}
+.extra_text img {
+    border-radius: 0.42rem;
+}
+
+/* section boxes */
+.outerBoxTools {
+    padding-top: 25px;
+    }
+.outerBoxTools .boxTools {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    float: left;
+}
+
+.outerBoxTools .tools-box {
+    padding: 0px 15px 15px 25px;
+    min-height: 180px;
+}
+.outerBoxTools .categories-btn {
+    position: absolute;
+    bottom: 10px;
+}
+@media (max-width: 767px) {
+    .categories-img {
+        margin: auto;
+    }
+    .categories-btn {
+        position: absolute;
+        bottom: 10px;
+        right: 43%;
+    }
+    .outerBoxTools {
+        text-align: center;
+    }
+}
+.dropdown-content.width-140,
+.header-dropdown-content.dropdown-content.width-140{
+    width:140px !important
+}
+.dropdown-content.width-260,
+.header-dropdown-content.dropdown-content.width-260{
+    width:260px !important
+}
+/* forms */
+.form-control {
+    box-shadow: none;
+    border-radius: 0.42rem;
+}
+.hfsc .cc-cookies,
+.hfuk .cc-cookies,
+.hfae .cc-cookies,
+.hfsv .cc-cookies{
+    bottom: 0px !important;
+}
+.pb-10{
+    padding-bottom:10px;
+}
+.ml-5{
+    margin-left:5px
+}
+.hfsv .terms-cond {
+    margin-top: -5px;
+    margin-right: 45px;
+}
+.hfsv .header-fixed-shrink .terms-cond{
+    margin-top: 0;
+}
+.topTextRisk a,
+.ScrollTextRisk span {
+    color: #999999;
+}
+#js-riskMinimizeButton{
+    display: none
+}
+/* HFM logo */
+@media (min-width: 992px){
+    .header-fixed.body-hfm .header-v6.header-classic-white .navbar-brand img.shrink-logo{
+        width: 122px;
+        margin-left:0
+    }
+}
+.body-hfm .header-fixed-shrink .logo-link{
+    z-index: 1;
+    position: relative;
+}
+.body-hfm .header-fixed-shrink img.shrink-logo{
+    width: 90px!important;
+    margin-top: 0!important;
+}
+@media (min-width: 1200px){
+     .hfmu.body-hfm .header-sticky .logoTop {
+        margin-left: 0;
+    }
+}
+
+/* Rounded Borders */
+.rounded{border-radius: 0.42rem !important;}
+.rounded-top{border-radius:0.42rem 0.42rem 0 0 !important;}
+.rounded-bottom{border-radius:0 0 0.42rem 0.42rem !important;}
+.rounded-left{border-radius:0.42rem 0 0 0.42rem !important;}
+.rounded-right{border-radius:0 0.42rem 0.42rem 0 !important;}
+.rounded-top-left{border-radius:0.42rem 0 0 0 !important;}
+.rounded-top-right{border-radius:0 0.42rem 0 0 !important;}
+.rounded-bottom-left{border-radius:0 0 0 0.42rem !important;}
+.rounded-bottom-right{border-radius:0 0 0.42rem 0 !important;}
+
+/* Table section in trading-instruments */
+.dataTables_length select,
+.dataTables_filter input {
+    border-radius: 0.42rem;
+}
+.paginate_button a {
+    border-radius: 0.42rem !important;
+}
+
+/* Remove center element */
+.centering-margin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* was in mt5-terminal */
+table.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centering.img-pd{
+    margin-left: auto;
+    margin-right: auto;
+}

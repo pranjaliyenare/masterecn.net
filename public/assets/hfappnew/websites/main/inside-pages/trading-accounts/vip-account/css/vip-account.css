@@ -1,0 +1,11 @@
+#vip-account #myCarousel .carousel-inner div.item {
+    width: 100%;
+}
+#vip-account .carousel-inner > .item { }
+#vip-account .SLiderContainer { height: 297px;}
+
+#vip-account blockquote:hover,
+#vip-account blockquote.text-right:hover {
+    border-color:#F5C423;
+}
+#vip-account .risk-war {color: #999;}

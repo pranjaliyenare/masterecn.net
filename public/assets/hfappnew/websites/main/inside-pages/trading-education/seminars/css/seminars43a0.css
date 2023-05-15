@@ -1,0 +1,972 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #222835;
+}
+
+.header img {
+	padding-top: 10px;
+}
+
+.hr-master {
+	border-color: #75767a;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: -0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+.fullWidth {
+	width: 100%;
+	float: left;
+}
+
+.id-event-header-img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+a {
+	text-decoration: none;
+	color: #cd0a0a;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.small {
+	font-size: 80%;
+}
+
+.meta {
+	color: white;
+}
+
+input.form-control, select.form-control {
+	color: white !important;
+}
+
+select option {
+	color: #000;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: white;
+}
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+	color: white;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+	color: white;
+}
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+	color: white;
+}
+
+/* Internet Explorer 10-11*/
+.form-control::-ms-input-placeholder {
+	color: white;
+}
+
+/* Microsoft Edge */
+
+.trophy {
+	width: 100px;
+	height: 100px;
+	padding: 35px 0px 0px 90px;
+	background-image: url(../img/trophy.html);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: left 0px bottom 0px;
+	margin: -15px 0px 0px -50px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.trophy.second {
+	width: 85px;
+	height: 100px;
+	padding: 40px 0px 0px 75px;
+	background-image: url(../img/trophy.html);
+	background-size: 85px 85px;
+	background-repeat: no-repeat;
+	background-position: left 0px bottom 0px;
+	margin: -15px 0px 0px -50px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.trophy.third {
+	width: 70px;
+	height: 100px;
+	padding: 45px 0px 0px 65px;
+	background-image: url(../img/trophy.html);
+	background-size: 70px 70px;
+	background-repeat: no-repeat;
+	background-position: left 0px bottom 0px;
+	margin: -15px 0px 0px -50px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.btn-u-lg, a.btn-u-lg {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.white-bold {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+.btn-u {
+	border: 0;
+	color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 6px 13px;
+	position: relative;
+	background: #CD0511;
+	white-space: nowrap;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.btn-u.btn-u-green {
+    background: #079246;
+}
+.btn-u-lg, a.btn-u-lg {
+    font-size: 14px;
+    padding: 10px 25px;
+	float:right;
+	margin-top: -17px;
+}
+
+.btn-red {
+	background-color: #cd0a10;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 16px;
+	border: 0;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+a.btn-secondary {
+	background-color: #75767a;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 10px;
+	cursor: pointer;
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.42rem;
+}
+
+a.btn-secondary.active {
+	background: #34526a;
+}
+
+a.btn-secondary:hover {
+	color: #ccc;
+}
+
+.form-control {
+	height: 45px;
+	background-color: transparent;
+}
+
+label {
+	font-weight: normal;
+}
+
+dl {
+	font-size: 16px;
+}
+
+dl dt {
+	float: left;
+	clear: left;
+	width: 185px;
+	text-align: right;
+}
+
+.body-lang-ar dl dt {
+	float: right;
+	text-align: left;
+}
+
+dl dt::after {
+	content: ":";
+}
+
+.body-lang-ar dl dt::after {
+	content: "";
+}
+
+dl dd {
+	margin: 0 0 0 150px;
+	padding: 0 0 0.5em 50px;
+}
+
+.body-lang-ar dl dd {
+	margin: 0 150px 0 0;
+	padding: 0 50px 0.5em 0;
+}
+
+.table-row {
+	display: table;
+	width: 100%;
+}
+
+.table-row .table-cell {
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+header {
+	background: #111111;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+header #header-img {
+	background-image: url(../img/Nigeria/header.html);
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 50px;
+}
+
+header h1 span {
+	margin-top: 200px;
+	color: #cd0a10;
+}
+
+header h2 {
+	font-size: 25px;
+	padding: 0px 40px;
+	top: 50%;
+}
+
+header h2 span {
+	color: #cd0a10;
+}
+
+header p {
+	font-size: 20px;
+}
+
+.titleofpage {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	background: none;
+}
+
+titleofpage h1 {
+	font-size: 80px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+titleofpage h1 span {
+	margin-top: 200px;
+	color: #cd0a10;
+}
+
+titleofpage h2 span {
+	color: #cd0a10;
+}
+
+titleofpage p {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.titlemargins {
+	color: white;
+	margin-top: 105px;
+	margin-bottom: 105px;
+}
+
+.titlemargins h1 {
+	font-size: 65px;
+}
+
+.titlemargins p {
+	font-size: 36px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+section.registration-form {
+	padding: 20px 0;
+}
+/*
+section.registration-form p.meta {
+	margin-bottom: 20px;
+}
+*/
+section.registration-form input[type=checkbox] {
+	float: left;
+	margin-right: 5px;
+}
+
+section.registration-form label {
+	display: inline;
+	margin: 0;
+	line-height: 1;
+	color: #ffffff;
+}
+
+section.registration-form p a, section.registration-form label a {
+	color: #cd0a10;
+}
+
+section.seminar-info {
+	text-align: left;
+	padding: 20px 0px;
+	margin-bottom: -10px;
+	z-index: 10;
+}
+
+section.seminar-info .tab-content {
+	margin-bottom: 30px;
+}
+
+section.seminar-info h3 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+section.seminar-info .tab-pane img.img-responsive {
+	margin: 0 auto;
+}
+
+section.seminar-info small p span a {
+	color: #cd0a0a;
+	text-decoration: none
+}
+
+section.seminar-prizes {
+	position: relative;
+	margin: 10px 0px 0px 0px;
+	padding: 30px 0px 0px 0px;
+	z-index: 20;
+	color: #fff;
+}
+
+section.seminar-prizes h2 {
+	font-weight: bold;
+	margin: 20px 0px 0px 0px;
+}
+
+section.seminar-prizes .sem-prize-bg-grey {
+	z-index: 0;
+	width: 80%;
+	height: 100px;
+	border-bottom: 120px solid #706e6f;
+	border-right: 40px solid transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+section.seminar-prizes .sem-prize-bg-red {
+	background-color: #cd121b;
+	width: 80%;
+	height: 130px;
+	position: absolute;
+	right: 0;
+	top: -10px;
+	z-index: -1;
+}
+
+section.seminar-speaker {
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+section.seminar-speaker h2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+section.seminar-speaker h3 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 20px;
+	margin-bottom: -17px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+section.seminar-speaker p {
+	color: white;
+	line-height: 1.8;
+	font-size: 16px;
+	margin-bottom: 200px;
+	margin-top: 20px;
+}
+
+.border-special {
+	border: 5px solid #cd0a0a;
+	padding: 17px;
+	margin-left: -25px;
+	width: 531px;
+	margin-top: 30px;
+}
+
+section.seminars-prizes {
+	padding: 30px 0;
+}
+
+section.seminars-prizes h2 {
+	text-align: center;
+	color: white;
+	margin-bottom: 30px;
+}
+
+section.seminars-prizes .prize {
+	width: 24vw;
+	height: 19vw;
+	background-size: inherit;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 14px;
+}
+
+section.seminars-prizes .prize span {
+	font-size: 64px;
+	font-weight: bold;
+	font-family: 'Times New Roman';
+}
+
+section.seminars-prizes .prize.prize-1 {
+	background-image: url(../img/gold.png);
+	color: #c89c1c;
+}
+
+section.seminars-prizes .prize.prize-2 {
+	background-image: url(../img/silver.png);
+	color: #999898;
+}
+
+section.seminars-prizes .prize.prize-3 {
+	background-image: url(../img/bronze.png);
+	color: #b97245;
+}
+
+section.seminars-prizes p {
+	text-align: center;
+}
+
+section.seminars-prizes p a {
+	color: #fff;
+}
+
+section.seminar-schedule {
+	background: #333 url(../img/building.jpg);
+	background-size: cover;
+	color: #fff;
+	padding: 20px 0px;
+}
+
+section.seminar-schedule h1 {
+	padding: 20px;
+	margin: 40px 0px 10px 0px;
+	border: 5px solid #cd0a0a;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+	/*&:hover{
+		background-color: #000;
+		opacity: 0.7;
+	}*/
+}
+
+section.seminar-schedule h2 {
+	/*font-weight: bold;*/
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+section.seminar-schedule h3 {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* TABS */
+.nav-tabs {
+	border-bottom: 2px solid #75767a;
+}
+
+.nav-tabs > li {
+	margin-bottom: 0px;
+}
+
+.nav > li > a {
+	padding: 10px 35px;
+}
+
+.nav-tabs > li > a {
+	background: #75767a;
+	color: #fff;
+	border-bottom: 0px;
+	height: 39px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	border: none;
+	text-decoration: none;
+	background-color: #34526a;
+	color: #fff;
+	font-weight: bold;
+}
+
+.nav-tabs > li > a {
+	border-radius: 0px;
+}
+
+.bx-wrapper {
+	box-shadow: none;
+	border: 0px;
+	background: none;
+}
+
+.border-red {
+	border: 2px solid #CD0511;
+}
+
+.bx-wrapper .bx-prev {
+	background: url("../images/previous_icon.html") no-repeat !important;
+	width: 47px !important;
+	height: 47px !important;
+	left: -26px !important;
+	margin-top: -23px !important;
+}
+
+.bx-wrapper .bx-next {
+	background: url("../images/next_icon.html") no-repeat !important;
+	width: 47px !important;
+	height: 47px !important;
+	right: -26px !important;
+	margin-top: -23px !important;
+}
+
+.bx-wrapper img {
+	border: 3px solid #cd0511;
+}
+
+.slider {
+	direction: ltr !important;
+}
+
+.section-body {
+	margin-top: 30px;
+	padding: 0 0px;
+}
+
+.section-body .section-text {
+	margin-top: 30px;
+	color: #fff;
+	line-height: 30px;
+	font-size: 16px;
+	float: left;
+}
+
+.section-body .section-text strong {
+	color: #E7362E;
+}
+
+.section-text::after {
+	clear: both;
+}
+
+.nav_arrow_down {
+	text-align: center;
+	animation: bounce 1s infinite alternate;
+	-webkit-animation: bounce 1s infinite alternate;
+	position: absolute;
+	bottom: 5%;
+	left: 48%;
+}
+
+.color-red {
+	color: #CD0511;
+}
+
+/* END tabs*/
+.bootstrap-dialog-message a {
+	color: #cd0a10;
+}
+
+.bootstrap-dialog-message br {
+	display: none;
+}
+
+@media (max-width: 1200px) {
+	body {
+		background-size: inherit;
+	}
+
+	section.seminars-prizes .prize {
+		background-size: contain;
+	}
+}
+
+@media (max-width: 992px) {
+	body {
+		background-size: inherit;
+	}
+
+	.btn-u-lg, a.btn-u-lg {
+	float:none;
+    margin-top: 17px;
+	}
+
+	.titlemargins {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.titlemargins h1 {
+		font-size: 50px;
+	}
+
+	.titlemargins p {
+		font-size: 36px;
+	}
+
+	.border-special {
+		width: 100%;
+		border: none;
+	}
+
+	section.seminar-prizes {
+		padding-bottom: 30px;
+		text-align: center;
+		background: #cd0a10;
+	}
+
+	section.seminar-prizes .sem-prize-bg-grey, section.seminar-prizes .sem-prize-bg-red {
+		display: none;
+	}
+
+	section.seminar-speaker {
+		margin: 0 auto;
+		background-image: none;
+		background-color: #34526a;
+	}
+
+	section.seminar-info h3 {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	section.seminars-prizes .prize span {
+		font-size: 36px;
+	}
+
+	.trophy, .trophy.second, .trophy.third {
+		margin: 0px calc(37%);
+	}
+
+	.trophy.second {
+		margin: 0px calc(38%);
+	}
+
+	.trophy.third {
+		margin: 0px calc(39%);
+	}
+}
+
+@media (max-width: 768px) {
+
+	body {
+		background-size: inherit;
+	}
+	.btn-u-lg, a.btn-u-lg {
+	float:none;
+    margin-top: 17px;
+	}
+
+	.titlemargins {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.titlemargins h1 {
+		font-size: 35px;
+	}
+
+	.titlemargins p {
+		font-size: 25px;
+	}
+
+	.border-special {
+		width: 100%;
+		border: none;
+	}
+
+	section.seminar-speaker {
+		height: auto;
+	}
+
+	section.seminar-speaker {
+		margin: 0 auto;
+		background-image: none;
+		background-color: #34526a;
+	}
+
+	section.seminar-info h3 {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	section.seminars-prizes .prize span {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 515px) {
+
+	.btn-u-lg, a.btn-u-lg {
+	float:none;
+    margin-top: 17px;
+	}
+
+	body {
+		background-image: none;
+	}
+
+	.titlemargins {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.titlemargins h1 {
+		font-size: 30px;
+	}
+
+	.titlemargins p {
+		font-size: 20px;
+	}
+
+	header {
+		padding-bottom: 0px;
+	}
+
+	header h1 {
+		font-size: 28px;
+	}
+
+	header h2 {
+		font-size: 20px;
+	}
+
+	header #header-img {
+		height: auto;
+	}
+
+	.border-special {
+		width: 100%;
+		border: none;
+	}
+
+	a.btn-secondary {
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.nav-tabs {
+		font-size: 12px;
+	}
+
+	.trophy, .trophy.second, .trophy.third {
+		margin: 0px calc(23%);
+	}
+
+	.trophy.second {
+		margin: 0px calc(25%);
+	}
+
+	.trophy.third {
+		margin: 0px calc(27%);
+	}
+
+	section.seminar-info h3 {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	section.seminar-schedule h1, section.seminar-schedule h2, section.seminar-schedule h3 {
+		font-size: 20px;
+	}
+
+	section.seminar-speaker {
+		margin: 0 auto;
+		background-image: none;
+		background-color: #34526a;
+	}
+
+	dl {
+		font-size: 14px;
+	}
+
+	dl dt {
+		float: none;
+		text-align: left;
+	}
+
+	dl dd {
+		margin: 0 0 0 10px;
+		padding: 0 0 1em 0px;
+	}
+
+	.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+	    display: none!important;
+    }
+
+}
+
+.body-lang-ar form .form-col {
+	float: right;
+}
+
+.body-lang-ar .ar {
+	text-align: right;
+	direction: rtl;
+}
+
+.body-lang-ar .form-inline .form-control {
+	text-align: right;
+	direction: rtl;
+}
+
+.body-lang-ar section.registration-form label {
+	text-align: right;
+	direction: rtl;
+}
+
+.body-lang-ar section.registration-form input[type=checkbox] {
+	float: right;
+}
+
+.body-lang-ar .footer-v6 {
+	direction: rtl;
+}
+
+.body-lang-ar .semi-details .sem-item,
+.body-lang-ar .nav-tabs > li,
+.body-lang-ar dl dt {
+	float: right;
+	margin-bottom: 30px;
+}
+
+.body-lang-ar section.seminar-info {
+	text-align: right;
+}
+
+.body-lang-ar .ar-logo-left,
+.body-lang-ar .ar-left {
+	float: left !important;
+}
+input.form-control, select.form-control {
+	color: #888 !important;
+}
+/*# sourceMappingURL=seminars.css.map */
+.cc-cookies {
+    bottom: 55px !important;
+    background: url(../images/000000-0.8.html) repeat !important;
+    opacity: 1 !important;
+    font-size: 11px !important;
+    width:100%;
+}
+/* Terms modal */
+.modal-content {
+    background: #fff;
+}
+.modal-content .modal-header{
+    border-color: #e5e5e5
+}
+.btn-default {
+    border-color: transparent;
+}
+.modal-dialog {
+    vertical-align: inherit;
+}
+.modal-content .modal-body {
+    padding: 40px 20px;
+}
+.btn-default:focus,
+.btn-default:active,
+.btn-default:hover {
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+}
+
+/* EXPO */
+.expo-lp .title {font-size: 40px!important;color:#fff!important;}
+.expo-lp .seminars-prizes,
+.expo-lp .seminar-schedule,
+.expo-lp .registration-form {
+    background: transparent !important
+}
+@media (max-width: 767px) {
+    .expo-lp h2 {text-align: center!important}
+    .expo-lp .title {font-size: 28px!important;}
+    .expo-lp .prizes_extra_img_2,
+    .expo-lp .prizes_extra_img_3 {
+        display: block; width: 100%; max-width: 100%; height: auto;
+    }
+}
+#seminars-page{
+    background-repeat:no-repeat
+}
+.fully-booked{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: solid 1px;
+    padding: 60px;
+    margin-bottom:60px;
+}

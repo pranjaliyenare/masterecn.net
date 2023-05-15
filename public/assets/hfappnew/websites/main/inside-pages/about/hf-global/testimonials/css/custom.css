@@ -1,0 +1,98 @@
+@media (max-width: 991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width: 767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 5rem
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    height: 370px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    background-color: #fff;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.profile {
+    margin-top: 16px;
+    margin-left: 11px
+}
+
+.items {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.slick-slide {
+    margin-top: 20px;
+    margin: 15px;
+    display: block !important;
+    outline: none;
+    height: 400px;
+}
+
+
+.slick-track {
+    top: 80px !important;
+    bottom: 100px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    position: initial !important;
+}
+
+
+.card:hover {
+    -webkit-box-shadow: 6px 7px 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 6px 2px 5px 5px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+
+    -webkit-box-shadow: 6px 7px 5px 5px rgb(0 0 0 / 40%);
+    box-shadow: 6px 2px 5px 5px rgb(0 0 0 / 40%);
+}
+
+.text-center {
+    text-align: center;
+    padding-right: 15px;
+}
+
+.color-red {
+    color: #cd0511;
+}
+
+.color-black {
+    color: #000000;
+    line-height: inherit;
+    font-size: 14px;
+}
+
+.center-testimonials {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: -38px;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 100px;
+}

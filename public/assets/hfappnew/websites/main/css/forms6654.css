@@ -1,0 +1,113 @@
+.titlemargins {
+    margin-top:100px;
+    margin-bottom:115px;
+}
+.accordion-inner{
+    margin: 10px 0;
+}
+.border-r-grey {
+    border-right: 1px solid #555;
+}
+.form-inline .form-control {
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-group input,
+input.form-control,
+select.form-control {
+    color: white !important;
+    border-radius: 0.42rem;
+}
+.form-control::-webkit-input-placeholder {
+    color: white !important;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white !important;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: white !important;
+}
+select option {
+    color: #000;
+}
+.form-group label {
+    width: 100%;
+}
+select,
+.select,
+.form-group .input,
+.form-inline .form-control,
+.form-group{
+    width:100%
+}
+.form-control{
+    width:100%;
+}
+
+/* Webinars Form - white bg */
+.white-bg-form select.form-control,
+.white-bg-form .form-group input,
+.white-bg-form input.form-control,
+.white-bg-form .form-control{
+    color: #555 !important;
+}
+.white-bg-form .form-control::-webkit-input-placeholder {
+    color: #555 !important;
+}
+.white-bg-form .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #555 !important;
+  opacity: 1; /* Firefox */
+}
+.white-bg-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #555 !important;
+}
+.white-bg-form .form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #555 !important;
+}
+
+.white-bg-form .btn-red.form-control,
+.btn-red.form-control{
+    color:white !important
+}
+
+input.form-control.phone-p{
+    width: 25%!important;
+    float: left!important;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+input.form-control.phone-no{
+    float: left;
+    width: 75%!important;
+    display: inline-block;
+}
+.form-group .btn-u,
+.white-bg-form .form-group input.btn-u{
+    width:100%;
+    height:40px;
+    color:white!important;
+    margin-top:10px;
+    text-transform: uppercase;
+    font-weight:700
+}
+.terms-apply{
+    float:left;
+    text-align:left;
+    color:white;
+    font-size:10px
+}
+.white-bg-form .terms-apply{
+    color:black;
+}
+
+#id_phone_number {
+    border-radius: 0 0.42rem 0.42rem 0;
+}
+
+#id_phone_number_prefix {
+    border-radius: 0.42rem 0 0 0.42rem;
+}

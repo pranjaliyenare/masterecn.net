@@ -1,0 +1,150 @@
+ERROR - 2023-03-17 01:38:21 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('tls://smtp.gmai...', 465, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 01:38:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 01:38:21 --> 
+ERROR - 2023-03-17 01:45:36 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('tls://smtp.gmai...', 465, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 01:45:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 01:45:36 --> 
+ERROR - 2023-03-17 01:48:05 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('tls://mail.mast...', 465, 0, 'php_network_get...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 01:48:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 01:48:05 --> 
+ERROR - 2023-03-17 01:52:14 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to ssl://smtp.gmail.com:25 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('ssl://smtp.gmai...', 25, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(104): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 01:52:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 01:52:14 --> 
+ERROR - 2023-03-17 01:58:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('tls://smtp.gmai...', 465, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(104): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 01:58:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 01:58:09 --> 
+ERROR - 2023-03-17 02:29:34 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('tls://smtp.gmai...', 465, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 02:29:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 02:29:34 --> 
+ERROR - 2023-03-17 02:47:34 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to smtp.gmail.com:587 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('smtp.gmail.com', 587, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 02:47:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 02:47:34 --> 
+ERROR - 2023-03-17 03:38:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to tls://smtp.gmail.com:465 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('tls://smtp.gmai...', 465, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 03:38:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 03:38:31 --> 
+ERROR - 2023-03-17 03:57:17 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to ssl://smtp.gmail.com:587 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('ssl://smtp.gmai...', 587, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 03:57:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 03:57:17 --> 
+ERROR - 2023-03-17 04:28:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to ssl://smtp.gmail.com:587 (Network is unreachable) in /home/allianza/public_html/masterecn.net/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', '/home/allianza/...', 1863, Array)
+#1 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1863): fsockopen('ssl://smtp.gmai...', 587, 101, 'Network is unre...', 50)
+#2 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/allianza/public_html/masterecn.net/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/allianza/public_html/masterecn.net/app/Controllers/Home.php(153): CodeIgniter\Email\Email->send()
+#6 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(927): App\Controllers\Home->enquiry_message()
+#7 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/allianza/public_html/masterecn.net/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/allianza/public_html/masterecn.net/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 04:28:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 04:28:09 --> 

@@ -1,0 +1,94 @@
+.wrapper {
+	background: #010101;
+}
+
+.red-line-vertical {
+	border-left: 1px solid #CD0511;
+	padding: 5px 0px 5px 15px;
+}
+
+.awards-text {
+	line-height: 17px;
+	font-size: 12px;
+}
+
+.color-red {
+    line-height:12px;
+    }
+
+.awards-text span {
+	font-size: 10px;
+	font-weight: 700;
+}
+
+.float-img {
+    margin: 0 auto;
+    float: right;
+  }
+
+.no-clear{
+    clear: none;padding:0;
+}
+
+@media (max-width: 990px) {
+	.color-light {
+		margin-top: 90px;
+		text-align: center;
+	}
+	.float-img {
+	float: initial;
+	margin-top: 10px!important;
+	}
+
+	.red-line-vertical {
+		border: none;
+	}
+	.awards-text {
+		text-align: center!important;
+		margin-top: -120px!important;
+		margin-left: 0;
+		!important
+	}
+}
+@media (max-width: 768px) {
+    .color-light {
+        margin-top: 50px;
+        text-align: center;
+    }
+     .red-line-vertical {
+        border: none !important;
+        padding: 5px !important;
+    }
+    .award-img {
+        position: initial!important;
+        top: 0!important;
+        left: 0!important;
+        width: 100%!important;
+        margin: auto!important;
+        text-align: center!important;
+    }
+    .awards-text {
+        text-align: center!important;
+        margin-top: -50px!important;
+        margin-left: 0px;
+        !important
+    }
+}
+@media (max-width: 600px) {
+    .float-img {
+        float: initial;
+       margin-top: 10px!important;
+        }
+
+    .red-line-vertical {
+        border: none !important;
+        padding: 5px !important;
+    }
+    .awards-text {
+        top: 0 !important;
+        left: 0 !important;
+        width: 100%!important;
+        text-align: center!important;
+        margin-left: 0px;!important;
+    }
+}

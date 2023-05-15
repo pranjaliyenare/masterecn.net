@@ -1,0 +1,81 @@
+.numeric-list {padding-left: 15px;}
+
+.indices-background h1 {
+	text-transform: uppercase;
+	}
+
+.indices-background .btn-u {
+    text-transform: uppercase;
+    min-width: 300px;
+    }
+.indices-background {
+	padding: 50px 0;
+	background:url('../images/indices_main_2.jpg') center;
+	height: 560px;
+	}
+
+.indices-background .btn-u-green {
+	margin-right: 20px;
+	}
+.part-2 {
+	text-align: center;
+	padding: 50px 40px 0 40px;
+	}
+.part-2 h2  {
+	color: #CD0511;
+	}
+.icons {
+   	margin: 40px auto auto;
+   	width: 120px;
+   	height: 90px;
+   	background-size: contain;
+   	background-repeat: no-repeat;
+   	background-position: center;
+    }
+.icon1 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_advantages-01.svg');
+    }
+.icon2 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_advantages-02.svg');
+    }
+.icon3 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_advantages-03.svg');
+    }
+.icon4 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_advantages-04.svg');
+    }
+.icon5 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_advantages-05.svg');
+    }
+.icon6 {
+  	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_benefits-01.svg');
+    }
+.icon7 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_benefits-02.svg');
+    }
+.icon8 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_benefits-03.svg');
+    }
+.icon9 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_benefits-04.svg');
+    }
+.icon10 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/indices/images/indices_benefits-05.svg');
+    }
+
+@media (max-width: 992px) {
+   	.flex-boxes {
+   	    display: block;
+   	    }
+    }
+
+@media (max-width: 767px) {
+ 	.indices-background {
+ 	    background: #d4d3d3;
+ 	    height: auto;
+ 	    }
+    .indices-background .btn-u-green {
+	    margin-right: 0;
+	    margin-bottom:20px;
+	    }
+    }

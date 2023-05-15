@@ -1,0 +1,81 @@
+.numeric-list {padding-left: 15px;}
+
+.commodities-background h1 {
+	text-transform: uppercase;
+	}
+
+.commodities-background .btn-u {
+    text-transform: uppercase;
+    min-width: 300px;
+    }
+.commodities-background {
+	padding: 50px 0;
+	background:url('../images/commodities_main_2.html') center;
+	height: 560px;
+	}
+.p-t-350 {
+    padding-top: 350px;
+    }
+.risk-w {
+    color: #1b1c23;
+    padding-top:10px;
+    }
+.commodities-background .btn-u-green {
+	margin-right: 20px;
+	}
+.part-2 {
+	text-align: center;
+	padding: 50px 40px 0 40px;
+	}
+.part-2 h2  {
+	color: #CD0511;
+	}
+.icons {
+   	margin: 40px auto auto;
+   	width: 120px;
+   	height: 90px;
+   	background-size: contain;
+   	background-repeat: no-repeat;
+   	background-position: center;
+    }
+.icon1 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_advantages-01.svg');
+    }
+.icon2 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_advantages-02.svg');
+    }
+.icon3 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_advantages-03.svg');
+    }
+.icon4 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_advantages-04.svg');
+    }
+.icon5 {
+  	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_benefits-01.svg');
+    }
+.icon6 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_benefits-02.svg');
+    }
+.icon7 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_benefits-03.svg');
+    }
+.icon8 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_benefits-04.svg');
+    }
+.icon9 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/commodities/images/commodities_benefits-05.svg');
+    }
+.icon10 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/shares/images/shares_advantages-03.svg');
+    }
+
+@media (max-width: 767px) {
+ 	.commodities-background {
+ 	    background: #d4d3d3;
+ 	    height: auto;
+ 	    }
+    .commodities-background .btn-u-green {
+	    margin-right: 0;
+	    margin-bottom:20px;
+	    }
+    }

@@ -1,0 +1,285 @@
+.instruments-background-1000 {
+    padding: 70px 0 60px 0;
+	background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/1000%2bmain1b26.html?v2') center no-repeat;
+	height: 520px;
+	text-align: center;
+	background-color: #d4d3d3;
+	}
+.instruments-background-3500 {
+    padding: 70px 0 60px 0;
+	background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/3500%2bmain1b26.jpg?v2') center no-repeat;
+	height: 520px;
+	text-align: center;
+	background-color: #d4d3d3;
+	}
+.instruments-background-1200 {
+    padding: 70px 0 60px 0;
+	background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/1200%2bmain1b26.html?v2') center no-repeat;
+	height: 520px;
+	text-align: center;
+	background-color: #d4d3d3;
+	}
+
+.instruments-background-1100 {
+    padding: 70px 0 60px 0;
+	background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/1100%2bmain.html') center no-repeat;
+	height: 520px;
+	text-align: center;
+	background-color: #d4d3d3;
+	}
+.instruments-background-150 {
+    padding: 70px 0 60px 0;
+	background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/150%2bmain1b26.html?v2') center no-repeat;
+	height: 520px;
+	text-align: center;
+	background-color: #d4d3d3;
+	}
+.instruments-background-1000  h1,
+.instruments-background-1100  h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 32px;
+	}
+.instruments-background-1000  h2,
+.instruments-background-1100  h2 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 300px;
+	color: #6e6d6d;
+	}
+
+.instruments-background-150  h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 32px;
+	}
+.instruments-background-150  h2 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 300px;
+	color: #6e6d6d;
+	}
+.instruments-background-1200  h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 32px;
+	}
+.instruments-background-1200  h2 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 300px;
+	color: #6e6d6d;
+	}
+.instruments-background-3500  h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 32px;
+	}
+.instruments-background-3500  h2 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding-top: 300px;
+	color: #6e6d6d;
+	}
+
+.pd-t-70 {padding-top: 70px; }
+.pd-t-50 {padding-top: 50px;}
+.products {
+	padding:80px 0;
+	text-align: center;
+}
+.products .prod {
+	width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+	}
+.products .prod-1 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-01.svg');
+	}
+.products .prod-2 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-02.svg');
+	}
+.products .prod-3 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-03.svg');
+	}
+.products .prod-4 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-04.svg');
+	}
+.products .prod-5 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-05.svg');
+	}
+.products .prod-6 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-06.svg');
+	}
+.products .prod-7 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-07.svg');
+	}
+.products .prod-8 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-08.svg');
+	}
+.products .prod-9 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-09.svg');
+	}
+.products .prod-10 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-10.svg');
+	}
+.products .prod-11 {
+	background-image:url('https://static.hfm.com/assets/hf-optimized/images/hfmain/trading-instruments/products_final_icons-11.svg');
+	}
+.products .products-text {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+	}
+
+.middle-text {
+	font-size:15px;
+	padding: 80px 0 30px 0;
+	}
+.risk-w {
+	color: #1b1c23;
+	}
+.products-btns .btn-u-green {
+    margin-right: 20px;
+	}
+.products-btns .btn-u {
+    text-transform: uppercase;
+    min-width: 300px;
+	}
+.text-left { text-align: left!important;}
+.prod-box {
+	margin-top: 90px;
+	padding:50px 70px;
+	-webkit-box-shadow: -2px 4px 10px 0px rgba(158,158,158,1);
+	-moz-box-shadow: -2px 4px 10px 0px rgba(158,158,158,1);
+	box-shadow: -2px 4px 10px 0px rgba(158,158,158,1);
+	}
+.prod-text {
+	text-align: left;
+	font-size: 17px;
+	}
+.pd-r-60 {padding-right: 60px; }
+.font-15 {font-size: 15px;}
+
+@media (max-width: 992px) {
+	.pd-t-70 { padding-top: 0; }
+	.prod-box div {padding-right: 0;padding-left: 0;}
+	.pd-r-60 { padding-right: 0;}
+	}
+
+@media (max-width: 767px) {
+    .instruments-background-3500 {
+        background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/3500%2bmain1b26.jpg?v2') center no-repeat;
+        height: auto!important;
+    }
+    .instruments-background-1200 {
+        background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/1200%2bmain1b26.html?v2') center no-repeat;
+        height: auto!important;
+
+    }
+    .instruments-background-1100 {
+        background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/1100%2bmain.html') center no-repeat;
+        height: auto!important;
+
+    }
+    .instruments-background-150 {
+        background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/150%2bmain1b26.html?v2') center no-repeat;
+        height: auto!important;
+    }
+	.instruments-background-1000 {
+		background:url('../../../../../hf-optimized/images/hfmain/trading-instruments/1000%2bmain1b26.html?v2') center no-repeat;
+		height: auto!important;
+		}
+	.products {
+	    padding:0;
+	    margin: 40px 0;
+        }
+    .products .products-text {
+        font-size: 14px;
+        }
+	}
+@media (max-width: 700px) {
+	.products-btns .btn-u-green {
+    	margin-right: 0;
+    	margin-bottom:10px;
+    }
+    .prod-box br{
+        display: none
+    }
+    .prod-box div{
+        margin-bottom:25px
+    }
+}
+
+@media (max-width: 525px) {
+
+    .instruments-background-3500 {
+        background: url('../../../../../hf-optimized/images/hfmain/trading-instruments/3500_mob1b26.jpg?v2') center no-repeat;
+    }
+
+    .instruments-background-1200 {
+        background: url('../../../../../hf-optimized/images/hfmain/trading-instruments/1200_mob1b26.jpg?v2') center no-repeat;
+    }
+
+    .instruments-background-1100 {
+        background: url('../../../../../hf-optimized/images/hfmain/trading-instruments/1100_mob1b26.html?v2') center no-repeat;
+    }
+
+    .instruments-background-150 {
+        background: url('../../../../../hf-optimized/images/hfmain/trading-instruments/150_mob1b26.html?v2') center no-repeat;
+    }
+
+    .instruments-background-1000 {
+        background: url('../../../../../hf-optimized/images/hfmain/trading-instruments/1000_mob1b26.html?v2') center no-repeat;
+    }
+
+    .instruments-background-3500,
+    .instruments-background-1200,
+    .instruments-background-1100,
+    .instruments-background-150,
+	.instruments-background-1000 {
+        background-size: cover;
+        padding: 0px;
+        background-position-y: -15px;
+
+    }
+    .instruments-background-3500 h1,
+    .instruments-background-1200 h1,
+    .instruments-background-1100 h1,
+    .instruments-background-150 h1,
+	.instruments-background-1000 h1 {
+        padding: 30px 20px;
+        font-size: 25px;
+
+    }
+    .instruments-background-3500 h2,
+    .instruments-background-1200 h2,
+    .instruments-background-1100 h2,
+    .instruments-background-150 h2,
+	.instruments-background-1000 h2 {
+        padding-top: 160px;
+        padding-bottom: 23px;
+        display: block;
+
+    }
+}
+
+@media (max-width: 370px) {
+
+    .instruments-background-3500 h2,
+    .instruments-background-1200 h2,
+    .instruments-background-1100 h2,
+    .instruments-background-150 h2,
+	.instruments-background-1000 h2 {
+        padding-top: 90px;
+
+    }
+
+}

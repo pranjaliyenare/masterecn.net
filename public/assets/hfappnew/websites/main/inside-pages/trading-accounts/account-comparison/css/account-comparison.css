@@ -1,0 +1,67 @@
+.main_column_container{width:940px !important;}
+.m-0{margin:0}
+.noback td{
+    background:#FFFFFF !important;
+    border:none !important;
+}
+.panel{
+    margin-bottom: 30px;
+}
+.accouttype{
+    display:none;
+}
+.accountcomparison tr th {
+    background-color: #EEEEEE !important;
+    border-color: #CD0511 !important;
+}
+.account-heading {
+    background-color:#EEEEEE !important;
+    color:black !important;
+    border-color:#CD0511 !important;
+}
+table.accountcomparison i.fa-check{
+    color:#96CE40;
+    font-size: 17px;
+}
+table.accountcomparison i.fa-times{
+    color:#AB0101;
+    font-size: 17px;
+}
+table.accountcomparison td{
+    font-size: 12px;
+}
+table.accountcomparison th{
+    font-size: 13px;
+}
+td.accouttype, th.accouttype{
+    text-align:center;
+}
+.titleLeftAcc{
+    font-weight:bold;
+}
+.ribbon{
+    float:right;
+    position:relative;
+    margin-top:-53px;
+    display:none;
+}
+.account.not_hover:hover {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    cursor: auto;
+}
+.box_account_type {
+    min-height: 372px;
+}
+@-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+}
+i.fa-check {color: #96CE40;font-size: 17px;}
+i.fa-times {color: #AB0101;font-size: 17px;}
+.accouttype.not_hover {
+    display: table-cell;
+}
+.account-heading {padding: 10px 10px;}

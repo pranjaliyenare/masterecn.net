@@ -1,0 +1,129 @@
+/***************************** Slider *************************************/
+
+.New_sliderContainer{
+    margin-top: 45px;
+    float:left;
+    width:100%;
+    height:750px;
+}
+
+.New_sliderContainer_Inner{
+    float:left;
+    width:100%;
+    height: 660px;
+    background:#1c1b23;
+}
+
+.New_sample_slider{
+    float:left;
+    width:100%;
+    height: 660px;
+    background-image: url('../images/redesign/slide_first.html');
+    background-size: initial;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: -175px;
+}
+
+.slider-info{
+    margin-top: 10%;
+}
+
+.carousel-inner{
+    height:100%;
+}
+
+.carousel-indicators {
+    position: relative;
+    z-index: 15;
+    width: 10px;
+    padding-left: 0;
+    margin-left: 20px;
+    left: auto;
+    margin-top: -31%;
+    float: right;
+}
+
+.carousel-indicators li{
+    display:block;
+    margin-bottom:5px;
+    background: #ffffff;
+    border: 1px solid #C4C4C4;
+}
+
+.carousel-indicators .active{
+     border: 1px solid #cd0511;
+}
+
+
+.slider-title{
+    font-weight: 300;
+    font-size: 38px;
+    line-height:48px;
+    /*font-family: 'Merriweather', serif;*/
+    font-style: normal;
+}
+
+.slider-text{
+    font-size: 14px;
+    line-height: 25px;
+    /*font-family: 'Oxygen', sans-serif;*/
+}
+
+.sliderButton {
+    margin-top: 20px;
+}
+
+/*************************** Mobile Version ******************************/
+
+
+@media (max-width: 1199px){
+    .carousel-indicators {
+        margin-top: -41%;
+    }
+}
+
+@media (max-width: 990px){
+    #myCarousel .carousel-inner div.item {
+        float: left;
+        height: 100%;
+        width: 100%;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .New_sliderContainer{
+        height:550px;
+    }
+
+    .New_sliderContainer_Inner{
+        height: 460px;
+    }
+
+    .slider-info{
+        margin-top:0px;
+    }
+
+    .carousel-indicators {
+        margin-top:-41%;
+    }
+
+ }
+
+@media (max-width: 768px){
+    .New_sliderContainer{
+        display:none;
+    }
+}
+
+@media (min-width: 751px){
+    .New_sliderContainer{
+        margin-top:0px;
+    }
+}
+@media (max-width: 750px){
+    .New_sliderContainer{
+        display:none;
+    }
+
+}

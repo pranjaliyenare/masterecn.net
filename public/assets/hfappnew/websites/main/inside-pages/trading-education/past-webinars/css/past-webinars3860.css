@@ -1,0 +1,59 @@
+#colorbox{background: #FFFFFF;padding: 10px;border-radius: 8px;background: #FFFFFF;padding: 10px;background-color: #fff;-webkit-background-clip: padding-box;background-clip: padding-box;border: 1px solid #999;border: 1px solid rgba(0,0,0,.2);border-radius: 6px;outline: 0;-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);box-shadow: 0 3px 9px rgba(0,0,0,.5);}
+#colorbox{min-width:300px !important;}
+
+/*New filtering styles*/
+.filter-item {
+    margin-bottom: 20px
+}
+.list-filter {
+    text-align: center;
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.list-filter li {
+    margin:0 10px 0 10px;
+    cursor: pointer;
+}
+.list-filter li:hover, .list-filter li.active {
+    color: #CD0511;
+}
+/* End new filtering styles*/
+
+.webinar-lang-tabs {
+    margin-top:20px;
+}
+.webinar-lang-tabs > li.active > a:hover {
+    border-bottom-color: #fff;
+}
+.webinar-lang-tabs .meta {
+    color: #999;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.btn-color-red-ghost-platforms {
+    color: #CD0511;
+    font-weight: bold;
+    border: 1px solid #CD0511;
+    background: none;
+    padding: 5px 12px;
+}
+.btn-color-red-ghost-platforms:active,
+.btn-color-red-ghost-platforms:focus,
+.btn-color-red-ghost-platforms:hover{
+    color: #CD0511!important;
+    background: white;
+}
+.row:last-child .col-md-6:nth-child(2){
+    padding-left: 0
+}
+@media (max-width: 767px) {
+    .btn-color-red-ghost-platforms{
+        padding:5px;
+    }
+}
+
+.webinars-height {
+    height: 320px;
+}

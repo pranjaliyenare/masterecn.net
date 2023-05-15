@@ -1,0 +1,26 @@
+.one-click-trading p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+.one-click-trading h2{
+    color: #1b1c23;
+    letter-spacing: -.02rem;
+    margin: 0 0 0.33em;
+}
+.m-t-30 {
+    margin-top: 30px;
+}
+.m-b-30 {
+    margin-bottom: 30px;
+}
+.m-t-40 {
+    margin-top: 40px;
+}
+.m-b-40 {
+    margin-bottom: 40px;
+}
+
+span.redNumbers {
+    font-size: 22px;
+    color: #C80101;
+}

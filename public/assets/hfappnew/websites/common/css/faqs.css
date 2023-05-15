@@ -1,0 +1,27 @@
+.faq-arrow {
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+}
+.panel-title{
+    font-size:18px
+}
+.panel-default {
+	border:0px !important;
+	background:none !important;
+}
+.panel-default>.panel-heading {
+	background:none !important;
+	border:0px !important;
+	box-shadow: 0px !important;
+}
+.panel-title {
+    font-size:16px;
+	font-weight:bold !important;
+	padding:0px 0px;
+	max-width: 90%;
+}
+.panel-collapse a,
+.panel-heading a:hover {
+    color: #CD0511;
+}

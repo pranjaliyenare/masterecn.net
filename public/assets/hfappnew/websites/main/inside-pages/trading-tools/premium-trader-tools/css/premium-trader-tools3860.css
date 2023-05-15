@@ -1,0 +1,123 @@
+h3.lead{
+    color: #1b1c23;
+    letter-spacing: -.02rem;
+    margin: 0 0 0.33em;
+}
+.premium-trader-tools li{
+    font-size: 13px;
+}
+.forex-web-tools p,
+.premium-trader-tools p{
+    color: #222222;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.table-cell p{
+    font-size: 13px;
+}
+.section-header {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  height: 270px; }
+  .section-header .section-header-title {
+    position: absolute;
+    top: 5rem;
+    left: 6rem; }
+    .section-header .section-header-title h1 {
+      color: #fff;
+      font-size: 37px;
+      line-height: 1.1; }
+    .section-header .section-header-title .btn-u {
+      font-size: 16px;
+      text-transform: uppercase;
+      padding: 10px 25px;
+      color:white
+      }
+    .section-header .section-header-title .small {
+      color: #fff; }
+
+.section-icons {
+  padding: 55px 0px; }
+  .section-icons img {
+    margin-bottom: 10px; }
+
+.section-content {
+  padding: 20px 0; }
+.section-content h4 {
+    margin-top: 3.5rem !important;
+    margin-bottom: 1rem !important;
+    color: #1b1c23;
+    letter-spacing: -.02rem;
+    margin: 0 0 0.33em;
+}
+
+.img-responsive {
+  margin: 0 auto; }
+
+.tool-download.table-row {
+  display: table;
+  padding: 20px;
+  margin: 40px auto; }
+  .tool-download.table-row .table-cell {
+    display: table-cell; }
+    .tool-download.table-row .table-cell:nth-of-type(2) {
+      padding: 0 35px;
+      text-align: center; }
+      .tool-download.table-row .table-cell:nth-of-type(2) img {
+        margin-bottom: 10px; }
+
+.tools-box {
+  min-height: 200px; }
+  .tools-box p {
+    height: 100px; }
+.tools-box h5 {
+    margin-top: 20px;
+}
+.m-b-0 {
+    margin-bottom: 0px;
+}
+.tag-box {
+  margin-bottom: 45px; }
+  .tag-box p {
+    font-size: 13px; }
+.premium-trader-tools .small, .premium-trader-tools small {
+    font-size: 11.05px;
+}
+premium-trader-tools .tools-box p, .forex-web-tools .tools-box p {
+    font-size:13px;
+}
+blockquote {
+  font-size: 13px !important; }
+
+.btn-color-red-ghost-platforms {
+    color: #CD0511;
+    font-weight: bold;
+    border: 1px solid #CD0511;
+    background: none;
+    padding: 5px 12px;
+}
+.btn-color-red-ghost-platforms:hover {
+    color: black !important;
+    background: none;
+}
+.font-13{
+    font-size:13px;
+    line-height:20.8px
+}
+.content-block {
+    margin-bottom: 30px;
+}
+.pt-0{
+    padding-top:0
+}
+
+@media (max-width: 992px) {
+    .tools-box h5, .tools-box p{
+        text-align:left
+    }
+    .section-icons .text-center{
+        margin-bottom:40px
+    }
+}

@@ -1,0 +1,58 @@
+body {
+    color: #222222;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.sky-form {border: none;}
+label {color: #333333;}
+textarea {resize: none;}
+.special_title_main td {
+    padding-top: 5px;
+}
+.special_title_main .special_title {
+    width: 200px;
+}
+.flag-icon {margin-right:10px;}
+.flag-icon-gb,
+.flag-icon-ke{
+    width: 19px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+}
+.pt-10{
+    padding-top:10px;
+}
+.pt-20{
+    padding-top:20px;
+}
+.mr-10{
+    margin-right:10px;
+}
+.mb-5{
+    margin-bottom:5px;
+}
+.mt-3{
+    margin-top:3px;
+}
+.display-table{
+    display:table
+}
+.grey-color{
+    color:#444
+}
+.margin-top-60{
+    margin-top:60px
+}
+@media (max-width:976px) {
+    .dev-margin-top-30{
+         margin-top:30px;
+    }
+}
+@media (max-width: 767px) {
+    .forex-table{
+        max-width: 100%
+    }
+}

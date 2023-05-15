@@ -1,0 +1,118 @@
+.forex-background h1 {
+	text-transform: uppercase;
+	}
+
+.forex-background .btn-u {
+    text-transform: uppercase;
+    min-width: 300px;
+    }
+.forex-background {
+	padding: 50px 0;
+	background:url('../images/forex_main_2.jpg') center;
+	height: 560px;
+	}
+
+.forex-background .btn-u-green {
+	margin-right: 20px;
+	}
+.part-2 {
+	text-align: center;
+	padding: 50px 30px 0 30px;
+	}
+.part-2 h2  {
+	color: #CD0511;
+	}
+.icons {
+   	margin: 40px auto auto;
+   	width: 120px;
+   	height: 90px;
+   	background-size: contain;
+   	background-repeat: no-repeat;
+   	background-position: center;
+    }
+.icon1 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_advantages-01.svg');
+    }
+.icon2 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_advantages-02.svg');
+    }
+.icon3 {
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_advantages-03.svg');
+    }
+.icon4 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_advantages-04.svg');
+    }
+.icon5 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_advantages-05.svg');
+    }
+.icon6 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_advantages-06.svg');
+    }
+.icon7 {
+    height: 120px;
+  	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_benefits-01.svg');
+    }
+.icon8 {
+    height: 120px;
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_benefits_02.svg');
+    }
+.icon9 {
+    height: 120px;
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_benefits_03.svg');
+    }
+.icon10 {
+    height: 120px;
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_benefits_04.svg');
+    }
+.icon11 {
+    height: 120px;
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/forex_icons_benefits_05.svg');
+    }
+.icon12 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-01.svg');
+    }
+.icon13 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-02.svg');
+    }
+.icon14 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-03.svg');
+    }
+.icon15 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-04.svg');
+    }
+.icon16 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-05.svg');
+    }
+.icon17 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-06.svg');
+    }
+.icon18 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-07.svg');
+    }
+.icon19 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-08.svg');
+    }
+.icon20 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-09.svg');
+    }
+.icon22 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-10.svg');
+    }
+.icon23 {
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/forex/images/more_numbers_advantages-11.svg');
+    }
+.icon21 {
+    margin-top: 65px;
+    height: 95px;
+   	background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-instruments/shares/images/shares_advantages-02.svg');
+    }
+@media (max-width: 767px) {
+ 	.forex-background {
+ 	    background: #d4d3d3;
+ 	    height: auto;
+ 	    }
+    .forex-background .btn-u-green {
+	    margin-right: 0;
+	    margin-bottom:20px;
+	    }
+    }

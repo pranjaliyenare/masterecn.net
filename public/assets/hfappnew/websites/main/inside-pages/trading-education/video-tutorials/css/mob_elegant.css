@@ -1,0 +1,297 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+.vid_container .btns .content_wrap{
+	 /* float: left;*/
+	 
+}
+.ui-widget-content {background: white; }
+.ui-state-active a, .ui-state-hover a {outline: none;}
+
+.vid_container .crs_tit{
+	position:relative;
+	display:none;
+	text-align:left;
+	font-weight:bold;
+	color: #1d7295;
+	padding:7px;
+	font-size:28px;
+	margin:0 auto;
+}
+
+.vid_container .tab_tit{display:none;}
+
+.vid_container ul.btns {
+	display: block;
+	margin:0 auto;
+    padding:9px;
+    height:auto;
+	overflow:auto;
+	margin-bottom:20px;
+	margin-top: 20px;
+   -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.vid_container .btns .content_wrap{
+	 /* float: left;*/
+	  width: 67%;
+	  height: auto;
+	  padding: 1% 0 0 0;
+	  position:absolute; left:25%;
+}
+
+ 
+.vid_container .btns li{
+	width: 100%;
+  background: #fff/*!important*/;
+  position: relative;
+  top: 0;
+  float: left;
+  padding: 0px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+  height: 0;
+  color: black;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  display: block;
+  cursor: pointer;
+  padding-bottom: 15%;
+  -webkit-box-shadow: 4px 4px 12px -1px rgba(0,0,0,0.68);
+-moz-box-shadow: 4px 4px 12px -1px rgba(0,0,0,0.68);
+box-shadow: 4px 4px 12px -1px rgba(0,0,0,0.68);
+	/*Transition*/
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+	-ms-transition: All 0.5s ease;
+	transition: All 0.9s ease;
+}
+
+
+.vid_container .play_vid:hover { 
+	background: black /*!important*/;
+  opacity: 0.3;
+  color:#fff !important;
+}
+
+
+.vid_container .play_gr .tmb img{
+	opacity:.5;
+}
+
+
+.play_gr .content_wrap{	opacity:.5;}
+
+.play_gr .lock{position:absolute;top:7px; left:45%;z-index:109;
+      background-image:url("../../../../../../../../../mte-media.com/images/lock2.png");
+    /*  background-size:contain;*/
+      width: 25%;
+      height: 100%;
+      background-repeat: no-repeat;
+  	background-color: none;
+  	background-position: left;
+  	/*background-size: 50% 50%;*/
+}
+.vid_container .play_gr:hover { opacity: 0.7;}
+.vid_container .play_gr .ply_icn{opacity:.5;}
+
+
+.vid_container.rtl {
+	float: right;
+	direction: RTL;
+	margin-right: 20px;
+	text-align:right;
+}
+
+.vid_container.rtl .lsn_tit{text-align:right;padding-right:20px;}
+.vid_container.rtl .lsn_inf{text-align:right;padding-right:20px;}
+
+.vid_container .tmb{
+	display: block;
+	width:22%;
+	padding: 0px;
+	border-right:1px solid #ccc;
+	float:left;
+	height:100%;
+}
+
+
+.vid_container .tmb img{
+	width: 100%;
+}
+
+
+.vid_container .ply_icn{
+  display: block;
+  z-index: 3;
+  width: 6%;
+  height: 0;
+  background-color: #005b83;
+  background-image: url("../../../../../../../../../mte-media.com/images/play2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  float: right;
+  position: relative;
+  padding-bottom: 15%;
+}
+
+.vid_container .lsn_tit{
+	/*font-size: 2.5vw;
+	line-height: 2.6vw;*/
+	font-size: 17pt;
+	line-height: 17pt;
+	
+	font-weight: bold;
+	color: #005b83/*!important*/;
+	background: none !important;
+	text-align: left;
+	
+	/* padding-left: 20px; 
+	 bottom: 20px;
+	 */
+	width: 100%;
+ 	border-bottom: 1px solid #005b83;
+  }
+  
+.vid_container .lsn_inf{
+ display: block;
+  color: #005b83;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto Condensed', sans-serif !important; 
+  /*font-size: 1.4vw;
+  line-height:1.5vw;*/
+ font-size: 12pt !important;
+	line-height: 13pt !important;
+  
+  padding: 1% 0;
+}
+
+/*EBK*/
+.ebk_container{
+	position: relative; left: -25px;
+	/*width:100%;*/
+	margin:0 auto;
+	cursor: pointer;
+	/*box-shadow: 10px 10px 5px rgba(0,0,0,0.2) ;*/
+}
+
+.ebk_container .crs_tit{
+	text-align:center;
+	font-size:34px;
+	margin-bottom:20px;
+	color: #005b83;
+	background-color:transparent!important;
+}
+
+.ebk_container .line-separator{
+	width:80%;
+	height:2px;
+	background:#DDDDDD;
+	border-bottom:1px solid #FFFFFF;
+	margin: 0 auto;
+}
+
+.ebk_container h2{	margin-left:30px; color: rgba(0,0,0,0.6);}
+.ebk_container .ebk_img{
+	width: 300px; height: 400px;
+	margin:40px;
+	margin-bottom:40px;
+}
+
+.ebk_container p{margin:30px;}
+
+.ebk_container.rtl {float:right;direction:rtl;}
+
+.ebk_container.rtl p{float:right;direction:rtl;}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+	.vid_container .btns li{padding-bottom: 15%; }
+	.vid_container .ply_icn{padding-bottom: 15%; }
+	
+	.vid_container .tmb{
+		width:22%;
+		height:100%;
+		/*padding-top:3%;
+		padding-bottom:17%;*/
+	}
+
+	.vid_container .tmb img{
+		width: 100%;height:auto;
+	 	/*position: absolute;
+		clip: rect(0px,200px,100px,0px);*/
+	 }
+
+	.vid_container .lsn_tit{  font-size:12pt !important;  line-height: 12pt  !important;}
+	.vid_container .lsn_inf{font-size:10pt !important; line-height:11pt !important;}
+	
+}
+
+
+
+/* mobile horiz */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+.vid_container .btns li{padding-bottom: 15%; }
+.vid_container .ply_icn{padding-bottom: 15%; }
+
+.vid_container .lsn_tit{  font-size:10pt !important;  line-height: 11pt !important;}
+.vid_container .lsn_inf{font-size:7pt !important; line-height: 9pt ! important;}
+
+/*.vid_container .ply_icn {display: none;}*/
+
+.vid_container .btns .content_wrap{
+  width: 70%;
+  height: auto;
+ position:absolute; left:23%;
+}
+
+
+.vid_container .tmb{
+	width:22%;
+	/*padding-top:4.5%;*/
+	border-right: none;
+	padding-bottom:19.5%;
+}
+
+
+.vid_container .tmb img{
+	width: 100%; 
+}
+
+
+
+}
+
+/* mobile portrait */
+@media screen and (max-width: 480px) {
+	
+	
+	.vid_container .btns li{ padding-bottom: 40%;}
+	.vid_container .ply_icn { padding-bottom: 40%;}
+
+	.vid_container .tmb {border-right: none;}
+	
+	.vid_container .tmb img{
+	display:none;
+	}
+	
+	.vid_container .btns .content_wrap{
+	 /* float: left;*/
+	 width: 80%;
+	 position:absolute; left:9%;
+	}
+	
+	.vid_container .lsn_tit{  font-size:15pt !important;  line-height: 16pt  !important;}
+	.vid_container .lsn_inf{font-size:12px !important;}
+	
+
+
+}

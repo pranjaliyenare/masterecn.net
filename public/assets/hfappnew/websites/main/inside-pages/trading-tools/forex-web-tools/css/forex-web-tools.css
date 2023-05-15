@@ -1,0 +1,49 @@
+.sky-form {
+    border: none;
+}
+.forex-web-tools p{
+    font-size:13px;
+}
+.form-horizontal .control-label {text-align: left;}
+.form-horizontal .form-group {margin-right: 0px;margin-left: 0px;}
+div.redLine {
+    float: left;
+    width: 100%;
+    background: #C80101;
+    height: 1px;
+    margin-bottom: 5px;
+}
+.forex-web-tools .btn-color-red-ghost-platforms:focus{color:#111!important;}
+.forex-web-tools .tab-content .tab-pane {
+  padding: 20px 0 0 0;
+}
+.forex-web-tools .tab-v1 .nav-tabs {
+  border-bottom: solid 2px #000;
+  margin-top: 15px;
+}
+.forex-web-tools .tab-v1 .nav-tabs a {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.forex-web-tools .tab-v1 .nav-tabs > .active > a,
+.forex-web-tools .tab-v1 .nav-tabs > .active > a:hover,
+.forex-web-tools .tab-v1 .nav-tabs > .active > a:focus,
+.forex-web-tools .tab-v1 .nav-tabs > li > a:hover {
+  background: #000 !important;
+}
+@media (max-width: 992px) {
+    .sky-form{
+        margin-left: auto
+    }
+}
+@media (max-width:768px){
+    .sky-form {
+        margin-left: auto!important;
+    }
+    .control-label{
+        margin-top:20px
+    }
+    .hidden768{
+        display:none
+    }
+}

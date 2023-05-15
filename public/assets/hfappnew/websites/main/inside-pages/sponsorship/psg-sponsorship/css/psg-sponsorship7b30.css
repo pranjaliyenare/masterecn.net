@@ -1,0 +1,319 @@
+h1,h2,p{
+    color: #fff
+}
+.section-1 {
+    background: url('../images/psg-main5e1f.jpg?v=2') top #000 no-repeat;
+    padding:55px 0;
+    height:1100px;
+    color: #fff;
+    }
+.section-1 img {
+    margin: auto;
+    }
+.section-1 h1 {
+    text-transform: uppercase;
+    font-size:65px;
+    font-weight: 600;
+    }
+.section-1 h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.section-1b{
+    background: #000;
+    color: #fff;
+    font-size:16px;
+    line-height: 1.6;
+    padding-bottom: 25px;
+    }
+.section-1b .quote{
+    font-size: 17px;
+    padding: 15px 0 20px 0;
+    }
+.btn-large-red-ghost {
+    color: #fff!important;
+    text-transform: uppercase;
+    padding: 15px!important;
+    margin-bottom: 10px !important;
+    background: transparent;
+    border: 1px solid #cd0a10;
+    font-size: 26px;
+    font-weight: bold;
+    min-width: 280px;
+    margin: 20px 0;
+    }
+.btn-large-red-ghost:hover, .btn-large-red-ghost:focus, .btn-large-red-ghost:active {
+    background: #CD0511;
+    color: #fff;
+    }
+.ball {
+    width:37px;
+    margin: auto;
+    }
+.section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10 {
+    padding:55px 0;
+    height:1020px;
+    color: #fff;
+    }
+.section-2 {
+    background: url('../images/psg-step1.jpg') top #000 no-repeat;
+    }
+
+.section-2 h2, .section-3 h2, .section-4 h2, .section-5 h2,.section-6 h2, .section-7 h2, .section-8 h2, .section-9 h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    }
+.section-1 .pic, .section-2 .pic1, .section-3 .pic2,
+.section-4 .pic3, .section-5 .pic4, .section-6 .pic5,
+.section-7 .pic6, .section-8 .pic7, .section-9 .pic8,
+.section-10 .awards_img {
+    display:none;
+    }
+
+.education {
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.0;
+    }
+.education-a  {
+    font-size:71px;
+    }
+.education-b{
+    font-size:32px;
+    }
+.common-text {
+    font-size: 16px;
+    padding: 20px 37px 0 37px;
+    font-size: 500;
+    }
+.section-3 {
+    background: url('../images/psg-step2.jpg') top #000 no-repeat;
+    }
+.section-3 .common-text {
+    padding: 20px 50px 0 0;
+    }
+.section-4 {
+    background: url('../images/psg-step3.jpg') top #000 no-repeat;
+    }
+.section-4 .common-text {
+    padding: 20px 70px 0 0;
+    }
+
+.section-5 {
+    background: url('../images/psg-step4.jpg') top #000 no-repeat;
+    }
+.section-5 .common-text {
+    padding: 10px 22px 0 22px ;
+    }
+.section-6 {
+    background: url('../images/psg-step53860.jpg?v=1') top #000 no-repeat;
+    }
+.section-6 .common-text {
+    padding: 20px 75px 0 0;
+    }
+.section-7 {
+    background: url('../images/psg-step6.jpg') top #000 no-repeat;
+    }
+.section-7 .common-text {
+    padding: 20px 0 0 0 ;
+    }
+.section-8-a {
+    background: url('../images/psg-step7.jpg') top #000 no-repeat;
+    }
+.section-8-ae {
+    background: url('../images/ae-psg-step7.html') top #000 no-repeat;
+    }
+.section-8 .common-text {
+    padding: 0;
+    }
+.section-9 {
+    background: url('../images/psg-step8.jpg') top #000 no-repeat;
+    }
+.section-9 .common-text {
+    padding: 15px 0 20px 0;
+    }
+.section-9 .col-md-6 {
+    padding: 0 !important;
+    }
+.section-10-a {
+    background: url('../images/awards.jpg') top #000 no-repeat;
+    }
+.section-10-ae {
+    background: url('../images/ae-awards.html') top #000 no-repeat;
+    }
+.section-10 button {
+    margin-top: 550px;
+    }
+.pd-30 {
+    padding: 30px 0 0 0;
+    }
+.pd-l-80 {
+    padding-left:80px;
+    }
+.video-pd {
+    padding-top: 200px;
+    display:none
+    }
+.cc-cookies {
+    width: 100%;
+    z-index: 1002;
+}
+.center-p{
+    font-size:12px;
+    text-align:center;
+    width:auto;
+    display: table
+}
+.font-12{
+    font-size:12px;
+}
+.mb-3{
+    margin-bottom:3px
+}
+
+.img-warning {
+    padding-top:30px;
+    }
+@media (min-width:1200px) {
+    .psg-lp{
+        margin-top: -110px;
+    }
+
+    .hfae .psg-lp {
+        margin-top: -170px !important;
+        background: #000;
+    }
+
+}
+@media (max-width:1200px) {
+    .section-1 h1 {
+        font-size:45px;
+        }
+    .section-9 .common-text {
+        padding: 0;
+        }
+    }
+
+@media (max-width:992px) {
+    .center-p{
+        margin:0 auto;
+    }
+    .section-1 h1 {
+        font-size:35px;
+        }
+    .section-1 h2 {
+        font-size: 19px;
+        }
+    .section-1 .pic, .section-2 .pic1, .section-3 .pic2, .section-4 .pic3, .section-5 .pic4,
+    .section-6 .pic5, .section-7 .pic6, .section-8 .pic7, .section-9 .pic8, .section-10 .awards_img {
+        display:block;
+        }
+
+    .section-1 {
+        background: url('../images/psg-main-mbl6654.jpg?v1') center #000 no-repeat;
+        height:auto!important;
+        padding: 55px 0 0 0;
+        }
+
+    .section-2 {
+        background: url('../images/psg-step1-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        padding: 55px 0 0 0;
+        }
+    .section-2 .pic1 {
+        display:block;
+        }
+
+    .education-a  {
+        font-size:45px;
+        }
+    .education-b{
+        font-size:28px;
+        }
+    .section-3 {
+        background: url('../images/psg-step2-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        padding: 55px 0 0 0;
+        }
+    .section-4 {
+        background: url('../images/psg-step3-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        padding: 55px 0 0 0;
+        }
+    .section-4 .common-text {
+        padding: 0;
+        }
+    .pd-l-80 {
+        padding: 0;
+        }
+    .section-5 {
+        background: url('../images/psg-step4-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        padding: 55px 0 0 0;
+        }
+
+    .section-6 {
+        background: url('../images/psg-step5-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        padding: 55px 0 0 0;
+        }
+    .section-6 .common-text {
+        padding: 0;
+    }
+
+    .section-7 {
+        background: url('../images/psg-step6-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        padding: 55px 0 0 0;
+        }
+    .section-8 {
+        background: url('../images/psg-step7-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        padding: 55px 0 0 0;
+        }
+    .section-9 {
+        background: url('../images/psg-step8-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        padding: 55px 0 0 0;
+        }
+
+    .section-10 {
+        background: url('../images/psg-awards-mbl.png') top #000 no-repeat;
+        height:auto!important;
+        text-align: center;
+        }
+    .section-10 button {
+        margin-top: 10px;
+        }
+    .video-pd {
+        padding-top: 0;
+        }
+    }
+
+
+@media (max-width:600px) {
+    .section-1 h1 {
+        font-size: 30px;
+         }
+    .btn-large-red-ghost {
+        font-size: 19px!important;
+        }
+    .education-a  {
+        font-size:31px;
+        }
+    .education-b{
+        font-size:23px;
+        }
+
+    .img-warning {
+        padding-top:95px;
+        }
+
+    }

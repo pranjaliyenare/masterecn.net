@@ -1,0 +1,600 @@
+.skrollable {
+    position: fixed;
+    z-index: 100;
+}
+body, html{
+    background: black;
+}
+html{
+    overflow: auto !important;
+}
+body{
+    overflow: hidden !important;
+}
+.topmenuBackground {
+    height: 110px;
+}
+.full-page{
+    float: left;
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+.header-fixed-shrink .navbar-responsive-collapse {
+    padding-top: 18px;
+}
+.topSearchOpen {
+     height: 110px !important;
+}
+.footerLegal p, .footerLegal span, .footerLegal{
+    color: white !important
+}
+#ft_footer_risk_warning p, #ft_footer_risk_warning ul.footer-list, #ft_footer_risk_warning ul.footer-list li{
+    color: white !important
+}
+.border-line-footer{
+    border-top: 1px solid white !important
+}
+
+.btn-red-ghost {
+    padding: 15px 0;
+    background: transparent;
+    border: 2px solid #cd0a10;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-width: 190px;
+}
+
+.btn-red-ghost:hover, .btn-red-ghost:focus {
+    background-color: #AC0606;
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+section {
+    height: 100%;
+    display: grid;
+}
+.center-content-first {
+    display: block;
+    margin: auto;
+}
+.center-content {
+    display: block;
+    margin: 5% auto;
+}
+.center-top-content {
+    display: block;
+    margin: 10vh auto;
+}
+.heading-h1 {
+    color: #5c5c5c;
+    font-size: 50px;
+    margin-bottom: 5vh;
+}
+.heading-white {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+}
+.heading-red {
+    color: #c10115;
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+.heading-gray {
+    color: #353535;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+}
+.coming-soon-h1 {
+    color: #ffffff;
+}
+.icons {
+    display: block;
+    padding-top: 1vh;
+}
+
+.panel-scroll {
+    width: 100%;
+    float:left;
+    margin-bottom:0px;
+}
+
+.section-one {
+    margin-bottom: 0px;
+}
+.is-evolving {
+    color: #ffffff;
+    font-family: 'Helvetica', 'Open Sans';
+}
+.scroll-down-icon {
+    width: 20px;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+}
+
+.goals h1{
+    color: #ffffff;
+    line-height: 1em;
+}
+
+.section-one {
+    background: url('../images/sky-background.jpg');
+}
+
+.section-two {
+    background-image: linear-gradient(45deg, rgba(0,0,0), rgba(24, 24, 24, 1) 60.5%, rgba(0, 0, 0, 1) 60%);
+}
+
+.section-three {
+    background: url('../images/new-products.jpg');
+}
+
+.section-four {
+    background-image: linear-gradient(45deg, rgba(0,0,0), rgba(24, 24, 24, 1) 79%, rgba(0, 0, 0, 1) 60%);
+}
+
+.section-five {
+    background: url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/about/insight/images/map-background.svg');
+}
+
+.section-six {
+    background-image: url('../images/map.jpg');
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-seven {
+    background-image: url('../images/our-journey-so-far-background.jpg');
+}
+
+.section-eight {
+    background-color: #000000;
+}
+
+.section-nine {
+    background: url('../images/timeline-traders-awards.jpg');
+}
+
+.section-ten {
+    background: url('../images/timeline-world-finance.html');
+}
+
+.section-eleven {
+    background: url('../images/timeline-dubai.jpg');
+}
+
+.section-twelve {
+    background: url('../images/timeline-psg.jpg');
+}
+
+.section-thirteen, .section-fteen, .section-fifteen, section-steen {
+    background: url('../images/hfm-dark.jpg');
+}
+
+.section-svnteen {
+    background: url('../images/earth.jpg');
+}
+
+.nouns {
+    color: #ffffff;
+    line-height: 1em;
+}
+
+.section-five {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.we-are-global {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.pins-label {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.section-seven {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.our-journey-so-far {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 50px;
+}
+.journey-text {
+    color: #fff;
+    font-size: 35px;
+    line-height: normal;
+}
+
+.year {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.year-list{
+    margin-top: -25px;
+    margin-bottom: 60px;
+    float:left;
+    width:100%;
+}
+
+.year-list li {
+    color: #ffffff;
+    font-size: 25px;
+    text-align: left;
+    list-style-type: "> ";
+    margin-bottom: 10px;
+
+}
+.year-list > li::marker {
+    color: red;
+}
+.year-gray {
+    opacity: 0.1;
+    font-size: 100px;
+    font-weight: bold;
+    color:white;
+}
+.year-list-gray li {
+    opacity: 0.1;
+    color:white;
+    font-size: 25px;
+    text-align: left;
+    list-style-type: "> ";
+}
+
+.section-nine {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.section-ten {
+    background-color: #000000;
+    background-repeat: no-repeat;
+}
+.world-finance-logo {
+    position: absolute;
+    opacity: 0.5;
+    float: right;
+}
+
+.section-eleven {
+    background-color: #000000;
+    background-repeat: no-repeat;
+}
+
+.section-twelve {
+    background-color: #000000;
+    background-repeat: no-repeat;
+}
+
+.section-thirteen, .section-fteen, .section-fifteen, section-steen {
+    background-repeat: no-repeat;
+}
+
+.section-svnteen {
+    background-repeat: no-repeat;
+}
+.hfm-earth-logo {
+    width: 250px;
+}
+
+.l-h-1 {
+    line-height: 1em;
+}
+@media screen and ( max-height: 948px ) {
+    .center-top-content {
+        margin: 8vh auto;
+    }
+}
+/* Extra small devices (phones, 600px and down) and
+   Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .smaller-screens {
+        display: block;
+    }
+    .bigger-screens {
+        display: none;
+    }
+
+    section {
+        min-height: 500px;
+        overflow: auto;
+    }
+    .section-one {
+        min-height: 650px;
+        overflow: auto;
+    }
+
+    .section-six {
+        background-image: url('../images/map-mobile.jpg');
+        background-size: contain;
+    }
+    .section-nine {
+        background-image: url('../images/timeline-traders-awards.jpg');
+        background-position-x: 55%;
+    }
+    .section-eleven {
+        background-image: url('../images/timeline-dubai.jpg');
+        background-position-x: 55%;
+    }
+    .section-twelve {
+        background-image: url('../images/timeline-psg.jpg');
+        background-position-x: 30%;
+    }
+
+    .heading-h1 {
+        font-size: 40px;
+        color: rgb(255,255,255) !important;
+    }
+
+    .old-logo {
+        width: 200px;
+        margin-top: 40px;
+        margin-bottom: -40px;
+    }
+    .is-evolving {
+        font-size: 25px;
+        letter-spacing: 1.4rem;
+    }
+    .new-logo {
+        width: 300px;
+    }
+    .scroll-down-icon {
+        display: none;
+    }
+
+    .hfm-logo-inner{
+        width: 80vw;
+    }
+
+    .goals h1{
+        font-size: 45px;
+    }
+    .nouns {
+        font-size: 35px;
+        margin-bottom: 50px;
+        line-height: 1.5em;
+    }
+
+    .section-five {
+        background: url('../images/map-mobile.jpg');
+    }
+
+    .timeline-containers {
+        margin-top: 50px;
+    }
+    .year {
+        margin-bottom: 50px;
+    }
+
+    .heading-red {
+        font-size: 48px;
+    }
+
+    .heading-gray {
+        font-size: 44px;
+    }
+    .heading-gray-color {
+        color: rgb(255,255,255) !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bigger-screens {
+        display: none;
+    }
+    .smaller-screens {
+        display: block;
+    }
+
+    section {
+        min-height: 600px;
+        overflow: auto;
+    }
+    .section-one {
+        min-height: 650px;
+        overflow: auto;
+    }
+
+    .section-six {
+        background-image: url('../images/map.jpg');
+        background-size: auto;
+    }
+
+    .heading-h1 {
+        font-size: 34px;
+        color: rgb(255,255,255) !important;
+    }
+
+    .old-logo {
+        width: 225px;
+        margin-top: 60px;
+        margin-bottom: -60px;
+    }
+    .is-evolving {
+        font-size: 25px;
+        letter-spacing: 2.4rem;
+    }
+    .new-logo {
+        width: 400px;
+    }
+    .scroll-down-icon {
+        bottom: 10%;
+        display: block;
+    }
+
+    .hfm-logo-inner{
+        width: 500px;
+    }
+
+    .goals h1 {
+        font-size: 65px;
+    }
+    .nouns {
+        font-size: 40px;
+        line-height: 1em;
+    }
+
+    .timeline-containers {
+        margin-top: 100px;
+    }
+
+    .heading-red {
+        font-size: 55px;
+    }
+
+    .heading-gray {
+        font-size: 46px;
+    }
+    .heading-gray-color {
+        color: rgb(255,255,255) !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .bigger-screens {
+        display: none;
+    }
+    .smaller-screens {
+        display: block;
+    }
+
+    section {
+        min-height: 600px;
+        overflow: auto;
+    }
+
+    .heading-h1 {
+        font-size: 42px;
+    }
+
+    .old-logo {
+        width: 225px;
+        margin-top: 60px;
+        margin-bottom: -60px;
+    }
+    .is-evolving {
+        font-size: 35px;
+        letter-spacing: 2.4rem;
+    }
+    .new-logo {
+        width: 445px;
+    }
+    .scroll-down-icon {
+        bottom: 11%;
+        display: block;
+    }
+
+    .hfm-logo-inner{
+        width: 740px;
+    }
+
+    .goals h1 {
+        font-size: 75px;
+    }
+    .nouns {
+        font-size: 50px;
+        line-height: 1em;
+    }
+
+    .timeline-containers {
+        margin-top: 100px;
+    }
+
+    .heading-red {
+        font-size: 62px;
+    }
+
+    .heading-gray {
+        font-size: 60px;
+    }
+    .heading-gray-color {
+        color: rgb(255,255,255) !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bigger-screens {
+        display: block;
+    }
+    .smaller-screens {
+        display: none;
+    }
+
+    section {
+        height: 100%;
+    }
+
+    .heading-h1 {
+        font-size: 47px;
+    }
+
+    .old-logo {
+        width: 14vw;
+        margin-top: 88px;
+        margin-bottom: -88px;
+    }
+    .is-evolving {
+        font-size: 45px;
+        letter-spacing: 2.4rem;
+    }
+    .new-logo-container {
+    }
+    .new-logo {
+        width: 25vw;
+    }
+    .scroll-down-icon {
+        bottom: 105px;
+        display: block;
+    }
+
+    .hfm-logo-inner{
+        width: 48vw;
+        padding-top: 5vh;
+    }
+
+    .goals h1{
+        font-size: 100px;
+    }
+    .nouns {
+        font-size: 65px;
+        line-height: 1em;
+    }
+
+    .timeline-containers {
+        margin-top: 0px;
+    }
+
+    .heading-red {
+        font-size: 62px;
+    }
+
+    .heading-gray {
+        font-size: 60px;
+    }
+    .heading-gray-color {
+        color: #353535 !important;
+    }
+}

@@ -1,0 +1,192 @@
+body, html{height:100%;font-family: 'Roboto', Arial, sans-serif !important;font-size:14px;font-weight: 300;}
+#awards-lp-header{background: #111111;padding:10px 0;}
+#awards-lp-header h4{margin-top: 45px;margin-bottom: 0;letter-spacing: 3px;font-size: 14px;color:#919191;}
+#awards-lp-part-1{
+    background:url(../images/new/hotforex-award-bg7b30.html?v=4);
+    height: 800px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #030504;
+    display: block;
+}
+.body-hfm #awards-lp-part-1{
+    background:url(../images/traders_awards_bg.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #030504;
+}
+.color-gold{color:#CEBA80;}
+#awards-lp-part-1 .container{position:relative; height:100%;}
+#awards-lp-part-1-text{position:absolute; bottom:30px;}
+.btn-color-gold{background-color: #CD0511 !important;color:#ffffff;font-size:15px;width:205px;}
+.btn-color-gold:hover,.btn-color-gold:focus{background-color: #8F7937 !important;}
+
+.btn-ghost-white{border:1px solid #FFFFFF !important;color:#ffffff;line-height: 15px;font-size: 11px;width:205px;background-color:transparent;}
+.btn-ghost-white:hover,.btn-ghost-white:focus{background-color: #ffffff !important; color:#CD0511 !important; font-weight:600;}
+
+.btn-color-black{background-color: #CD0511 !important;color:#ffffff;font-size:15px;width:280px;}
+.btn-color-black:hover,.btn-color-black:focus{background-color: #A30008 !important;}
+
+#awards-lp-part-1-text p{line-height: 22px;}
+#awards-gold-title{width: 915px;margin: auto;position: relative;top: 230px;left: -12px;}
+#awards-lp-btn-1{padding: 8px 60px;}
+.line-gold{border-top: 1px solid #b9b9b9;width: 225px;margin: 20px 0;}
+#awards-lp-part-2{position:relative;}
+#awards-lp-part-2-left span{ font-size: 35px;}
+#awards-lp-part-2-left-2{position:absolute;bottom:0;right:0;}
+#awards-lp-part-2-left-2 h3{position: absolute;bottom: 70px;left: 130px;}
+#awards-lp-part-2-2{ background: url(../images/new/hotforex-award-bg-3.jpg); background-size: cover; background-position: center;background-repeat: no-repeat; display: block;height: 967px;position: absolute;right: 0;}
+.b-b-white{border-bottom:1px solid white;}
+.f20{font-size:20px;}
+
+#awards-lp-part-3{background-color:#CD0511; background:url(../images/new/hotforex-award-bg-2.jpg); height: 830px;}
+#awards-lp-part-3-bottom a{position: relative;z-index: 10;margin-top: 30px;}
+#awards-lp-part-3-bottom{margin-top:-97px;}
+#awards-lp-part-3-right{padding-top: 105px;}
+.fame-photo{width: 165px;height: 175px; background-size: cover !important;background-repeat: no-repeat;background-position: center !important;background-color: #121212;}
+.fame-photo2{width: 155px;height: 170px; background-size: cover !important;background-repeat: no-repeat;background-position: center !important;background-color: #121212;}
+.fame-award{width: 77px;text-align: center;}
+.fame-award img{width:35px; margin-bottom: -50px;}
+.fame-award2{width: 70px;text-align: center;}
+.fame-award2 img{margin-bottom: -5px;}
+.fame-gain{font-weight: 500;line-height: 30px; padding:0 0 15px 15px;}
+.fame-gain span{font-size:30px;}
+#squares-right{position: absolute;right: 0px;margin-top: 390px;}
+#squares-left{position: absolute;left: -400px;top:-75px;}
+
+#morph-fame-hall{background-color:#CD0511; background:url(../images/new/hotforex-award-bg-2.jpg) !important;}
+.winnerAwards i{display: inline-block;}
+.morph-button-modal-2 > button, .morph-button-modal-2 .morph-content, .morph-button-modal-3 > button, .morph-button-modal-3 .morph-content {
+    background-color: #CD0511 !important;
+    color: #ffffff;
+}
+.content-style-overlay .icon-close:hover {
+    color: #CD0511 !important;
+}
+.content-style-form button {background: #ffffff !important;color: #000000 !important;}
+.content-style-form input[type="text"], .content-style-form input[type="password"] {border: 2px solid #ffffff !important;color: #ffffff !important;}
+.morph-button-overlay .morph-content {background: #d2d0cb !important;}
+/*.grayscale{-webkit-filter: grayscale(100%);filter: grayscale(100%);}*/
+
+.t-a-r{text-align:right;}
+.t-a-c{text-align:center;}
+.t-a-l{text-align:left;}
+
+.m-b-50{margin-bottom:50px;}
+.p-l-30{padding-left:30px;}
+.p-r-30{padding-right:30px;}
+.p-0 {padding:0;}
+.abso { position:absolute;}
+.h-100 {height:100%;}
+.w-100 {width:100%!important;}
+.rel {position:relative;}
+.f-24 {font-size:24px;}
+.terms {height: auto !important;width: auto !important;    background: none;    border: none;}
+.formula {margin-top: 0 !important; margin-left: 0 !important;}
+.m-l-0 {margin-left:0px;}
+.join {width:100%;padding:13px;}
+.f-12 {font-size:12px;}
+.click {font-size: 12px;line-height: 10px;}
+.w-285 {width:285px;}
+.text-left {text-align: left;}
+.hall {margin-left:0px; line-height: 35px;padding:10px;}
+.hall span {font-family: Roboto, Arial, sans-serif;font-weight: 500;font-size: 45px;}
+
+.morph-button{
+    z-index:1
+}
+
+.m-t {margin-top: -25px;}
+.w-190 {width:190px}
+
+@media (max-width: 1200px){
+	#awards-lp-part-1{background-size: cover;}
+	#awards-lp-part-2-2{height: 899px;}
+	#awards-lp-part-2-right .morph-button{width:203px!important;margin-left: -20px;}
+	#awards-lp-part-1-text .hidden768{margin-top:0;}
+}
+
+@media (max-width: 991px){
+
+	#awards-lp-part-2-2{bottom:0;left:0;}
+	h2,h3,p {color:white;}
+	.btn-color-red {color: #fff !important}
+	#awards-lp-part-2-right .morph-button{width:100%!important;}
+	#line-gold-2{border-top: none;}
+	#awards-lp-part-1{background-size: contain;background-position: top;}
+	#awards-lp-part-1-text {left: -20px;}
+	#awards-lp-header h4 {margin-top: 20px;}
+	#awards-lp-part-3-bottom {margin-top: -25px;}
+    .hidden991 {display: none;}
+}
+
+
+@media (max-width: 768px){
+	.morph-button-overlay{width: 250px !important;}
+	#awards-lp-part-3-left{display:none;}
+	#awards-lp-part-2-right .morph-button-overlay {width: 205px !important;}
+	#awards-lp-part-1-text {left: -10px;}
+	#awards-lp-part-1{height: 700px;}
+	#awards-lp-part-1-text .t-a-l{text-align:center;}
+	.hidden768 {
+        display: none;
+    }
+    .p-a-40 {
+        padding: 40px 0!important;
+    }
+    #awards-lp-part-2-right .table-responsive {
+        border-radius: 0.42rem;
+    }
+}
+
+@media (max-width: 575px){
+	.full-width-575{width:100%;}
+	#awards-lp-part-2-right .morph-button{width:100% !important;}
+	#awards-lp-part-2-2 {height: 950px;}
+	#awards-lp-part-2-right .morph-button {margin-left: auto;}
+}
+
+@media (max-width: 436px){
+	#awards-lp-part-1-text{padding: 0;left: 0;}
+	#awards-lp-part-1{background-size: 140%;}
+	.morph-button-fixed > button {font-size: 100% !important;}
+	.morph-button-fixed, .morph-button-fixed{height: 46px !important;}
+	#awards-lp-part-2-left-2 h3 {position: relative;bottom: 0;left: 0;}
+	#awards-lp-part-2-right{padding:0;}
+	.content-style-overlay {padding: 0;padding-top:20px;}
+	.morph-button{width:100% !important;}
+	#awards-lp-part-3{height: 1510px;}
+	#awards-lp-part-1{height: 645px;}
+	#awards-lp-part-2-2 {height: 880px;}
+	#awards-lp-part-1-text h2{font-size:19px;}
+	.icon-close{width: 100% !important;margin-bottom: 20px;}
+	.content-style-overlay {padding: 30px 15px !important;}
+	.fame-award2 {width: 150px;}
+	.content-style-overlay table, #awards-lp-part-3-right table{width:100%;}
+	.full-width-410{width:100%;}
+	.fame-award {width: 150px;}
+	.hidden410{display:none;}
+	.body-hfm #awards-lp-part-1{background-size: 140%;background-position: top center;}
+}
+
+@media (max-width: 320px){
+	#awards-lp-part-2-2 {height: 910px;}
+	#awards-lp-part-1-text {bottom: 15px;}
+	.fame-photo {width: 120px;height: 95px;}
+	.fame-award img {width: 25px;margin-bottom: -10px;}
+	#awards-lp-part-3 {height: 1210px;}
+}
+
+
+.noscroll {
+    overflow: hidden !important;
+}
+.noscroll .header-v6{
+    display:none
+}
+#awards-lp-part-1-text section{
+    display:table;
+    width:100%
+}

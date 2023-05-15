@@ -1,0 +1,159 @@
+.mw-515{
+    max-width:515px
+}
+.float-none{
+    float:none
+}
+.mx-auto{
+    margin-left:auto;
+    margin-right:auto;
+}
+.section1 h1{
+    font-weight: 600;
+    font-size: 32px
+}
+.font-22 {
+    font-size: 20px;
+    }
+.section1 {
+    background:url('../images/education_main.jpg') center #ddd;
+    background-repeat: no-repeat;
+    height:520px;
+    padding:70px 0;
+    text-transform: uppercase;
+    text-align:center;
+    }
+.section2 {
+    padding:60px 0;
+    text-align: center;
+    }
+.section2 .icons {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    }
+.section2 .icons.icon1{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-education/trading-education/images/education_icon1.svg');
+    }
+.section2 .icons.icon2{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-education/trading-education/images/education_icon2.svg');
+    }
+.section2 .icons.icon3{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-education/trading-education/images/education_icon3.svg');
+    }
+.section2 .icons.icon4{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-education/trading-education/images/education_icon4.svg');
+    }
+.section2 .icons.icon5{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-education/trading-education/images/education_icon5.svg');
+    }
+.section2 .icons.icon6{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-education/trading-education/images/education_icon6.svg');
+    }
+.section2 .icons.icon7{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-education/trading-education/images/education_icon7.svg');
+    }
+.section2 .row{
+    max-width:100%
+}
+.section2 p {
+    color:#000;
+    }
+.section2 .icon-text {
+    font-size: 15px;
+    line-height:1.1;
+    max-width:180px
+    }
+.section2 .pd-60 {
+    padding-bottom: 60px;
+    }
+.section2 .col-sm-6{
+    min-height:202px
+}
+.m-r-20 {
+    margin-right: 20px;
+    }
+.btn-u-lg {
+    min-width: 300px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    }
+.pd-top {
+    padding: 80px 0 0 0;
+    }
+.risk-w {
+    color: #111;
+    }
+.section3 {
+    background:#e9e9e9;
+    padding:90px 0 80px 0;
+    }
+.section3 .red-text {
+    color:#CD0511;
+    font-size: 17px;
+    }
+.section3 .box {
+    background: #fff;
+    margin: 0 10px 0;
+    min-height: 100%;
+    height: 100%;
+    display: table;
+    padding: 25px 35px 15px;
+    }
+.section3 .box p {
+    font-size: 15px;
+    line-height: 1.4;
+    }
+.middle-text {
+    float: none;
+    margin: 0 auto;
+    display: table;
+    font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+    .middle-text br{
+        display: none
+    }
+}
+@media (max-width: 992px) {
+    .section3 .box{
+        min-height: initial;
+        margin: 10px auto;
+    }
+    .row-height.m-b-10{
+        margin-bottom:0
+    }
+    .row-height{
+        display:inline
+    }
+    .education-page .section2 .col-sm-6,
+    .education-page .section2 .col-sm-6:nth-child(6) {
+        min-height: 220px;
+    }
+}
+@media (max-width: 767px) {
+    .section1 {
+        background: #d0cece;
+        height: auto!important;
+    }
+}
+@media (max-width: 700px) {
+    .m-r-20 {
+        margin-right: 0 !important;
+    }
+}
+/*iPhone5*/
+@media (max-width: 320px) {
+    .section2 .col-sm-6 {
+        min-height: 218px;
+    }
+    a.btn-u-lg {
+        width: 280px;
+        min-width: 280px;
+        padding: 10px 0;
+    }
+}

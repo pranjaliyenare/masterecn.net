@@ -1,0 +1,157 @@
+.container-bg {
+  background: url("../images/background.png");
+  background-size: cover; }
+
+.gadget {
+  color: #fff; }
+
+.gadget-content strong {
+  font-size: 14px; }
+
+.fb_contest .title {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 75px;
+  letter-spacing: 15px; }
+
+.fb_contest .slogan {
+  color: #3165C7 !important;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0 30px 0;
+  color: blue;
+  font-weight: bold;
+  letter-spacing: 5px; }
+
+.fb_contest .intro {
+  color: #fff;
+  line-height: 2;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px; }
+
+.fb_contest .action {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.fb_contest .action a {
+  color: #fff;
+  font-size:17px;
+  }
+  .p-r-30 {
+  padding-right: 30px;
+  }
+.fb_contest .action .fb {
+  width:45px;
+  }
+.fb_contest .action .ins {
+  width:45px;
+  }
+.fb_contest .action .social-img {
+  padding-left:5px
+  }
+
+.fb_contest .btn {
+  background: transparent;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px 30px;
+  border: 2px solid #fff; }
+
+.fb_contest .btn:hover {
+  background: #fff;
+  color: #3165C7; }
+
+.fb_contest.fb_footer {
+  padding-top: 30px;
+  padding-bottom: 60px; }
+
+.footer_slider_box img {
+  margin: 0 auto; }
+
+.footer_slider_horizontal {
+  margin-top: 30px; }
+
+.gadget {
+  text-align: center; }
+  .gadget img {
+    margin: 0 auto; }
+  .gadget h2 {
+    color: #fff;
+    font-size: 1.7rem;
+    margin-top: 2.2rem; }
+  .gadget p {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1.3rem; }
+
+.spacer-top {
+  margin-top: 70px; }
+
+.winners .month {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative; }
+.winners h1 {
+  color: #fff;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 2.3rem; }
+.winners span:not(.year) {
+  color: #ccc;
+  position: absolute;
+  left: 45%;
+  font-size: 105px;
+  top: -66px;
+  opacity: 0.3; }
+.winners td img {
+  width: 50px;
+  max-height: 55px; }
+
+.winners table {
+    width: 70%;
+    margin: 0 auto; }
+
+.winners table thead tr {
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase; }
+
+.winners table tbody tr {
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+    font-size: 14px; }
+.winners table td {
+    padding: 20px 10px; }
+.winners table th {
+    padding: 10px; }
+
+@media screen and (max-width: 1200px) {
+  .content-line {
+    display: none; }
+
+  .footer_slider_horizontal {
+    display: none; } }
+@media screen and (min-width: 1200px) {
+  .footer_slider_box {
+    display: none; } }
+
+@media screen and (max-width: 500px) {
+    .winners table tbody tr {
+        font-size: 10px;
+    }
+    .action a {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .p-r-30 {
+    padding-right:0;
+    }
+}
+
+/*# sourceMappingURL=hf-facebook-gadgets-dr.css.map */

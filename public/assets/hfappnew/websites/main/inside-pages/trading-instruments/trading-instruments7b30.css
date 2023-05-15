@@ -1,0 +1,273 @@
+/* General */
+.top40 {height: 40px;}
+.numeric-list {padding-left: 15px;}
+.no-clear{clear:none;}
+
+/* Top content - Bar */
+.instruments-top .row a i {font-size:30px;}
+
+/* Main content */
+.main_instr_content {padding-bottom: 0;}
+
+/* Table tabs */
+.filterButtons .selected-filter{
+    background:#CD0511 !important;
+    color:white !important;
+}
+.btn-filter{
+    padding:10px;
+    margin-bottom:10px;
+    margin-right:5px;
+    min-width:219px;
+}
+.form-headline {
+    border-bottom: 1px dotted #e4e9f0 !important;
+}
+/* Table */
+.datatable td{
+    font-size:12px;
+}
+table.dataTable thead .sorting_asc:after {
+    opacity: 0.8;
+    font-family: 'Font Awesome 5 Free' !important;
+    content: "\f077" !important;
+    font-weight: 900;
+}
+table.dataTable thead .sorting_desc:after {
+    opacity: 0.8;
+    font-family: 'Font Awesome 5 Free' !important;
+    content: "\f078" !important;
+    font-weight: 900;
+}
+table.dataTable thead .sorting:after {
+    opacity: 0.8;
+    font-family: 'Font Awesome 5 Free' !important;
+    content: "\f338" !important;
+    font-weight: 900;
+}
+.table.instruments-with-swaps-and-hours>thead>tr>th {border-top: none;}
+.instruments-with-swaps-and-hours thead tr:nth-child(1) th:nth-child(2) {border-left: 0.05em solid #666;}
+.instruments-with-swaps-and-hours thead tr:nth-child(1) th:nth-child(3) {border-left: 0.05em solid #666;}
+.instruments-with-swaps-and-hours thead tr:nth-child(2) th:nth-child(5) {border-left: 0.05em solid #666;}
+.instruments-with-swaps-and-hours thead tr:nth-child(2) th:nth-child(7) {border-left: 0.05em solid #666;}
+
+.bg-color-black {
+  	background-color: #4e4d4d !important;
+	}
+body {
+    color: #111;
+    font-family: Arial,sans-serif;
+    }
+.headline h2 {
+    border-bottom: none;
+    }
+h2 {
+    padding-top: 10px;
+	font-size: 24px;
+	}
+.p-t-350 {
+    padding-top: 350px;
+    }
+.risk-w {
+    color: #1b1c23;
+    padding-top:10px;
+    }
+.ic-p {
+    font-size: 15px;
+    font-weight:500;
+    line-height: 1.4;
+    padding-top:10px;
+    }
+.p-t-80 {
+    padding-top: 80px;
+    }
+.flex-boxes {
+    display: flex;
+    justify-content: center;
+    padding:30px 0;
+    }
+.flex-boxes .box {
+    padding:50px;
+    min-width:350px;
+    }
+.flex-boxes .box1 {
+    background: #e8e8e8;
+    border-radius: 0.42rem 0 0 0.42rem;
+    }
+.flex-boxes .box2 {
+    background: #dfdfdf;
+    }
+.flex-boxes .box3 {
+    background: #d9d8d8;
+    border-radius: 0 0.42rem 0.42rem 0;
+    }
+.font-larger {
+    font-size: larger;
+    color:#111;
+    font-weight: 600;
+    }
+
+.details-boxes {
+    display: flex;
+    justify-content: center;
+    /* padding:30px 0; */
+    padding: 0 0 50px 0;
+    }
+.details-boxes  .box {
+    padding: 8px 50px;
+    min-width: 350px;
+    font-size: 14px;
+    text-transform: uppercase;
+    }
+.details-boxes  .box1 {
+    background: #e8e8e8;
+    border-radius: 0.42rem 0 0 0.42rem;
+    }
+.details-boxes  .box3 {
+    background: #e8e8e8;
+    border-radius: 0 0.42rem 0.42rem 0;
+    }
+.details-boxes  .box2 {
+    background: #e8e8e8;
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+    }
+.details-boxes  .box-alt {
+    border-radius: 0 0.42rem 0.42rem 0;
+    }
+.details-text {
+    display: inline-block;
+    color: #333;
+    font-size:17px;
+    text-transform: uppercase;
+    vertical-align: top;
+    padding-top: 25px;
+    }
+.icons-white {
+   	width: 70px;
+   	height: 70px;
+   	background-size: contain;
+   	background-repeat: no-repeat;
+   	background-position: bottom;
+   	display: inline-block;
+    }
+.icon-white-1 {
+    margin-top: 10px;
+    height: 60px;
+   	background-image:url('icons_on_red-01.html');
+    }
+.icon-white-2 {
+    margin-top: 5px;
+    height: 65px;
+   	background-image:url('icons_on_red-02.html');
+    }
+.icon-white-3 {
+    background-image:url('icons_on_red-03.html');
+    }
+
+.icon-red-1 {
+    margin-top: 10px;
+    height: 60px;
+   	background-image:url('red_icons-01.svg');
+    }
+.icon-red-2 {
+    margin-top: 5px;
+    height: 65px;
+   	background-image:url('red_icons-02.svg');
+    }
+.icon-red-3 {
+    background-image:url('red_icons-03.svg');
+    }
+.icon-stocks-1 {
+    margin-top: 10px;
+    height: 60px;
+   	background-image:url('physical-stocks/images/stocks_01.svg');
+    }
+.icon-stocks-2 {
+    margin-top: 5px;
+    height: 65px;
+   	background-image:url('physical-stocks/images/stocks_02.svg');
+    }
+.icon-stocks-3 {
+    background-image:url('physical-stocks/images/stocks_03.svg');
+    }
+.body-lang-ur .numeric-list li,
+.body-lang-ar .numeric-list li,
+.body-lang-ar table,
+.body-lang-ur table{
+    direction:rtl
+}
+
+.modal-dialog{ font-size:12px;}
+
+tbody th {
+    vertical-align:middle !important;
+    background:#fff;
+    }
+@media (min-width: 992px){
+        .modal-lg {width: 1100px;}
+    }
+@media (max-width: 1100px) {
+   .details-boxes  .box, .flex-boxes .box  {
+   	    min-width:300px;
+   	    }
+    }
+
+@media (max-width: 992px) {
+   	.flex-boxes, .details-boxes {
+   	    display: block;
+   	    }
+   	.details-boxes  .box, .flex-boxes .box {
+   	    min-width: auto!important;
+   	    }
+   	.details-boxes  .box2 {
+        border-top:1px solid #ddd;
+        border-bottom:1px solid #ddd;
+        border-left: none;
+        border-right: none;
+        }
+    }
+
+@media (max-width: 767px) {
+    .previous{
+        margin-left: -1px;
+        display: table;
+        float: left;
+    }
+    div.dataTables_wrapper div.dataTables_filter label,
+    div.dataTables_wrapper div.dataTables_length label{
+        float:left
+    }
+    .p-t-350 {
+        padding-top: 30px;
+        }
+    h2 {font-size: 18px;}
+    .headline, .headline h2 {
+        text-align: center;
+        }
+    }
+
+/* Rounded borders */
+@media (max-width: 992px) {
+
+    .details-boxes .box1 {
+        border-radius: 0.42rem 0.42rem 0 0;
+    }
+
+    .details-boxes .box3 {
+        border-radius: 0 0 0.42rem 0.42rem;
+    }
+
+    .flex-boxes .box1 {
+        border-radius: 0.42rem 0.42rem 0 0;
+    }
+
+    .flex-boxes .box3 {
+        border-radius: 0 0 0.42rem 0.42rem;
+    }
+
+    .details-boxes  .box-alt {
+    border-radius: 0 0 0.42rem 0.42rem;
+    }
+
+}

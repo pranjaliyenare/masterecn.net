@@ -1,0 +1,105 @@
+.icons{
+    width:100px;
+    height:100px;
+    display:table;
+    margin:0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-documents{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/my-intro/images/upload-documents.svg')
+}
+.icon-deposit{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/my-intro/images/deposit.svg')
+}
+.icon-open{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/my-intro/images/open-trading-account.svg')
+}
+.icon-transfers{
+    background-image:url('https://static.hfm.com/assets/hfappnew/websites/main/inside-pages/trading-tools/my-intro/images/internal-transfers.svg')
+}
+
+  .section-1 {padding: 0 0 50px 0;}
+  .section-1 img {margin: auto;}
+  .section-1 p {padding-bottom: 10px;}
+  .section-1 h2 {padding-top: 40px;}
+  .section-1 .pd-40 {padding-top: 40px;}
+  .section-2 {padding: 50px 0;}
+  .section-2 li {
+  list-style-image: url('../images/green-icon.png');}
+  .f-19 {font-size: 19px;}
+  .p-t-30 { padding-top:30px;}
+  .p-t-90 { padding-top:90px;}
+  .education {background: url('../images/forex-education.jpg') #B6B9BE no-repeat center;
+    height:600px;
+    padding:40px 0;
+    margin: auto -15px 15px -15px;
+    }
+  .education .btn-color-red-ghost {
+    color: #1b1c23 !important;
+}
+  .app {
+    background: url('../images/hf-app5e1f.jpg?v=2') #28292B no-repeat center;
+    height: 600px;
+    padding: 40px 0;
+    margin: auto -15px 15px auto;
+  }
+
+  .app h3, .app p {color: #fff!important;}
+  .trader-tools {
+  background: url('../images/premium-traders-tools.jpg') #2B2C2E no-repeat center;
+    height: 600px;
+    padding: 40px 0;
+    margin: auto -15px auto -15px;
+  }
+  .trader-tools h3, .trader-tools p {color: #fff!important;}
+  .autochartist {
+  background: url('../images/autochartist6654.jpg?v1') #C6C9CE no-repeat center;
+    height: 600px;
+    padding: 40px 0;
+    margin: auto -15px auto auto;
+  }
+  .autochartist .btn-color-red-ghost {
+    color: #1b1c23 !important;
+}
+.img-center {margin: auto;}
+.section-3 .btn-u {color: #1b1c23!important; border: 1px solid #CD0511;background: none;font-size:18px;}
+.section-3 .btn-u:hover {color: #fff!important; background: #CD0511;}
+.m-40 {margin: 40px 0;}
+  p {font-size:17px;}
+h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    color: #1b1c23;
+    letter-spacing: -.02rem;
+    margin: 0 0 0.33em;
+    }
+    @media (max-width: 1400px) {
+    .education, .app, .trader-tools, .autochartist {
+    zoom: 0.9;
+    }
+    }
+    @media (max-width: 1200px) {
+    .education, .app, .trader-tools, .autochartist {
+    zoom: 0.8;
+    }
+    }
+
+  @media (max-width: 992px) {
+  .education, .app, .trader-tools{
+  margin:0 0 20px 0!important;}
+.trader-tools {margin: auto auto!important;}
+  .autochartist {margin: 20px -15px 20px -15px!important;}
+  }
+    @media (max-width: 600px) {
+    .f-19 {font-size: 17px;}
+    }
+
+  .mobile { display: none; }
+  .desktop { display: block; }
+
+  @media (max-width: 600px) {
+    .mobile { display: block; }
+    .desktop { display: none!important; }
+  }
+
